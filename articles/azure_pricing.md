@@ -1,5 +1,5 @@
 
-#Windows Development for $2.30/day.
+#Windows Development for $2.30/day
 
 I don't have a windows box (some may say I am not the biggest Microsoft fan) but I recently needed to troubleshoot a ASP issue (go figure). And even though Macs are the best PCs,   
 >[MacBook Pro declared 'best-performing' Windows laptop](https://www.cnet.com/news/macbook-pro-declared-best-performing-windows-laptop/)
