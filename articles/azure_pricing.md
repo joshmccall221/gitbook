@@ -4,14 +4,14 @@
 I don't have a windows box (some may say I am not the biggest Microsoft fan) but I recently needed to troubleshoot a ASP issue (go figure). And even though Macs are the best PCs,   
 >[MacBook Pro declared 'best-performing' Windows laptop](https://www.cnet.com/news/macbook-pro-declared-best-performing-windows-laptop/)
 
-the thought of dualbooting for windows just makes me not want to dev at all.
+the thought of dual booting for windows just makes me not want to dev at all.
 
-Seceretly, I've wanted to play with Azure but M$ is known for costing out the nose and being *mostly anti-microsoft* I just didn't know where to start. I needed a way to dev in a windows env withouht running windooze.... 
+Secretly, I've wanted to play with Azure but M$ is known for costing out the nose and being *mostly anti-microsoft* I just didn't know where to start. I needed a way to dev in a windows env without running windooze.... 
 
 ###First attempt: 
-[moden ie](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) + VirtualBox
+[modern ie](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) + VirtualBox
 
-Plagued with Guest Addion, battery draining and disk eating woes, this works, in a pinch but IMO not the best for long term dev. 
+Plagued with Guest Addition, battery draining and disk eating woes, this works, in a pinch but IMO not the best for long term dev. 
 
 >Pros: 
 >* Save machine state with snapshots
@@ -31,7 +31,7 @@ Plagued with Guest Addion, battery draining and disk eating woes, this works, in
 
 >[iPad + Linode, 1 Year Later](http://yieldthought.com/post/12239282034/swapped-my-macbook-for-an-ipad)
 
-I had set up a linode VPS and loved developing from a chromebook so thought I would see if I could replicate this for a windows env. 
+I had set up a linode VPS and loved developing from a Chromebook so thought I would see if I could replicate this for a windows env. 
 > see earlier article:  [Azure, Visual Studio, ASP.NET MVC 5 Entity Framework!!!](chromebook.md)
 
 ###Pricing 

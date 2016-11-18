@@ -6,7 +6,7 @@ So... in the rush of leaving work, I forgot to grab my MBP charger and my comput
 
 >Don't need no stinking windows!
 
-Visual Studio, ASP.NET MVC 5 Entity Framework devevelopment and all on a chromebook:
+Visual Studio, ASP.NET MVC 5 Entity Framework development and all on a chromebook:
 
 <img src="../images/Chromebook_Azure_VS.png" width="500">
 
