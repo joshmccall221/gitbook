@@ -8,7 +8,7 @@ So... in the rush of leaving work, I forgot to grab my MBP charger and my comput
 
 Visual Studio, ASP.NET MVC 5 Entity Framework devevelopment and all on a chromebook:
 
-![Chromebook_Azure_VS](images/Chromebook_Azure_VS.png)
+<img src="images/Chromebook_Azure_VS.png" width="500">
 
 
 
