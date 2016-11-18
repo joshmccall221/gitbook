@@ -7,6 +7,10 @@ This is a place where I store short descriptions of things I learn each day.
 
 Repository here: https://github.com/joshmccall221/gitbook
 
+###Articles
+>Nov - 2016
+>* [Azure, Visual Studio, ASP.NET MVC 5 Entity Framework!!!](articles/chromebook.md)
+>* [$2 Azure club](articles/azure_pricing.md)
 
 ## Inspired by
 
