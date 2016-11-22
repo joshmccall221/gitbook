@@ -1,0 +1,15 @@
+#Reading List
+* [Front End Handbook](https://www.frontendhandbook.com/)
+* [_ericelliott]() 
+    * [Programming JavaScript Applications by Eric Elliott](http://chimera.labs.oreilly.com/books/1234000000262)
+    * [Redux First Steps: Shotgun Episode 5](https://medium.com/javascript-scene/redux-first-steps-shotgun-episode-5-ab46af7c240d#.rwtkmbwqy)
+    * [Shotgun: JavaScript Video Experience](https://medium.com/javascript-scene/shotgun-javascript-video-experience-c8b6a7771d49#.goab6m44u)
+    * [Shotgun: JavaScript Video Experience](https://medium.com/@_ericelliott/latest)
+    * [learnjs](https://medium.com/javascript-scene/tagged/learnjs)
+    * [Lifetime Learning](https://ericelliottjs.com/product/lifetime-access-pass/)
+* [Medium Bookmarks](https://medium.com/browse/bookmarks)
+
+###### This gitbook Inspired by (You should check out...)
+ * [secretgeek's gitbook](https://til.secretgeek.net/)
+ * [Redux Docs (gitbook)](http://redux.js.org/) 
+ * [Medium:Publish gitbook with NPM](https://medium.com/@gpbl/how-to-use-gitbook-to-publish-docs-for-your-open-source-npm-packages-465dd8d5bfba#.dadjzqxiy)
