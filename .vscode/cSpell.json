@@ -25,7 +25,17 @@
         "ericelliottjs",
         "rwtkmbwqy",
         "goab",
-        "oreilly"
+        "oreilly",
+        "javascriptcheerleader",
+        "frontendmasters",
+        "Lindley",
+        "codylindley",
+        "presentboldly",
+        "telerik",
+        "reactenlightenment",
+        "Reddit",
+        "imdb",
+        "unixporn"
     ],
     // flagWords - list of words to be always considered incorrect
     // This is useful for offensive words and common spelling errors.

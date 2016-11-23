@@ -2,6 +2,7 @@
 * [Introduction](README.md)
 
 * [Articles]()
+	* [Riding shotgun with Elliot](articles/riding_shotgun_with_elliot.md)
 	* [VM Adventures](articles/vm_adventures.md)
 	* [$2 Azure club](articles/azure_pricing.md)
 	* [Chromebook all the things!!!](articles/chromebook_summary.md)
