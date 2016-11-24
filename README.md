@@ -1,6 +1,5 @@
-# Josh McCall
 <img src="images/avatar.png" width="150">
-[GitHub](https://github.com/joshmccall221/gitbook) | [Twitter](https://twitter.com/joshmccall) | [LinkedIn](https://www.linkedin.com/in/joshmccalliowastateuniversity)
+Josh McCall | [GitHub](https://github.com/joshmccall221/gitbook) | [Twitter](https://twitter.com/joshmccall) | [LinkedIn](https://www.linkedin.com/in/joshmccalliowastateuniversity)
 
 
 
