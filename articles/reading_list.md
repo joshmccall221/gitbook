@@ -29,7 +29,9 @@
 [Steve Jobs (2015)](http://www.imdb.com/title/tt2080374/)
 
 
-
+### Random
+* [Levi Fit Guide](https://imgur.com/a/iEvGO#ObQQtxz)
+    * [Levi Fit Guide - Mens Fits](https://www.pinterest.com/pin/79446380906180561/)
 
 ##Projects
 [elementary.io](https://elementary.io/open-source)
