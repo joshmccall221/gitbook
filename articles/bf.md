@@ -1,5 +1,8 @@
 # BF Deals:
 * [apple watch NOW FROM $189.99](https://www.groupon.com/deals/gg-apple-watch-sport-38mm-refurbish)
+    
+    <img src="https://img.grouponcdn.com/deal/7uNhFzj1Uqfc3wL2M8cxmhPLabP/7u-1800x1080/v1/c700x420.jpg" width="150">
+    
 
 * [Chromebook $229.99](http://www.costco.com/Acer-14%22-Chromebook-Bundle---Intel-Celeron---1080p---Bonus-Acer-Wireless-Mouse.product.100293611.html)
     
