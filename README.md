@@ -12,7 +12,8 @@ Blogs, random thoughts, catch all...
 
 ###Articles
 >Nov - 2016
+>* 23-Nov: [My new terminal!](articles/my_new_term.md)
 >* 23-Nov: [Riding shotgun with Elliot](articles/riding_shotgun_with_elliot.md)
 >* 22-Nov: [VM Adventures](articles/vm_adventures.md)
->* 18-Nov:  [$2 Azure club](articles/azure_pricing.md)
+>* 18-Nov: [$2 Azure club](articles/azure_pricing.md)
 >* 18-Nov: [Azure, Visual Studio, ASP.NET MVC 5 Entity Framework!!!(On a Chromebook)](articles/chromebook.md)
