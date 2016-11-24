@@ -2,7 +2,6 @@
 
 
 ## Useful Links
-
 ### ericelliottjs.js
 * [Premium content dashboard](https://ericelliottjs.com/premium-content/)
 * [Premium:Shotgun with Eric Elliott – Episode 1](https://ericelliottjs.com/premium-content/shotgun-with-eric-elliott-episode-1/)
