@@ -1,18 +1,14 @@
 # Riding shotgun with Elliot
 
 
-### Useful Links
-#### ericelliottjs.js
-[Premium content dashboard](https://ericelliottjs.com/premium-content/)
-
-[Premium:Shotgun with Eric Elliott – Episode 1](https://ericelliottjs.com/premium-content/shotgun-with-eric-elliott-episode-1/)
-#### Medium
-[Medium-Shotgun: JavaScript Video Experience](https://medium.com/javascript-scene/shotgun-javascript-video-experience-c8b6a7771d49#.ji1oacpto)
-#### Github
-[github - ericelliott/react-pure-component-starter](https://github.com/ericelliott/react-pure-component-starter)
-
-
-
+## Useful Links
+### ericelliottjs.js
+* [Premium content dashboard](https://ericelliottjs.com/premium-content/)
+* [Premium:Shotgun with Eric Elliott – Episode 1](https://ericelliottjs.com/premium-content/shotgun-with-eric-elliott-episode-1/)
+### Medium
+* [Medium-Shotgun: JavaScript Video Experience](https://medium.com/javascript-scene/shotgun-javascript-video-experience-c8b6a7771d49#.ji1oacpto)
+### Github
+* [github - ericelliott/react-pure-component-starter](https://github.com/ericelliott/react-pure-component-starter)
 
 ## Shotgun with Eric Elliott – Episode 1
 
@@ -25,8 +21,7 @@ This is mostly notes / recap for myself as I don't want to give away Eric's hard
 >* Cheerio
 >* Test-first methodology (Red/Green/Refactor workflow)
 
-
-Getting started: 
+### Getting started: 
 ```
 git clone https://github.com/jshomes/course-player.git && \
 cd course-player && \
@@ -35,6 +30,6 @@ nvm install 5.5 && \
 npm install && \
 npm run watch
 ```
-If all goes well....
+### If all goes well....
 
 <img src="../images/shotgun_w_Eric_Elliott_eps_1.png" width="">
