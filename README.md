@@ -9,6 +9,7 @@ Josh McCall | [GitHub](https://github.com/joshmccall221/gitbook) | [Twitter](htt
 
 ### Articles
 >Nov - 2016
+>* 23-Nov: [elementary OS](articles/elementary_os.md)
 >* 23-Nov: [My new terminal!](articles/my_new_term.md)
 >* 23-Nov: [Riding shotgun with Elliot](articles/riding_shotgun_with_elliot.md)
 >* 22-Nov: [VM Adventures](articles/vm_adventures.md)

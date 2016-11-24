@@ -33,6 +33,7 @@
 
 ##Projects
 [elementary.io](https://elementary.io/open-source)
+[elementary-os-install-utility](https://github.com/sdaitzman/elementary-os-install-utility)
 
 
 #### This gitbook Inspired by (You should check out...)

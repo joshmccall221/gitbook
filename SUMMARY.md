@@ -2,6 +2,7 @@
 * [Introduction](README.md)
 
 * [Articles]()
+	* [elementary OS](articles/elementary_os.md)
 	* [My new terminal!](articles/my_new_term.md)
 	* [Riding shotgun with Elliot](articles/riding_shotgun_with_elliot.md)
 	* [VM Adventures](articles/vm_adventures.md)
