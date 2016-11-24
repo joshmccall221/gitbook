@@ -1,6 +1,3 @@
-# Today I Learned 
-Blogs, random thoughts, catch all...
-
 <img src="images/avatar.png" width="150">
 [GitHub](https://github.com/joshmccall221/gitbook) | [Twitter](https://twitter.com/joshmccall) | [LinkedIn](https://www.linkedin.com/in/joshmccalliowastateuniversity)
 
@@ -10,7 +7,7 @@ Blogs, random thoughts, catch all...
 
 
 
-###Articles
+### Articles
 >Nov - 2016
 >* 23-Nov: [My new terminal!](articles/my_new_term.md)
 >* 23-Nov: [Riding shotgun with Elliot](articles/riding_shotgun_with_elliot.md)
