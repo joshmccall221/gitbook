@@ -1,18 +1,21 @@
-# Riding shotgun with Elliot
+# Riding shotgun with Elliot ([Lifetime Access Pass](https://ericelliottjs.com/product/lifetime-access-pass/))
 
 
 ## Useful Links
+---------------------------------------
+
 ### ericelliottjs.js
 * [Premium content dashboard](https://ericelliottjs.com/premium-content/)
-* [Premium:Shotgun with Eric Elliott – Episode 1](https://ericelliottjs.com/premium-content/shotgun-with-eric-elliott-episode-1/)
+    * [Shotgun with Eric Elliott – Episode 1](https://ericelliottjs.com/premium-content/shotgun-with-eric-elliott-episode-1/)
 
 ### Medium
 * [Medium-Shotgun: JavaScript Video Experience](https://medium.com/javascript-scene/shotgun-javascript-video-experience-c8b6a7771d49#.ji1oacpto)
 
 ### Github
 * [github - ericelliott/react-pure-component-starter](https://github.com/ericelliott/react-pure-component-starter)
+---------------------------------------
 
-## Shotgun with Eric Elliott – Episode 1
+## Shotgun with Eric Elliott – Episode 1 :
 
 This is mostly notes / recap for myself as I don't want to give away Eric's hard work. For the video and full content visit [Shotgun with Eric Elliott – Episode 1](https://medium.com/javascript-scene/shotgun-javascript-video-experience-c8b6a7771d49#.ji1oacpto).
 
