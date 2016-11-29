@@ -22,12 +22,15 @@
 * (https://www.gitbook.com/@frontendmasters)
 * [Medium Bookmarks](https://medium.com/browse/bookmarks)
 * [Reddit-Unix](https://www.reddit.com/r/unixporn/)
-
-
+* [Fábio Rehm - Software Developer and Open Source Enthusiast](http://fabiorehm.com/)
+    * [Running GUI apps with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/)
+*[Fredrik Averpil- A treasure trove of learning Python videos](https://fredrikaverpil.github.io/2016/11/02/a-treasure-trove-of-learning-python-videos/)
 ##Movies
 [Jobs (2013)](http://www.imdb.com/title/tt2357129/)
 [Steve Jobs (2015)](http://www.imdb.com/title/tt2080374/)
 
+## Guitar
+* [GlennThompson](https://www.myguitarworkshop.com/glennthompson/lessons/365/24-voicings-for-any-4-note-seventh-chord)
 
 ### Random
 * [Levi Fit Guide](https://imgur.com/a/iEvGO#ObQQtxz)

@@ -2,6 +2,7 @@
 * [Introduction](README.md)
 
 * [Articles]()
+	* [OSX + Docker + GUI](articles/docker.md)
 	* [Black Friday](articles/bf.md)
 	* [elementary OS](articles/elementary_os.md)
 	* [My new terminal!](articles/my_new_term.md)
