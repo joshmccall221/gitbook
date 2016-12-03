@@ -56,6 +56,20 @@
 * Nova Colorscheme
   * http://www.trevordmiller.com/nova/
 
+* Beam
+  * http://www.thinkalso.com/fixed-slow-display-vmware-os-x/
+  * http://superuser.com/questions/837898/osx-10-10-yosemite-slow-on-vmware
+
+* Vending Machine Katas:
+  * https://github.com/guyroyse/vending-machine-kata
+  * https://github.com/guyroyse/vending-machine-kata-javascript/tree/kata1
+  * https://github.com/bskiff/vending-machine-kata
+  * https://github.com/s12dsow/vending-machine-kata
+  * https://github.com/logan-j/vending-machine-kata
+  * https://github.com/jameskbride/vending_machine_kata_python
+  * https://github.com/jarzac/vending_machine_kata
+  * https://github.com/CHAOWEICHIU/vending-machine-kata
+
 
 #### This gitbook Inspired by (You should check out...)
  * [secretgeek's gitbook](https://til.secretgeek.net/)
