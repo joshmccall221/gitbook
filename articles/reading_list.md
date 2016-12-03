@@ -40,10 +40,17 @@
 [elementary.io](https://elementary.io/open-source)
 [elementary-os-install-utility](https://github.com/sdaitzman/elementary-os-install-utility)
 
+#### Security
+* https://www.defcon.org/html/links/dc-torrent.html
+
+#### Vagrant
+* Vagrant
+  * Vagrantfile-osx-el-capitan
+    * https://gist.github.com/martinbaillie/13d8fbdd2f585630c4de
+
+
 
 #### This gitbook Inspired by (You should check out...)
  * [secretgeek's gitbook](https://til.secretgeek.net/)
  * [Redux Docs (gitbook)](http://redux.js.org/) 
  * [Medium:Publish gitbook with NPM](https://medium.com/@gpbl/how-to-use-gitbook-to-publish-docs-for-your-open-source-npm-packages-465dd8d5bfba#.dadjzqxiy)
-
-
