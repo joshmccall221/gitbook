@@ -60,8 +60,8 @@
   * http://www.thinkalso.com/fixed-slow-display-vmware-os-x/
   * http://superuser.com/questions/837898/osx-10-10-yosemite-slow-on-vmware
 
-###* Vending Machine Katas:
-* *github : https://github.com/search?utf8=%E2%9C%93&q=vending+machine+kata
+#### Vending Machine Katas:
+* github : https://github.com/search?utf8=%E2%9C%93&q=vending+machine+kata
   * https://github.com/guyroyse/vending-machine-kata
   * https://github.com/guyroyse/vending-machine-kata-javascript/tree/kata1
   * https://github.com/bskiff/vending-machine-kata
