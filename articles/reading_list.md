@@ -47,7 +47,14 @@
 * Vagrant
   * Vagrantfile-osx-el-capitan
     * https://gist.github.com/martinbaillie/13d8fbdd2f585630c4de
+* osx-workstation
+  * https://github.com/toranb/osx-workstation
 
+* dotfiles
+  * https://github.com/toranb/dotfiles
+
+* Nova Colorscheme
+  * http://www.trevordmiller.com/nova/
 
 
 #### This gitbook Inspired by (You should check out...)
