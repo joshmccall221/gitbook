@@ -44,14 +44,17 @@
 * https://www.defcon.org/html/links/dc-torrent.html
 
 #### Vagrant
-* Vagrant
-  * Vagrantfile-osx-el-capitan
-    * https://gist.github.com/martinbaillie/13d8fbdd2f585630c4de
-* osx-workstation
-  * https://github.com/toranb/osx-workstation
+OSX:
+  * Vagrant
+    * Vagrantfile-osx-el-capitan
+      * https://gist.github.com/martinbaillie/13d8fbdd2f585630c4de
+  * osx-workstation
+    * https://github.com/toranb/osx-workstation
 
-* dotfiles
-  * https://github.com/toranb/dotfiles
+  * dotfiles
+    * https://github.com/toranb/dotfiles
+Debian Adventures: 
+  * https://www.debian.org/devel/debian-installer/
 
 Color Scheme: 
   * Nova 
