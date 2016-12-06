@@ -2,6 +2,7 @@
 * [Introduction](README.md)
 
 * [Articles]()
+  * [Jekyll + formspree.io = <3](articles/formspree.md)
 	* [OSX + Docker + GUI](articles/docker.md)
 	* [Black Friday](articles/bf.md)
 	* [elementary OS](articles/elementary_os.md)
