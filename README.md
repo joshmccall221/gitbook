@@ -3,11 +3,11 @@ Josh McCall | [GitHub](https://github.com/joshmccall221/gitbook) | [Twitter](htt
 
 
 
+# about
 
 
 
-
-### Articles
+### articles
 >Nov - 2016
 >* 5-Dec: [Jekyll + formspree.io = <3](articles/formspree.md)
 >* 25-Nov: [OSX + Docker + GUI](articles/docker.md)
