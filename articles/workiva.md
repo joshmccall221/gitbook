@@ -8,11 +8,6 @@ These links are mostly my reading list for Christmas break. Hopefully I can do s
 
 
 
-
-
-
-===================
-
 ## Few of my favorite repos:
 
 ### JS
