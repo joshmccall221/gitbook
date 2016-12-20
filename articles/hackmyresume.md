@@ -3,6 +3,7 @@
 The open source initiative to create a JSON-based standard for resumes. For developers, by developers.
 
 >Links:
+
 >[jsonresume](https://jsonresume.org/)
 
 >[HackMyResume](https://github.com/hacksalot/HackMyResume)
