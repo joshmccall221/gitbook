@@ -4,6 +4,8 @@ A while back I got to sit in on a product talk at Workiva. The main focus was on
 
 >As I sat there eating my homemade ice cream and warm cookies in a deliciously messy ice cream sandwich, I thought "oh crap, I should probably take notes". Then the slide flashed on the wall [Workiva is on Github!](https://workiva.github.io/), phew... now back to my ice cream. 
 
+These links are mostly my reading list for Christmas break. Hopefully I can do something silly like stand up the go REST api and display endpoint response in over-react. If I can incorporate w_flux too..... write ups will ensue! :)
+
 ## Few of my favorite repos
 
 ### JS
