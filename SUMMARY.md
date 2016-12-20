@@ -2,6 +2,8 @@
 * [Introduction](README.md)
 
 * [Articles]()
+	* [Workiva!](articles/workiva.md)
+	* [hackmyresume](articles/hackmyresume.md)
 	* [Jekyll + formspree.io = <3](articles/formspree.md)
 	* [OSX + Docker + GUI](articles/docker.md)
 	* [Black Friday](articles/bf.md)
