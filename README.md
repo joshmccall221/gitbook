@@ -9,7 +9,9 @@ Josh McCall | [GitHub](https://github.com/joshmccall221/gitbook) | [Twitter](htt
 
 ### articles
 >Nov - 2016
->* 5-Dec: [Jekyll + formspree.io = <3](articles/formspree.md)
+>* 20-Dec: [Workiva!](articles/workiva.md)
+>* 15-Dec: [HackMyResume](articles/hackmyresume.md)
+>* 05-Dec: [Jekyll + formspree.io = <3](articles/formspree.md)
 >* 25-Nov: [OSX + Docker + GUI](articles/docker.md)
 >* 23-Nov: [Black Friday](articles/bf.md)
 >* 23-Nov: [elementary OS](articles/elementary_os.md)
