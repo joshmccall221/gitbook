@@ -3,7 +3,6 @@ Josh McCall | [GitHub](https://github.com/joshmccall221/gitbook) | [Twitter](htt
 
 
 
-# about
 
 
 
