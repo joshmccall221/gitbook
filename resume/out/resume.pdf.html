@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Josh McCall</title>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" media="all">
+		<style>
+			body {
+				font-family: 'Lato';
+				background-image: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/snow.png");
+			}
+
+			.oswald-font {
+				font-family: 'oswald';
+				vertical-align: bottom;
+			}
+
+			.name {
+				text-transform: uppercase;
+			}
+			
+			a:hover {
+				text-decoration: none;
+			}
+			
+			.link-github {
+				color: #454545;
+			}
+			
+			.link-github:hover {
+				color: black;
+			}
+			
+			.link-twitter {
+				color: #33CCFF;
+			}
+			
+			.social-link {
+				margin-left: 5px;
+			}
+			
+			.social-link:first-child {
+				margin-left: 0;
+			}
+			
+			.link-blog {
+				color: rgb(243, 111, 36);
+			}
+			
+			.link-blog:hover {
+				color: rgb(211, 97, 32);
+			}
+			
+			.summary {
+				font-size: 1.2em;
+				margin-top: 2em;
+			}
+			
+			.wip {
+				position: absolute;
+				right: 0;
+			}
+			
+			.item-detail h3 {
+				margin-top: 0px;
+				vertical-align: middle;
+			}
+
+			.item-detail .company {
+				font-size: 18px;
+			}
+
+			.item {
+				border-bottom: 1px solid #eee;
+				margin-bottom: 10px;
+				padding-bottom: 10px;
+			}
+
+			.item, .no-break-inside {
+				page-break-inside: avoid;
+			}
+
+			.section {
+				orphans: 10;
+				widows: 10;
+			}
+
+			@media print {
+				@page {
+					margin: 0.75cm 0.75cm 3cm 0.75cm;
+				}
+				a[href]:after {
+					content:"";
+				}
+				.badge {
+					font-weight: normal;
+				}
+				.item {
+					border-bottom: 0px;
+					margin-bottom: 0px;
+					padding-bottom: 5px;
+				}
+				.social-links-wrapper {
+					display: none;
+				}
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="container">
+				<div class="row section">
+					<div class="col-xs-12"><h1 class="name oswald-font">Josh McCall</h1></div>
+					
+					<div class="location col-xs-6">
+						<span class="fa fa-map-marker"></span>&nbsp;
+						805 10th St , Nevada, Iowa, 50201, US
+						<br>
+						
+						<span class="fa fa-phone"></span>&nbsp;
+						515-999-0221
+						<br>
+						
+					</div>
+
+					<div class="location col-xs-6">
+						<span class="fa fa-envelope"></span>&nbsp;
+						<span>j</span><span>o</span><span>s</span><span>h</span><span>m</span><span>c</span><span>c</span><span>a</span><span>l</span><span>l</span><span>2</span><span>2</span><span>1</span><span>@</span><span>g</span><span>m</span><span>a</span><span>i</span><span>l</span><span>.</span><span>c</span><span>o</span><span>m</span>
+						<br>
+
+						<span class="fa fa-rss-square"></span>&nbsp;
+						<a target="_blank" href="http:&#x2F;&#x2F;joshuamccall.com&#x2F;">http:&#x2F;&#x2F;joshuamccall.com&#x2F;</a>
+						<br>
+
+						<span class="social-links-wrapper">
+							<a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;joshmccalliowastateuniversity" target="_blank"><span class="fa fa-linkedin"></span>&nbsp;LinkedIn</a> &nbsp;
+							<a href="https:&#x2F;&#x2F;www.twitter.com&#x2F;joshmccall" target="_blank"><span class="fa fa-twitter"></span>&nbsp;Twitter</a> &nbsp;
+						</span>
+					</div>
+				</div>
+
+				<div class="row section">
+					
+					<p class="summary">
+						<span class="fa fa-quote-left"></span>&nbsp;
+						I love working with passionate people who love what they do. I am a software engineer whose focus is helping others through the use of technology.  I enjoy connecting people with technology, no matter the platform. 
+						&nbsp;<span class="fa fa-quote-right"></span>
+					</p>
+				</div>
+
+				<div class="row section">
+					<div class="col-xs-12"><h2 class="oswald-font"><span class="fa fa-briefcase"></span>&nbsp; Work</h2></div>
+					
+					<div class="row item">
+						<div class="col-xs-2 text-right">2016 &ndash; present</div>
+						<div class="item-detail col-xs-10">
+							<h3>
+								Artisan &bull; <a target="_blank" href="http:&#x2F;&#x2F;pillartechnology.com&#x2F;" class="company">Pillar Technology</a>
+							</h3>
+							<p class="text-muted text-justify">(Software. DevOps. Agile Coaching.)</p>
+							<ul>
+                  Pioneer: Cloud-based data aggregation providing agricultural insights.
+                  <ul>
+<li>AWS, Docker, Python, Angular.</li>
+</ul>
+
+							</ul>
+						</div>
+						
+					</div>
+					
+					<div class="row item">
+						<div class="col-xs-2 text-right">2014 &ndash; 2016</div>
+						<div class="item-detail col-xs-10">
+							<h3>
+								Software Engineer &bull; <a target="_blank" href="http:&#x2F;&#x2F;www.sourceallies.com&#x2F;" class="company">Source Allies Inc.</a>
+							</h3>
+							<p class="text-muted text-justify">(TDD. XP. Agile Focus.)</p>
+							<ul>
+                  John Deere: Farmer focused portal for managing operations
+                  <ul>
+<li>AWS, Scala, NodeJS, React, Backbone.</li>
+</ul>
+
+                  Meredith Corporation: Custom  &quot;Quick Apps&quot; for bhg.com, rachaelray.com, parents.com etc.
+                  <ul>
+<li>JS, Angular, CSS&#x2F;SASS, Custom CMS, Drupal, Java, JSP.</li>
+</ul>
+
+                  Seneca Tank: 
+                  <ul>
+<li>PHP, Zend framework, Vagrant, Docker, Jenkins.</li>
+</ul>
+
+                  Adventureland: Ticket sales and processing. Multi-factor 3D bar code scanning.
+                  <ul>
+<li>PHP, Magento, Python, Django, Perl.</li>
+</ul>
+
+							</ul>
+						</div>
+						
+					</div>
+					
+					<div class="row item">
+						<div class="col-xs-2 text-right">2014 &ndash; 2014</div>
+						<div class="item-detail col-xs-10">
+							<h3>
+								Application System Engineer &bull; <a target="_blank" href="" class="company">Wells Fargo Home Mortgage</a>
+							</h3>
+							<p class="text-muted text-justify"></p>
+							<ul>
+                  Support team, programmatically (re)processing loan documents.
+                  <ul>
+<li>.Net WPF. SQL. Bash Scripting.</li>
+</ul>
+
+							</ul>
+						</div>
+						
+					</div>
+					
+					<div class="row item">
+						<div class="col-xs-2 text-right">2014 &ndash; 2014</div>
+						<div class="item-detail col-xs-10">
+							<h3>
+								UI &#x2F; UX &bull; <a target="_blank" href="http:&#x2F;&#x2F;www.amida-tech.com&#x2F;" class="company">Amida</a>
+							</h3>
+							<p class="text-muted text-justify">(Rapid Mockup and Prototyping. Iterative Design.  508 Compliance.)</p>
+							<ul>
+                  (Blue Button Initiative: Integrated healthcare platform.)
+                  <ul>
+<li>HTML, JS, CSS, SASS</li>
+</ul>
+
+							</ul>
+						</div>
+						
+					</div>
+					
+					<div class="row item">
+						<div class="col-xs-2 text-right">2008 &ndash; 2013</div>
+						<div class="item-detail col-xs-10">
+							<h3>
+								Development &#x2F; Technician &bull; <a target="_blank" href="https:&#x2F;&#x2F;www.ameslab.gov&#x2F;" class="company">Ames Laboratory</a>
+							</h3>
+							<p class="text-muted text-justify">(Security, Web Development, Networking, On-boarding and IT Support)</p>
+							<ul>
+                  
+                  <ul>
+<li>Drupal, JS, CSS</li>
+</ul>
+
+							</ul>
+						</div>
+						
+					</div>
+					
+					<div class="row item">
+						<div class="col-xs-2 text-right">2008 &ndash; 2013</div>
+						<div class="item-detail col-xs-10">
+							<h3>
+								Technician &bull; <a target="_blank" href="http:&#x2F;&#x2F;hometowntech.com&#x2F;" class="company">Home Towne Tech</a>
+							</h3>
+							<p class="text-muted text-justify">(Websites, Technical Service, Hands on training.)</p>
+							<ul>
+							</ul>
+						</div>
+						
+					</div>
+					
+					<div class="row item">
+						<div class="col-xs-2 text-right">2006 &ndash; 2012</div>
+						<div class="item-detail col-xs-10">
+							<h3>
+								Consultant &bull; <a target="_blank" href="" class="company">Tireless Wake</a>
+							</h3>
+							<p class="text-muted text-justify">(Web Development and Technology Consulting)</p>
+							<ul>
+                  Web development, IT Service and Sales 
+                  <ul>
+<li>Joomla, Wordpress, Drupal</li>
+</ul>
+
+                  Practical Farmers of Iowa: Web Development and Technology Consulting
+                  <ul>
+<li>Web Development, Server Install, Support</li>
+</ul>
+
+							</ul>
+						</div>
+						
+					</div>
+					
+				</div>
+
+				<div class="row section">
+					<div class="col-xs-12"><h2 class="oswald-font"><span class="fa fa-university"></span>&nbsp; Education</h2></div>
+					
+					<div class="row item">
+						<div class="col-xs-2 text-right">2008 &ndash; 2013</div>
+						<div class="item-detail col-xs-10">
+							<h3>Bachelor</h3>
+							<h4>Iowa State University, Management Information Systems</h4>
+							<h5></h5>
+							<ul>
+							</ul>
+						</div>
+						
+					</div>
+					<div class="row item">
+						<div class="col-xs-2 text-right">2006 &ndash; 2008</div>
+						<div class="item-detail col-xs-10">
+							<h3>Associate of Arts and Sciences</h3>
+							<h4>Indian Hills Community College, Computer Forensics</h4>
+							<h5></h5>
+							<ul>
+							</ul>
+						</div>
+						
+					</div>
+				</div>
+
+
+				<div class="row section">
+					<div class="col-xs-12"><h2 class="oswald-font"><span class="fa fa-group"></span>&nbsp; Volunteerism</h2></div>
+					
+					<div>
+					<div class="row item">
+						<div class="col-xs-2 text-right">2014 &ndash; present</div>
+						<div class="item-detail col-xs-10">
+							<div class="item-detail">
+								<h3>
+									<a target="_blank" href="https:&#x2F;&#x2F;www.freecodecamp.com&#x2F;">
+										Free Code Camp 
+									</a>
+								</h3>
+								<p class="text-muted">An open source community of busy people who learn to code  projects for nonprofits.</p>
+								<h4>
+									<span></span>
+								</h4>
+							</div>
+							<ul>
+							</ul>
+							
+					</div>
+					</div>
+					<div class="row item">
+						<div class="col-xs-2 text-right">2014 &ndash; present</div>
+						<div class="item-detail col-xs-10">
+							<div class="item-detail">
+								<h3>
+									<a target="_blank" href="http:&#x2F;&#x2F;www.techjourney.org&#x2F;">
+										Tech Journey 
+									</a>
+								</h3>
+								<p class="text-muted">To inspire youth to increase their knowledge and interest in technology by providing engaging learning opportunities led by technology professionals</p>
+								<h4>
+									<span></span>
+								</h4>
+							</div>
+							<ul>
+							</ul>
+							
+					</div>
+					</div>
+					<div class="row item">
+						<div class="col-xs-2 text-right">2014 &ndash; present</div>
+						<div class="item-detail col-xs-10">
+							<div class="item-detail">
+								<h3>
+									<a target="_blank" href="http:&#x2F;&#x2F;hyperstream.org&#x2F;">
+										Hyperstream 
+									</a>
+								</h3>
+								<p class="text-muted">The Tech Hub for Iowa Students</p>
+								<h4>
+									<span></span>
+								</h4>
+							</div>
+							<ul>
+							</ul>
+							
+					</div>
+					</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	</body>
+</html>

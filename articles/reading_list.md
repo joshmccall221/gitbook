@@ -40,6 +40,14 @@
 [elementary.io](https://elementary.io/open-source)
 [elementary-os-install-utility](https://github.com/sdaitzman/elementary-os-install-utility)
 
+##
+WM and Dotfiles
+* [kwm](https://github.com/koekeishiya/kwm)
+* [kwm - reddit](https://www.reddit.com/r/unixporn/comments/5gsgdo/macos_kwm_keeping_myself_busy/)
+* [Ubersicht](http://tracesof.net/uebersicht/)
+https://github.com/herrbischoff/nerdbar.widget
+https://github.com/rgcr/m-cli
+
 #### Security
 * https://www.defcon.org/html/links/dc-torrent.html
 
