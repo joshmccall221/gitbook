@@ -49,7 +49,7 @@
       {
         "position": "Application System Engineer",
         "employer": "Wells Fargo Home Mortgage",
-        "summary": "",
+        "summary": "(Intelligent error handling, reporting and zero downtime response.)",
         "start": "2014-01-01",
         "end": "2014-01-01",
         "url": "",
@@ -68,7 +68,7 @@
         "url": "http://www.amida-tech.com/",
         "keywords": [],
         "highlights": [
-          "(Blue Button Initiative: Integrated healthcare platform.)",
+          "Blue Button Initiative: Integrated healthcare platform.",
           "- HTML, JS, CSS, SASS"
         ]
       },
@@ -81,7 +81,7 @@
         "url": "https://www.ameslab.gov/",
         "keywords": [],
         "highlights": [
-          "",
+          "Development of external and interal apps: ameslab.gov",
           "- Drupal, JS, CSS"
         ]
       },
@@ -93,7 +93,10 @@
         "end": "2013-01-01",
         "url": "http://hometowntech.com/",
         "keywords": [],
-        "highlights": []
+        "highlights": [
+          "Small business sites and remote support.",
+          "- Joomla, Wordpress, Drupal"
+        ]
       },
       {
         "position": "Consultant",
@@ -122,7 +125,7 @@
         "curriculum": [],
         "summary": "",
         "area": "Management Information Systems",
-        "studyType": "Bachelor"
+        "studyType": "Bachelor of Science"
       },
       {
         "institution": "Indian Hills Community College",

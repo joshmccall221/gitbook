@@ -54,7 +54,7 @@ work:
     website: ""
     startDate: '2014-01-01'
     endDate: '2014-01-01'
-    summary: ""
+    summary: '(Intelligent error handling, reporting and zero downtime response.)'
     highlights:
       - 'Support team, programmatically (re)processing loan documents.'
       - '- .Net WPF. SQL. Bash Scripting.'
@@ -66,7 +66,7 @@ work:
     endDate: '2014-01-01'
     summary: '(Rapid Mockup and Prototyping. Iterative Design.  508 Compliance.)'
     highlights:
-      - '(Blue Button Initiative: Integrated healthcare platform.)'
+      - 'Blue Button Initiative: Integrated healthcare platform.'
       - '- HTML, JS, CSS, SASS'
   -
     company: 'Ames Laboratory'
@@ -76,7 +76,7 @@ work:
     endDate: '2013-01-01'
     summary: '(Security, Web Development, Networking, On-boarding and IT Support)'
     highlights:
-      - ""
+      - 'Development of external and interal apps: ameslab.gov'
       - '- Drupal, JS, CSS'
   -
     company: 'Home Towne Tech'
@@ -85,7 +85,9 @@ work:
     startDate: '2008-01-01'
     endDate: '2013-01-01'
     summary: '(Websites, Technical Service, Hands on training.)'
-    highlights: []
+    highlights:
+      - 'Small business sites and remote support.'
+      - '- Joomla, Wordpress, Drupal'
   -
     company: 'Tireless Wake'
     position: Consultant
@@ -123,7 +125,7 @@ education:
   -
     institution: 'Iowa State University'
     area: 'Management Information Systems'
-    studyType: Bachelor
+    studyType: 'Bachelor of Science'
     startDate: '2008-01-01'
     endDate: '2013-01-01'
     gpa: ""
