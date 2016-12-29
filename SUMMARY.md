@@ -2,6 +2,7 @@
 * [README](README.md)
 
 * [Articles]()
+  * [vmware fusion](articles/vmware_fusion.md)
 	* [macOS workstation](articles/macOS_workstation.md)
 	* [Workiva!](articles/workiva.md)
 	* [HackMyResume](articles/hackmyresume.md)

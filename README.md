@@ -8,6 +8,7 @@ Josh McCall | [GitHub](https://github.com/joshmccall221/gitbook) | [Twitter](htt
 
 ### articles
 >Nov - 2016
+>* 29-Dec: [vmware fusion](articles/vmware_fusion.md)
 >* 29-Dec: [macOS workstation](articles/macOS_workstation.md)
 >* 20-Dec: [Workiva!](articles/workiva.md)
 >* 15-Dec: [HackMyResume](articles/hackmyresume.md)
