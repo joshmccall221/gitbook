@@ -2,6 +2,7 @@
 * [README](README.md)
 
 * [Articles]()
+	* [macOS workstation](articles/macOS_workstation.md)
 	* [Workiva!](articles/workiva.md)
 	* [HackMyResume](articles/hackmyresume.md)
 	* [Jekyll + formspree.io = <3](articles/formspree.md)
