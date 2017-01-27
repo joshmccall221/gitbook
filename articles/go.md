@@ -2,6 +2,7 @@
 
  #### =====>  Intro
 
+
 Checklist: 
 
  [awesome-go](https://github.com/avelino/awesome-go):
@@ -23,6 +24,8 @@ Checklist:
 #### Install : 
 
 * [ubuntu: install go](https://www.digitalocean.com/community/tutorials/how-to-install-go-1-6-on-ubuntu-16-04)
+  * [Go Version Manager ](https://github.com/moovweb/gvm)
+  * [Go Tour go1.4 ](http://stackoverflow.com/a/40218284)
 
 #### hello world :
 
