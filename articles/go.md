@@ -27,6 +27,26 @@ Checklist:
   * [Go Version Manager ](https://github.com/moovweb/gvm)
   * [Go Tour go1.4 ](http://stackoverflow.com/a/40218284)
 
+#### install :
+  
+  ```
+  vagrant up; vagrant ssh
+  ```
+
+  ```
+  curl -O https://storage.googleapis.com/golang/go1.6.linux-amd64.tar.gz
+  sha256sum go1.6.linux-amd64.tar.gz
+  tar xvf go1.6.linux-amd64.tar.gz
+  sudo chown -R root:root ./go
+  export GOPATH=$HOME/work
+  export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+  export GOROOT=$HOME/go
+  mkdir $HOME/work
+  mkdir -p work/src/github.com/user/hello
+  mkdir -p work/src/github.com/joshmccall221/hello
+
+  ```
+
 #### hello world :
 
 
