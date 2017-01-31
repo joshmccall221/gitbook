@@ -38,11 +38,10 @@ Checklist:
   sha256sum go1.6.linux-amd64.tar.gz
   tar xvf go1.6.linux-amd64.tar.gz
   sudo chown -R root:root ./go
+  export GOROOT=$HOME/go
   export GOPATH=$HOME/work
   export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
-  export GOROOT=$HOME/go
   mkdir $HOME/work
-  mkdir -p work/src/github.com/user/hello
   mkdir -p work/src/github.com/joshmccall221/hello
 
   ```
