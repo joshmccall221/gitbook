@@ -40,9 +40,7 @@ Checklist:
   sudo chown -R root:root ./go
   export GOROOT=$HOME/go
   export GOPATH=$HOME/work
-  export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
-  mkdir $HOME/work
-  mkdir -p work/src/github.com/joshmccall221/hello
+  export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
   ```
 
@@ -51,7 +49,11 @@ Checklist:
 
  ```
   ┌──(~) n(vagrant)──────────────────────────────────(✔)─
-  └──➤cat ~/work/src/github.com/joshmccall221/hello/hello.go        
+  └──➤ mkdir $HOME/work
+  ┌──(~) n(vagrant)──────────────────────────────────(✔)─
+  └──➤  mkdir -p work/src/github.com/joshmccall221/hello
+  ┌──(~) n(vagrant)──────────────────────────────────(✔)─
+  └──➤  cat ~/work/src/github.com/joshmccall221/hello/hello.go        
   package main
 
   import "fmt"
