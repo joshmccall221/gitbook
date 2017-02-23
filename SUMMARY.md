@@ -20,4 +20,3 @@
    * [Azure, Visual Studio, ASP.NET MVC 5 Entity Framework!!!](articles/chromebook.md)
 
 * [Reading List](articles/reading_list.md)
-* [Article](./articles/article.md)
