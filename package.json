@@ -9,13 +9,19 @@
     "doc": "docs"
   },
   "scripts": {
+    "go:1": "npm i",
+    "go:2": "echo '>* [Article!!!](articles/article.md)'>> ./README.md",
+    "go:3": "echo '# Article!!!'>> ./articles/article.md",
+    "go:4": "echo '# Summary'>> ./SUMMARY.md",
+    "go:5": "echo '* [README](README.md)'>> ./SUMMARY.md",
+    "go:6": "npm run docs:all",
     "docs:clean": "rimraf _book",
     "docs:prepare": "gitbook install",
     "docs:build": "npm run docs:prepare && gitbook build",
     "docs:serve": "gitbook serve",
-    "docs:publish": "npm run docs:clean && npm run docs:build  && cd _book && ECHO joshuamccall.com  > CNAME && git init && git commit --allow-empty -m 'Update docs and examples' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'Update docs and examples' && git push https://github.com/joshmccall221/gitbook.git gh-pages --force",
+    "docs:publish": "npm run docs:clean && npm run docs:build  && cd _book && echo joshuamccall.com  > CNAME && git init && git config --global user.name 'Josh McCall' &&  git config --global user.email joshmccall221@gmail.com && git commit --allow-empty -m 'Update docs and examples' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'Update docs and examples' && git push https://github.com/joshmccall221/gitbook.git gh-pages --force",
     "docs:go": "npm run docs:publish && git add . && git commit -am 'gitbook updates' && git push",
-    "docs:all":"npm run docs:publish && npm run docs:go"
+    "docs:all": "npm run docs:publish && npm run docs:go"
   },
   "author": "Josh McCall <joshmccall221@gmail.com>",
   "license": "MIT",
@@ -24,6 +30,8 @@
     "react": "~0.13.x || ~0.14.x || ^15.0.0"
   },
   "devDependencies": {
+    "gitbook-cli": "^2.3.0",
+    "react": "^15.4.2",
     "rimraf": "2.5.4"
   }
 }
