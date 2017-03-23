@@ -1,4 +1,5 @@
 ```
+https://medium.com/@_ericelliott/latest
 jQuery('.streamItem-cardInner.streamItem-cardInner--postPreview').map((i,v)=>{
   console.log(v.innerText); return v
  })
