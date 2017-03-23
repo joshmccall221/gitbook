@@ -1,4 +1,6 @@
-
+```
+jQuery('.streamItem-cardInner.streamItem-cardInner--postPreview').map((i,v)=>{console.log(v.innerText); return v})
+```
 Eric Elliott in JavaScript Scene
 Mar 21
 Jam Session with Eric Elliott & James Womack: How a Netflix Engineer Got Started with Code
@@ -8,7 +10,7 @@ Read more…
 
 
 VM28244:1 
-Eric Elliott in JavaScript Scene
+Eric Elliott in JavaScript Scened
 Mar 19
 setState() Gate
 Navigating React setState() Behavior Confusion
