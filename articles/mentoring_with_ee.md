@@ -1,3 +1,9 @@
+
+# Reading List
+
+# Book
+
+# Blog
 ```
 https://medium.com/@_ericelliott/latest
 jQuery('.streamItem-cardInner.streamItem-cardInner--postPreview').map((i,v)=>{
