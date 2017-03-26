@@ -26,4 +26,3 @@
     * [VM Adventures](articles/vm_adventures.md)
 
 * [Reading List](articles/reading_list.md)
-* [Article](./articles/article.md)
