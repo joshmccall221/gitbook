@@ -1,5 +1,21 @@
 
-# Reading List
+# Vidoes:
+<iframe src="https://player.vimeo.com/video/101269995" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/101269995">Learn JavaScript with Eric Elliott</a> from <a href="https://vimeo.com/ericelliott">Eric Elliott</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<iframe src="https://player.vimeo.com/video/69255635" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/69255635" > Classes vs Prototypes</a> from <a href="https://vimeo.com/ericelliott">Eric Elliott</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+# Reading List:
+### The essentials, in order:
+  * [ ] Newbie friendly: Make a Star Wars Game with Hour of Code (free website)
+  * [ ] Newbie friendly: “JavaScript for Cats”, Max Ogden (free website)
+  * [-] Newbie friendly: FreeCodeCamp’s 10-hour Basic JavaScript track You can come back to FCC for more practice while you explore the rest of these resources. I recommend that you dedicate time to study other resources and do some fresh FCC exercises every day. There are hundreds of hours of exercises, in total, covering a lot more than just JavaScript.
+  * [ ] “Eloquent JavaScript: Second Edition”, Marijn Haverbeke (book with free online edition)
+  * [ ] “The Two Pillars of JavaScript Part 1” on Prototypal OO, Eric Elliott (article, free)
+  * [ ] “The Two Pillars of JavaScript Part 2” on Functional Programming (article, free)
+  * [ ] “Learn JavaScript with Eric Elliott”, disclaimer: I’m Eric Elliott (online courses, includes detailed screencasts on ES6, React, TDD, and more…)
+  * [ ] “Programming JavaScript Applications”, Eric Elliott (book, free online, print & ebooks available)
+  * [ ] “JavaScript: The Definitive Guide”, David Flanagan
+  * [ ] “Essential JavaScript Links”
 
 # Book
 
@@ -464,13 +480,37 @@ Part 1: How to Escape the 7th Circle of Hell
 
 
 ## Sep 28, 2014 - Fighting Poverty in Schools
+
 How we act today will make or break our future
+
+"Even if you can’t imagine right now that your kid might need to know how to program, I have some information you might want to pay attention to:
+
+**Researchers believe that in just 2 decades about 45% of today’s jobs will be replaced by code or robots.*** Being deeply entrenched in Silicon Valley startup culture and knowing the technology that’s right around the corner, I believe they’re underestimating.
+
+~ this is not science fiction ~"
+
+"At several of my recent jobs, I’ve been tasked to hire developers who are ready to start contributing productively to applications that serve millions of monthly users. In case you’ve never tried to do this before, it’s very hard. "
 
 ## Aug 3, 2014 - Learn JavaScript:
 9 Essential Resources
+"The fact is, most JavaScript training sucks."
+
+### Why JavaScript?
+<iframe src="https://player.vimeo.com/video/101269995" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/101269995">Learn JavaScript with Eric Elliott</a> from <a href="https://vimeo.com/ericelliott">Eric Elliott</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+The essentials, in order:
+**see reading list**
+
+<iframe src="https://player.vimeo.com/video/69255635" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/69255635" > Classes vs Prototypes</a> from <a href="https://vimeo.com/ericelliott">Eric Elliott</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+video notes:
+- JS is flexible 
 
 
+
+<!-- herehereherehere
 ## Jul 21, 2014 - Garbage In, Garbage Out
+
 Elliott’s Rule of Social Media
 Curate the things you consume as carefully as you craft what you produce.
 ~ee
@@ -478,9 +518,19 @@ Curate the things you consume as carefully as you craft what you produce.
 
 Eric Elliott in The Backer Army
 ## Jul 16, 2014 - If Your Head Isn’t In the Clouds, Chances Are You’re Not Soaring
-How My Childhood Friend Taught Me…
 
+"Don’t make my mistake. Think of the seven people you love most in the world. For the next seven days, start each morning with a short letter. Reach out to one of your most cherished loved ones. Share this article and add a tale or two about the trouble you got up to when you were a little less wise and a little less aware of what you couldn’t (or shouldn’t) do. Tell them how much you love them. Believe me, it would mean the world to them."
 
-Eric Elliott in End Homelessness
 ## Jul 8, 2014 - Fighting Poverty with Code
-The Viral Kickstarter to End Homelessness for Good
+
+"Did you know it costs more money to let somebody sleep on the street than it costs to give them homes for free?"
+
+"Because JavaScript is the only programming language supported by every modern browser, the entire web is dependent on it, making it the most widely used programming language in the world — and it’s still growing faster than any other programming language. There’s just one problem: There aren’t enough JavaScript developers to keep up with demand."
+
+"Demand for software developers is so high that most of the top companies have an always hiring policy for developers; they hire as quickly as they can find qualified candidates, and when that’s not fast enough, they actively recruit candidates from other countries or outsource work to India."
+
+"If you want to help, you can purchase a course bundle (you can give them as gifts or use them yourself. If you’re not sure who to give it to, we can refer you to a school or training program).
+Another great way to help is to share this article with your friends."
+
+
+-->
