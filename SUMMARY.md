@@ -3,8 +3,6 @@
 
 * [Articles]()
   
-  * [2017 - Mar]()
-    * [Mentoring with EE](articles/mentoring_with_ee.md)
   * [2017 - Jan]()
     * [Go!](articles/go.md)
   * [2016 - Dec]()
@@ -21,6 +19,7 @@
       * [Azure, Visual Studio, ASP.NET MVC 5 Entity Framework!!!](articles/chromebook.md)
 
 * [Drafts]()
+    * [Mentoring with EE](articles/mentoring_with_ee.md)
     * [vmware fusion](articles/vmware_fusion.md)
     * [macOS workstation](articles/macOS_workstation.md)
     * [elementary OS](articles/elementary_os.md)
