@@ -478,6 +478,8 @@ Why Every Kid Should Learn to Code
 ## Dec 12, 2014 - The Two Pillars of JavaScript — Pt 2: Functional Programming
 How to Stop Micromanaging Everything
 
+<!-- herehereherehere
+
 
 ## Oct 21, 2014 - The Two Pillars of JavaScript
 Part 1: How to Escape the 7th Circle of Hell
@@ -536,7 +538,6 @@ video notes:
 
 
 
-<!-- herehereherehere
 ## Jul 21, 2014 - Garbage In, Garbage Out
 
 Elliott’s Rule of Social Media
