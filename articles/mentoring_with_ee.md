@@ -498,7 +498,6 @@ On his next walk with Qc Na, Anton attempted to impress his master by saying “
 
 <script src="//repl.it/embed/GgO6/0.js"></script>
 
-<!-- herehereherehere
 
 
 ## Oct 21, 2014 - The Two Pillars of JavaScript
@@ -582,4 +581,5 @@ Eric Elliott in The Backer Army
 Another great way to help is to share this article with your friends."
 
 
+<!-- herehereherehere
 -->
