@@ -23,7 +23,10 @@
 
 # Book
 
-# Blog
+<detail>
+  <summary>
+    <h1>Blog</h1>
+  </summary>
 ```
 https://medium.com/@_ericelliott/latest
 jQuery('.streamItem-cardInner.streamItem-cardInner--postPreview').map((i,v)=>{
@@ -474,6 +477,7 @@ Why Every Kid Should Learn to Code
 ## Dec 29, 2014 - JavaScript Training Sucks
 99 out of 100 JS developers lack the skills they need to fill hundreds of…
 
+</detail>
 
 ## Dec 12, 2014 - The Two Pillars of JavaScript — Pt 2: Functional Programming
 How to Stop Micromanaging Everything
