@@ -478,6 +478,26 @@ Why Every Kid Should Learn to Code
 ## Dec 12, 2014 - The Two Pillars of JavaScript — Pt 2: Functional Programming
 How to Stop Micromanaging Everything
 
+
+"JavaScript is one of the most important programming languages of all time, not simply because of its popularity, but because it popularized two features which are extremely important for the evolution of programming:
+Prototypal Inheritance (objects without classes, and prototype delegation, aka OLOO — Objects Linking to Other Objects), and
+Functional Programming (enabled by lambdas with closure)"
+
+
+"The only way we’ll be able to keep up with the exponentially increasing complexity will be to decrease the complexity of understanding programs. To maintain the goliath apps of tomorrow, we must learn to build more expressive code. We must learn to write programs that are easier to reason about, debug, create, analyze, and understand.
+
+'Procedural programming and OOP are not going to get us where we need to go by themselves.'"
+
+
+"The venerable master Qc Na was walking with his student, Anton. Hoping to prompt the master into a discussion, Anton said “Master, I have heard that objects are a very good thing — is this true?” Qc Na looked pityingly at his student and replied, “Foolish pupil — objects are merely a poor man’s closures.”
+
+Chastised, Anton took his leave from his master and returned to his cell, intent on studying closures. He carefully read the entire “Lambda: The Ultimate…” series of papers and its cousins, and implemented a small Scheme interpreter with a closure-based object system. He learned much, and looked forward to informing his master of his progress.
+
+On his next walk with Qc Na, Anton attempted to impress his master by saying “Master, I have diligently studied the matter, and now understand that objects are truly a poor man’s closures.” Qc Na responded by hitting Anton with his stick, saying “When will you learn? Closures are a poor man’s object.” At that moment, Anton became enlightened.
+~ Anton van Straaten"
+
+<script src="//repl.it/embed/GgO6/0.js"></script>
+
 <!-- herehereherehere
 
 
