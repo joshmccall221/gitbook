@@ -16,6 +16,10 @@
   * [ ] “Programming JavaScript Applications”, Eric Elliott (book, free online, print & ebooks available)
   * [ ] “JavaScript: The Definitive Guide”, David Flanagan
   * [ ] “Essential JavaScript Links”
+  
+  Other reading: 
+  * [ ] “Design Patterns” book by the Gang of Four: 
+     “Program to an interface, not an implementation,” and “favor object composition over class inheritance.
 
 # Book
 
@@ -477,6 +481,30 @@ How to Stop Micromanaging Everything
 
 ## Oct 21, 2014 - The Two Pillars of JavaScript
 Part 1: How to Escape the 7th Circle of Hell
+* Prototypal Inheritance (objects without classes, and prototype delegation, aka OLOO — Objects Linking to Other Objects), and
+* Functional Programming (enabled by lambdas with closure)
+"... because JavaScript is pretty good at letting you code poorly if you don’t bother to learn it properly.
+This is actually a feature, because it makes it really easy to pick up JavaScript and start doing useful things with it, but that phase of your development as a JavaScript programmer should last no more than a year.
+If you haven’t yet, it’s time to level up."
+
+"...Classical deep inheritance trees always bothered me, especially in the context of web development where business needs are often a moving target."
+
+
+"Other good alternatives include making better use of JavaScript modules as an alternative to inheritance (I recommend npm and ES6 modules with Browserify or WebPack), or simply cloning objects by copying properties from a source object to a new object (e.g. `Object.assign()`, `$.extend()`, `_.extend()`, etc…)."
+
+"You never need classes in JavaScript, and I have never seen a situation where class is a better approach than the alternatives."
+
+"Another common argument that programmers use is that it should be up to them how they express themselves, as if code style rises to the level of art or fashion. This argument is a purely emotional and irrational:
+Your code isn’t the product of your self expression any more than a painter’s paintbrush is the product of their self expression. Code is the tool. The program is the product."
+
+
+
+
+
+
+
+
+
 
 
 ## Sep 28, 2014 - Fighting Poverty in Schools
