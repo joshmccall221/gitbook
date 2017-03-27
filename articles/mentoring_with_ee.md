@@ -1,38 +1,40 @@
+# Mentor with EE
+A place to keep notes and examples!
 
-# Vidoes:
-<iframe src="https://player.vimeo.com/video/101269995" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/101269995">Learn JavaScript with Eric Elliott</a> from <a href="https://vimeo.com/ericelliott">Eric Elliott</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+># Table of Contents
+  1. [Reading List](#reading-list)
+  2. [Blog](#blog)
+    - [Fighting Poverty with Code](#fighting-poverty-with-code)
+  3. [Book](#book)
+  4. [Videos](#videos)
 
-<iframe src="https://player.vimeo.com/video/69255635" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/69255635" > Classes vs Prototypes</a> from <a href="https://vimeo.com/ericelliott">Eric Elliott</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-# Reading List:
-### The essentials, in order:
+
+## Reading List: 
+>The essentials, in order:
   * [ ] Newbie friendly: Make a Star Wars Game with Hour of Code (free website)
   * [ ] Newbie friendly: “JavaScript for Cats”, Max Ogden (free website)
   * [-] Newbie friendly: FreeCodeCamp’s 10-hour Basic JavaScript track You can come back to FCC for more practice while you explore the rest of these resources. I recommend that you dedicate time to study other resources and do some fresh FCC exercises every day. There are hundreds of hours of exercises, in total, covering a lot more than just JavaScript.
   * [ ] “Eloquent JavaScript: Second Edition”, Marijn Haverbeke (book with free online edition)
-  * [ ] “The Two Pillars of JavaScript Part 1” on Prototypal OO, Eric Elliott (article, free)
-  * [ ] “The Two Pillars of JavaScript Part 2” on Functional Programming (article, free)
-  * [ ] “Learn JavaScript with Eric Elliott”, disclaimer: I’m Eric Elliott (online courses, includes detailed screencasts on ES6, React, TDD, and more…)
+  * [√] “The Two Pillars of JavaScript Part 1” on Prototypal OO, Eric Elliott (article, free)
+  * [√] “The Two Pillars of JavaScript Part 2” on Functional Programming (article, free)
+  * [-] “Learn JavaScript with Eric Elliott”, disclaimer: I’m Eric Elliott (online courses, includes detailed screencasts on ES6, React, TDD, and more…)
   * [ ] “Programming JavaScript Applications”, Eric Elliott (book, free online, print & ebooks available)
   * [ ] “JavaScript: The Definitive Guide”, David Flanagan
   * [ ] “Essential JavaScript Links”
-  
   Other reading: 
   * [ ] “Design Patterns” book by the Gang of Four: 
      “Program to an interface, not an implementation,” and “favor object composition over class inheritance.
 
-# Book
-
-<detail>
-  <summary>
-    <h1>Blog</h1>
-  </summary>
+[Back To Top](#mentor-with-ee)
+# Blog:
 ```
 https://medium.com/@_ericelliott/latest
 jQuery('.streamItem-cardInner.streamItem-cardInner--postPreview').map((i,v)=>{
   console.log(v.innerText); return v
  })
 ```
+<!-- 
 ## Mar 21 - Jam Session with Eric Elliott & James Womack: 
 #### How a Netflix Engineer Got Started with Code
 ## Mar 19 - setState() Gate
@@ -477,7 +479,8 @@ Why Every Kid Should Learn to Code
 ## Dec 29, 2014 - JavaScript Training Sucks
 99 out of 100 JS developers lack the skills they need to fill hundreds of…
 
-</detail>
+herehereherehere 
+-->
 
 ## Dec 12, 2014 - The Two Pillars of JavaScript — Pt 2: Functional Programming
 How to Stop Micromanaging Everything
@@ -503,7 +506,7 @@ On his next walk with Qc Na, Anton attempted to impress his master by saying “
 <script src="//repl.it/embed/GgO6/0.js"></script>
 
 
-
+[Back To Top](#mentor-with-ee)
 ## Oct 21, 2014 - The Two Pillars of JavaScript
 Part 1: How to Escape the 7th Circle of Hell
 * Prototypal Inheritance (objects without classes, and prototype delegation, aka OLOO — Objects Linking to Other Objects), and
@@ -531,6 +534,7 @@ Your code isn’t the product of your self expression any more than a painter’
 
 
 
+[Back To Top](#mentor-with-ee)
 
 ## Sep 28, 2014 - Fighting Poverty in Schools
 
@@ -544,22 +548,27 @@ How we act today will make or break our future
 
 "At several of my recent jobs, I’ve been tasked to hire developers who are ready to start contributing productively to applications that serve millions of monthly users. In case you’ve never tried to do this before, it’s very hard. "
 
+[Back To Top](#mentor-with-ee)
 ## Aug 3, 2014 - Learn JavaScript:
-9 Essential Resources
+
 "The fact is, most JavaScript training sucks."
 
+[Back To Top](#mentor-with-ee)
 ### Why JavaScript?
-<iframe src="https://player.vimeo.com/video/101269995" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/101269995">Learn JavaScript with Eric Elliott</a> from <a href="https://vimeo.com/ericelliott">Eric Elliott</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+[Back To Top](#mentor-with-ee)
+[Back To Top](#mentor-with-ee)
 
-The essentials, in order:
-**see reading list**
-
-<iframe src="https://player.vimeo.com/video/69255635" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/69255635" > Classes vs Prototypes</a> from <a href="https://vimeo.com/ericelliott">Eric Elliott</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-
-video notes:
-- JS is flexible 
+* [Learn JavaScript with Eric Elliott [video]](#learn-javaScript-with-eric-elliott)
+* [Classes vs Prototypes [video]](#classes-vs-prototypes)
 
 
+9 Essential Resources:
+
+[The essentials, in order:](#reading-list)
+
+
+
+[Back To Top](#mentor-with-ee)
 
 ## Jul 21, 2014 - Garbage In, Garbage Out
 
@@ -568,12 +577,16 @@ Curate the things you consume as carefully as you craft what you produce.
 ~ee
 
 
-Eric Elliott in The Backer Army
-## Jul 16, 2014 - If Your Head Isn’t In the Clouds, Chances Are You’re Not Soaring
+[Back To Top](#mentor-with-ee)
+## If Your Head Isn’t In the Clouds, Chances Are You’re Not Soaring
+#### Eric Elliott in The Backer Army
+Jul 16, 2014
 
 "Don’t make my mistake. Think of the seven people you love most in the world. For the next seven days, start each morning with a short letter. Reach out to one of your most cherished loved ones. Share this article and add a tale or two about the trouble you got up to when you were a little less wise and a little less aware of what you couldn’t (or shouldn’t) do. Tell them how much you love them. Believe me, it would mean the world to them."
 
-## Jul 8, 2014 - Fighting Poverty with Code
+[Back To Top](#mentor-with-ee)
+## Fighting Poverty with Code
+Jul 8, 2014 
 
 "Did you know it costs more money to let somebody sleep on the street than it costs to give them homes for free?"
 
@@ -584,6 +597,20 @@ Eric Elliott in The Backer Army
 "If you want to help, you can purchase a course bundle (you can give them as gifts or use them yourself. If you’re not sure who to give it to, we can refer you to a school or training program).
 Another great way to help is to share this article with your friends."
 
+[Back To Top](#mentor-with-ee)
 
-<!-- herehereherehere
--->
+## Book:
+
+
+[Back To Top](#mentor-with-ee)
+
+## Videos:
+## Learn JavaScript with Eric Elliott
+
+<iframe src="https://player.vimeo.com/video/101269995" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+
+## Classes vs Prototypes
+<iframe src="https://player.vimeo.com/video/69255635" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+
+
+[Back To Top](#mentor-with-ee)
