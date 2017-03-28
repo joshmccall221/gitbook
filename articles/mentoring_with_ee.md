@@ -3,10 +3,11 @@ A place to keep notes and examples!
 
 ># Table of Contents
   1. [Reading List](#reading-list)
-  2. [Blog](#blog)
-    - [Fighting Poverty with Code](#fighting-poverty-with-code)
-  3. [Book](#book)
-  4. [Videos](#videos)
+  2. [Mentoring with EE]
+  3. [Blog](#blog)
+      - [Fighting Poverty with Code](#fighting-poverty-with-code)
+  4. [Book](#book)
+  5. [Videos](#videos)
 
 
 
@@ -26,6 +27,12 @@ A place to keep notes and examples!
   * [ ] “Design Patterns” book by the Gang of Four: 
      “Program to an interface, not an implementation,” and “favor object composition over class inheritance.
 
+
+
+[Back To Top](#mentor-with-ee)
+# Mentoring with EE:
+
+<script src="//repl.it/embed/GhUC/0.js"></script>
 [Back To Top](#mentor-with-ee)
 # Blog:
 ```
