@@ -372,5 +372,7 @@ to connect:
 nmcli connection up <NAME OF WIFI NETWORK>
 ```
 
+## Guides: 
+
 - http://www.zdnet.com/article/hands-on-with-the-i3-window-manager-installing-configuring-and-using/
 - https://tribaal.io/using-i3.html
