@@ -354,3 +354,20 @@ the copyright notice and this permission notice are preserved on all copies.
 </p>
 </section></div>
 
+## Network Manager 
+- http://askubuntu.com/a/233489
+
+First, you need to check the network-manager service status. Press Mod4(super key) and Enter/Return key and type this commands:
+```
+sudo service network-manager status
+```
+If it is up and running, next, check the available wifi networks:
+
+```
+nmcli connection show
+```
+to connect:
+
+```
+nmcli connection up <NAME OF WIFI NETWORK>
+```
