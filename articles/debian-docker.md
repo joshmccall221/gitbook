@@ -13,7 +13,8 @@
 
 ## Linux bootcamp: From casual Linux user to kernel hacker
 - https://conferences.oreilly.com/oscon/open-source-2015/public/schedule/detail/41300
-- https://usesthis.com/interviews/jessie.frazelle/https://www.safaribooksonline.com/library/view/oscon-2015-complete/9781491927991/video217962.html
+- https://usesthis.com/interviews/jessie.frazelle/ 
+- https://www.safaribooksonline.com/library/view/oscon-2015-complete/9781491927991/video217962.html
 
 ## Two step process:
 - vagrant init debian/jessie64; vagrant up --provider virtualbox; vagrant ssh
