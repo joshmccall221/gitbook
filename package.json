@@ -9,6 +9,7 @@
     "doc": "docs"
   },
   "scripts": {
+    "nvm": "curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash; . ~/.nvm/nvm.sh; nvm install 5; nvm use 5",
     "docs": "npm i; npm run docs:publish && git add . && git commit -am 'gitbook updates' && git push",
     "docs:publish": "npm run docs:clean && npm run docs:build  && cd _book && echo joshuamccall.com  > CNAME && git init && git config --global user.name 'Josh McCall' &&  git config --global user.email joshmccall221@gmail.com && git commit --allow-empty -m 'Update docs and examples' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'Update docs and examples' && git push https://github.com/joshmccall221/gitbook.git gh-pages --force",
     "docs:clean": "rimraf _book",
