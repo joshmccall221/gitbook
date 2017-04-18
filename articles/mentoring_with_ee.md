@@ -7,7 +7,7 @@ A place to keep notes and examples!
   3. [Blog](#blog)
       - [Fighting Poverty with Code](#fighting-poverty-with-code)
       - [Garbage In Garbage Out](#garbage-in-garbage-out)
-      - [If Your Head Isn’t In the Clouds, Chances Are You’re Not Soaring](if-your-head-isn’t-in-the-clouds-chances-are-youre-not-soaring)
+      - [If Your Head Isn’t In the Clouds, Chances Are You’re Not Soaring](if-your-head-isnt-in-the-clouds-chances-are-youre-not-soaring)
   4. [Book](#book)
   5. [Videos](#videos)
 
