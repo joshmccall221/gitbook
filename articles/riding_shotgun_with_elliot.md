@@ -11,6 +11,8 @@
 ### Medium
 * [Medium-Shotgun: JavaScript Video Experience](https://medium.com/javascript-scene/shotgun-javascript-video-experience-c8b6a7771d49#.ji1oacpto)
 
+### Word Press
+* [ericleads wordpress](https://ericleads.wordpress.com/)
 ### Github
 * [github - ericelliott/react-pure-component-starter](https://github.com/ericelliott/react-pure-component-starter)
 

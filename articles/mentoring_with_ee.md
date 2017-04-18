@@ -5,6 +5,9 @@ A place to keep notes and examples!
   1. [Reading List](#reading-list)
   2. [Mentoring with EE](#mentoring-with-ee)
   3. [Blog](#blog)
+      - [The Cure for Homelessness](#the-cure-for-homelessness)
+      - [Programming Literacy](# Programming Literacy)
+      - [JavaScript Training Sucks](#javaScript-training-Sucks)
       - [The Two Pillars of JavaScript Pt 2](#the-two-pillars-of-javascript-pt-2)
       - [The Two Pillars of JavaScript](#the-two-pillars-of-javascript)
       - [Learn JavaScript](#learn-javascript)
@@ -15,6 +18,9 @@ A place to keep notes and examples!
   5. [Videos](#videos)
 
 
+
+## Useful Links: 
+> see [Useful Links:](http://joshuamccall.com/articles/riding_shotgun_with_elliot.html)
 
 ## Reading List: 
 >The essentials, in order:
@@ -474,30 +480,43 @@ WAT? [wat] — interjection: A sound a programmer makes when…
 ## Apr 10, 2015 - The Compassion Challenge
 Why Your Worst Pain is Your Biggest Opportunity
 
+[Back To Top](#mentor-with-ee)
+herehereherehere 
+-->
 
 ## Apr 9, 2015 - The Dao of Immutability
 The Way of the Functional Programmer
 Forward
 
 
+[Back To Top](#mentor-with-ee)
 ## Mar 3, 2015 - How to Fix the ES6 `class` keyword
 Make class inheritance compositional similar to the way stamps are…
 
 
-## Feb 8, 2015 - The Cure for Homelessness
+[Back To Top](#mentor-with-ee)
+## The Cure for Homelessness
+Feb 8, 2015
 How Tech can Bridge the Income Gap
 
 
-## Jan 23, 2015 - Programming Literacy
+[Back To Top](#mentor-with-ee)
+## Programming Literacy
+Jan 23, 2015
 Why Every Kid Should Learn to Code
 
 
-## Dec 29, 2014 - JavaScript Training Sucks
-99 out of 100 JS developers lack the skills they need to fill hundreds of…
+[Back To Top](#mentor-with-ee)
+## JavaScript Training Sucks
+Dec 29, 2014
 
-herehereherehere 
--->
+  "99 out of 100 JS developers lack the skills they need to fill hundreds of…"
 
+  "npm is the largest programming language package repository in the world."
+
+  "You’re paying people to slow the rest of the team down. "
+
+[Back To Top](#mentor-with-ee)
 ## The Two Pillars of JavaScript Pt 2
 (Functional Programming)
 Dec 12, 2014
