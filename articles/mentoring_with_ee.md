@@ -33,14 +33,18 @@ A place to keep notes and examples!
 # Mentoring with EE:
 
 <script src="//repl.it/embed/GhUC/0.js"></script>
+
 [Back To Top](#mentor-with-ee)
+
 # Blog:
+
 ```
 https://medium.com/@_ericelliott/latest
 jQuery('.streamItem-cardInner.streamItem-cardInner--postPreview').map((i,v)=>{
   console.log(v.innerText); return v
  })
 ```
+
 <!-- 
 ## Mar 21 - Jam Session with Eric Elliott & James Womack: 
 #### How a Netflix Engineer Got Started with Code
