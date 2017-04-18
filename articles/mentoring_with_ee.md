@@ -5,8 +5,12 @@ A place to keep notes and examples!
   1. [Reading List](#reading-list)
   2. [Mentoring with EE]
   3. [Blog](#blog)
+      - [The Two Pillars of JavaScript Pt 2](#the-two-pillars-of-javaScript-pt-2)
+      - [The Two Pillars of JavaScript](#the-two-pillars-of-javaScript)
       - [Fighting Poverty with Code](#fighting-poverty-with-code)
+      - [Learn JavaScript](#learn-javaScript)
       - [Garbage In Garbage Out](#garbage-in-garbage-out)
+      - [Fighting Poverty in Schools](#fighting-poverty-in-schools)
       - [If Your Head Isn’t In the Clouds, Chances Are You’re Not Soaring](#if-your-head-isnt-in-the-clouds-chances-are-youre-not-soaring)
   4. [Book](#book)
   5. [Videos](#videos)
@@ -495,7 +499,9 @@ Why Every Kid Should Learn to Code
 herehereherehere 
 -->
 
-## Dec 12, 2014 - The Two Pillars of JavaScript — Pt 2: Functional Programming
+## The Two Pillars of JavaScript Pt 2
+(Functional Programming)
+Dec 12, 2014
 
 How to Stop Micromanaging Everything
 
@@ -522,7 +528,9 @@ On his next walk with Qc Na, Anton attempted to impress his master by saying “
 
 [Back To Top](#mentor-with-ee)
 
-## Oct 21, 2014 - The Two Pillars of JavaScript
+## The Two Pillars of JavaScript
+Oct 21, 2014
+
 Part 1: How to Escape the 7th Circle of Hell
 * Prototypal Inheritance (objects without classes, and prototype delegation, aka OLOO — Objects Linking to Other Objects), and
 * Functional Programming (enabled by lambdas with closure)
@@ -542,16 +550,10 @@ Your code isn’t the product of your self expression any more than a painter’
 
 
 
-
-
-
-
-
-
-
 [Back To Top](#mentor-with-ee)
 
-## Sep 28, 2014 - Fighting Poverty in Schools
+## Fighting Poverty in Schools
+Sep 28, 2014 
 
 How we act today will make or break our future
 
@@ -564,14 +566,15 @@ How we act today will make or break our future
 "At several of my recent jobs, I’ve been tasked to hire developers who are ready to start contributing productively to applications that serve millions of monthly users. In case you’ve never tried to do this before, it’s very hard. "
 
 [Back To Top](#mentor-with-ee)
-## Aug 3, 2014 - Learn JavaScript:
+
+## Learn JavaScript
+Aug 3, 2014
 
 "The fact is, most JavaScript training sucks."
 
 [Back To Top](#mentor-with-ee)
+
 ### Why JavaScript?
-[Back To Top](#mentor-with-ee)
-[Back To Top](#mentor-with-ee)
 
 * [Learn JavaScript with Eric Elliott [video]](#learn-javaScript-with-eric-elliott)
 * [Classes vs Prototypes [video]](#classes-vs-prototypes)
@@ -580,7 +583,6 @@ How we act today will make or break our future
 9 Essential Resources:
 
 [The essentials, in order:](#reading-list)
-
 
 
 [Back To Top](#mentor-with-ee)
@@ -594,6 +596,7 @@ Curate the things you consume as carefully as you craft what you produce.
 
 
 [Back To Top](#mentor-with-ee)
+
 ## If Your Head Isnt In the Clouds Chances Are Youre Not Soaring
 #### Eric Elliott in The Backer Army
 Jul 16, 2014
@@ -601,6 +604,7 @@ Jul 16, 2014
 "Don’t make my mistake. Think of the seven people you love most in the world. For the next seven days, start each morning with a short letter. Reach out to one of your most cherished loved ones. Share this article and add a tale or two about the trouble you got up to when you were a little less wise and a little less aware of what you couldn’t (or shouldn’t) do. Tell them how much you love them. Believe me, it would mean the world to them."
 
 [Back To Top](#mentor-with-ee)
+
 ## Fighting Poverty with Code
 Jul 8, 2014 
 
