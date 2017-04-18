@@ -5,8 +5,8 @@ A place to keep notes and examples!
   1. [Reading List](#reading-list)
   2. [Mentoring with EE]
   3. [Blog](#blog)
-      - [The Two Pillars of JavaScript Pt 2](#the-two-pillars-of-javaScript-pt-2)
-      - [The Two Pillars of JavaScript](#the-two-pillars-of-javaScript)
+      - [The Two Pillars of JavaScript Pt 2](#the-two-pillars-of-javascript-pt-2)
+      - [The Two Pillars of JavaScript](#the-two-pillars-of-javascript)
       - [Fighting Poverty with Code](#fighting-poverty-with-code)
       - [Learn JavaScript](#learn-javaScript)
       - [Garbage In Garbage Out](#garbage-in-garbage-out)
