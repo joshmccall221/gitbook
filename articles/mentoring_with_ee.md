@@ -10,8 +10,8 @@ A place to keep notes and examples!
       - [Fighting Poverty with Code](#fighting-poverty-with-code)
       - [Learn JavaScript](#learn-javaScript)
       - [Garbage In Garbage Out](#garbage-in-garbage-out)
-      - [Fighting Poverty in Schools](#fighting-poverty-in-schools)
       - [If Your Head Isn’t In the Clouds, Chances Are You’re Not Soaring](#if-your-head-isnt-in-the-clouds-chances-are-youre-not-soaring)
+      - [Fighting Poverty in Schools](#fighting-poverty-in-schools)
   4. [Book](#book)
   5. [Videos](#videos)
 
@@ -574,7 +574,7 @@ Aug 3, 2014
 
 [Back To Top](#mentor-with-ee)
 
-### Why JavaScript?
+#### Why JavaScript?
 
 * [Learn JavaScript with Eric Elliott [video]](#learn-javaScript-with-eric-elliott)
 * [Classes vs Prototypes [video]](#classes-vs-prototypes)
