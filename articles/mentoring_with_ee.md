@@ -594,7 +594,7 @@ Curate the things you consume as carefully as you craft what you produce.
 
 
 [Back To Top](#mentor-with-ee)
-## If Your Head Isnt In the Clouds Chances Are Youre Not Soaring
+## If Your Head Isnt In the Clouds Chances Are Youre Not Soaring
 #### Eric Elliott in The Backer Army
 Jul 16, 2014
 
