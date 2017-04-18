@@ -488,6 +488,7 @@ herehereherehere
 
 ## The Dao of Immutability
 Apr 9, 2015
+
 [The Way of the Functional Programmer](https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd)
 
 see:  [Introduction to Functional Programming Webcast Recording](#introduction-to-functional-programming-webcast-recording)
