@@ -490,6 +490,7 @@ herehereherehere
 -->
 
 ## Dec 12, 2014 - The Two Pillars of JavaScript — Pt 2: Functional Programming
+
 How to Stop Micromanaging Everything
 
 
@@ -514,6 +515,7 @@ On his next walk with Qc Na, Anton attempted to impress his master by saying “
 
 
 [Back To Top](#mentor-with-ee)
+
 ## Oct 21, 2014 - The Two Pillars of JavaScript
 Part 1: How to Escape the 7th Circle of Hell
 * Prototypal Inheritance (objects without classes, and prototype delegation, aka OLOO — Objects Linking to Other Objects), and
