@@ -499,7 +499,7 @@ Why Every Kid Should Learn to Code
 herehereherehere 
 -->
 
-## The Two Pillars of JavaScript Pt 2
+## The Two Pillars of JavaScript Pt 2
 (Functional Programming)
 Dec 12, 2014
 
