@@ -3,7 +3,7 @@ A place to keep notes and examples!
 
 ># Table of Contents
   1. [Reading List](#reading-list)
-  2. [Mentoring with EE]
+  2. [Mentoring with EE](#mentoring-with-ee)
   3. [Blog](#blog)
       - [The Two Pillars of JavaScript Pt 2](#the-two-pillars-of-javascript-pt-2)
       - [The Two Pillars of JavaScript](#the-two-pillars-of-javascript)
