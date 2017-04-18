@@ -6,6 +6,8 @@ A place to keep notes and examples!
   2. [Mentoring with EE]
   3. [Blog](#blog)
       - [Fighting Poverty with Code](#fighting-poverty-with-code)
+      - [Garbage In, Garbage Out](#garbage-in,-garbage-out)
+      - [If Your Head Isn’t In the Clouds, Chances Are You’re Not Soaring] (if-your-head-isn’t-in-the-clouds,-chances-are-you’re-not-soaring)
   4. [Book](#book)
   5. [Videos](#videos)
 
@@ -583,7 +585,8 @@ How we act today will make or break our future
 
 [Back To Top](#mentor-with-ee)
 
-## Jul 21, 2014 - Garbage In, Garbage Out
+## Garbage In, Garbage Out
+Jul 21, 2014 
 
 Elliott’s Rule of Social Media
 Curate the things you consume as carefully as you craft what you produce.
