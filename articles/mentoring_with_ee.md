@@ -5,6 +5,8 @@ A place to keep notes and examples!
   1. [Reading List](#reading-list)
   2. [Mentoring with EE](#mentoring-with-ee)
   3. [Blog](#blog)
+      - [The Dao of Immutability](#the-dao-of-immutability)
+      - [How to Fix the ES6 class keyword](#how-to-fix-the-es6-class-keyword)
       - [The Cure for Homelessness](#the-cure-for-homelessness)
       - [Programming Literacy](# Programming Literacy)
       - [JavaScript Training Sucks](#javaScript-training-Sucks)
@@ -484,20 +486,23 @@ Why Your Worst Pain is Your Biggest Opportunity
 herehereherehere 
 -->
 
-## Apr 9, 2015 - The Dao of Immutability
-The Way of the Functional Programmer
-Forward
+## The Dao of Immutability
+Apr 9, 2015
+[The Way of the Functional Programmer](https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd)
 
+see:  [Introduction to Functional Programming Webcast Recording](#introduction-to-functional-programming-webcast-recording)
+[Introduction to Functional Programming Webcast Recording](https://ericelliottjs.com/product/webcast-the-two-pillars-of-javascript-introduction-to-functional-programming/)
 
 [Back To Top](#mentor-with-ee)
-## Mar 3, 2015 - How to Fix the ES6 `class` keyword
-Make class inheritance compositional similar to the way stamps are…
-
+## How to Fix the ES6 class keyword
+Mar 3, 2015
+[Make class inheritance compositional similar to the way stamps are…](https://medium.com/javascript-scene/how-to-fix-the-es6-class-keyword-2d42bb3f4caf)
+>"TL;DR Because of associated dangers with them (which have caused a lot of real damage to a lot of real projects) we need the ability to disallow `new`, `extends`, `super`, & `instanceof` in our lint rules. ES6 class won’t let us disallow `new` without throwing errors."
 
 [Back To Top](#mentor-with-ee)
 ## The Cure for Homelessness
 Feb 8, 2015
-How Tech can Bridge the Income Gap
+How Tech can Bridge the Income Gap
 
 
 [Back To Top](#mentor-with-ee)
@@ -651,4 +656,6 @@ Another great way to help is to share this article with your friends."
 <iframe src="https://player.vimeo.com/video/69255635" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 
 
+## Introduction to Functional Programming Webcast Recording
+[Introduction to Functional Programming Webcast Recording](https://ericelliottjs.com/product/webcast-the-two-pillars-of-javascript-introduction-to-functional-programming/)
 [Back To Top](#mentor-with-ee)

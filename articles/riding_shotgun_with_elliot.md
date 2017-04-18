@@ -13,6 +13,7 @@
 
 ### Word Press
 * [ericleads wordpress](https://ericleads.wordpress.com/)
+
 ### Github
 * [github - ericelliott/react-pure-component-starter](https://github.com/ericelliott/react-pure-component-starter)
 
