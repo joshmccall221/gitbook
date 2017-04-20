@@ -5,6 +5,11 @@ A place to keep notes and examples!
   1. [Reading List](#reading-list)
   2. [Mentoring with EE](#mentoring-with-ee)
   3. [Blog](#blog)
+      - [Curry or Partial Application?](#curry-or-partial-application?)
+      - [Why I use Tape Instead of Mocha & So Should You](#why-i-use-tape-instead-of-mocha-&-so-should-you)
+      - [Why We Need WebAssembly An Interview with Brendan Eich](#why-we-need-webassembly-an-interview-with-brendan-eich)
+      - [JavaScript Scene Tech Survey Results](#javascript-scene-tech-survey-results)
+      - [What is WebAssembly The Dawn of a New Era](#what-is-webassembly-the-dawn-of-a-new-era)
       - [Babys First Reaction](#babys-first-reaction)
       - [JSX Looks Like An Abomination](#jsx-looks-like-an-abomination)
       - [Why Hiring is So Hard in Tech](#why-hiring-is-so-hard-in-tech)
@@ -442,29 +447,42 @@ Be the Quantum Leap
 A high-tech video time capsule from my future self
 
 
-## Jul 20, 2015 - Curry or Partial Application?
-The Difference Between Partial Application and Curry
-
-
-## Jul 12, 2015 - Why I use Tape Instead of Mocha & So Should You
-Measuring Software Quality
-
-
-## Jun 27, 2015 - Why We Need WebAssembly: An Interview with Brendan Eich
-Brendan Eich & Eric Elliott Discuss…
-
-
-## Jun 21, 2015 - JavaScript Scene Tech Survey Results
-ES6, Node, React, Angular…
-
-
-## Jun 18, 2015 - What is WebAssembly? The Dawn of a New Era
-Why the future of the web platform looks brighter than ever.
-
 [Back To Top](#mentor-with-ee)
 herehereherehere 
 -->
+[Back To Top](#mentor-with-ee)
+## Curry or Partial Application?
+Jul 20, 2015
+The Difference Between Partial Application and Curry
 
+
+## Why I use Tape Instead of Mocha & So Should You
+Jul 12, 2015
+[Measuring Software Quality](https://medium.com/javascript-scene/why-we-need-webassembly-an-interview-with-brendan-eich-7fb2a60b0723)
+
+
+## Why We Need WebAssembly An Interview with Brendan Eich
+Jun 27, 2015
+
+[Brendan Eich & Eric Elliott Discuss…](https://medium.com/javascript-scene/why-we-need-webassembly-an-interview-with-brendan-eich-7fb2a60b0723)
+
+
+[Back To Top](#mentor-with-ee)
+## JavaScript Scene Tech Survey Results
+Jun 21, 2015
+
+[ES6, Node, React, Angular…](https://medium.com/javascript-scene/javascript-scene-tech-survey-d2449a529ed)
+
+
+[Back To Top](#mentor-with-ee)
+## What is WebAssembly The Dawn of a New Era
+Jun 18, 2015
+
+[Pedalboardjs](http://dashersw.github.io/pedalboard.js/demo/)
+
+[Why the future of the web platform looks brighter than ever.](https://medium.com/javascript-scene/what-is-webassembly-the-dawn-of-a-new-era-61256ec5a8f6)
+
+[Back To Top](#mentor-with-ee)
 ## Babys First Reaction
 May 27, 2015
 A “Hello, World” Example for React
