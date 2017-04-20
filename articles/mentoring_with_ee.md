@@ -5,6 +5,12 @@ A place to keep notes and examples!
   1. [Reading List](#reading-list)
   2. [Mentoring with EE](#mentoring-with-ee)
   3. [Blog](#blog)
+      - [Why Hiring is So Hard in Tech](#Why-hiring-is-so-hard-in-tech)
+      - [Assessing Employee Performance](#assessing-employee-performance)
+      - [How to Use ES6 for Universal JavaScript Apps](#how-to-use-es6-for-universal-javascript-apps)
+      - [Common Misconceptions About Inheritance in JavaScript](#common-misconceptions-about-inheritance-in-javascript)
+      - [Common Misconceptions About Inheritance in JavaScript](#common-misconceptions-about-inheritance-in-javaScript)
+      - [The Compassion Challenge](#the-compassion-challenge)
       - [The Dao of Immutability](#the-dao-of-immutability)
       - [How to Fix the ES6 class keyword](#how-to-fix-the-es6-class-keyword)
       - [The Cure for Homelessness](#the-cure-for-homelessness)
@@ -32,6 +38,7 @@ A place to keep notes and examples!
   * [ ] “Eloquent JavaScript: Second Edition”, Marijn Haverbeke (book with free online edition)
   * [√] “The Two Pillars of JavaScript Part 1” on Prototypal OO, Eric Elliott (article, free)
   * [√] “The Two Pillars of JavaScript Part 2” on Functional Programming (article, free)
+  * [√] [Introduction to Functional Programming Webcast Recording](#introduction-to-functional-programming-webcast-recording)
   * [-] “Learn JavaScript with Eric Elliott”, disclaimer: I’m Eric Elliott (online courses, includes detailed screencasts on ES6, React, TDD, and more…)
   * [ ] “Programming JavaScript Applications”, Eric Elliott (book, free online, print & ebooks available)
   * [ ] “JavaScript: The Definitive Guide”, David Flanagan
@@ -463,36 +470,52 @@ But it’s Good for You
 TL;DR
 
 
-## May 13, 2015 - Why Hiring is So Hard in Tech
+[Back To Top](#mentor-with-ee)
+herehereherehere 
+-->
+## Why Hiring is So Hard in Tech
+May 13, 2015
 
 Talent Shortage
 
 
-## May 8, 2015 - Assessing Employee Performance
+[Back To Top](#mentor-with-ee)
+## Assessing Employee Performance
+May 8, 2015
+
 You’re Doing it Rong
 
 
-## Apr 28, 2015 - How to Use ES6 for Universal JavaScript Apps
+[Back To Top](#mentor-with-ee)
+## How to Use ES6 for Universal JavaScript Apps
+May 8, 2015
+
 ES6 is final. It’s time to start using it for production…
 
 
-## Apr 17, 2015 - Common Misconceptions About Inheritance in JavaScript
-WAT? [wat] — interjection: A sound a programmer makes when…
+[Back To Top](#mentor-with-ee)
+## Common Misconceptions About Inheritance in JavaScript
+Apr 17, 2015
 
-## Apr 10, 2015 - The Compassion Challenge
-Why Your Worst Pain is Your Biggest Opportunity
+WAT? [wat] — interjection: A sound a programmer makes when…
+>TL;DR:
+* A class is a blueprint.
+* A prototype is an object instance.
+
 
 [Back To Top](#mentor-with-ee)
-herehereherehere 
--->
+## The Compassion Challenge
+Apr 10, 2015
 
+[Why Your Worst Pain is Your Biggest Opportunity](https://medium.com/javascript-scene/the-compassion-challenge-bf6b67f6c698)
+
+[Back To Top](#mentor-with-ee)
 ## The Dao of Immutability
 Apr 9, 2015
 
 [The Way of the Functional Programmer](https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd)
 
 see:  [Introduction to Functional Programming Webcast Recording](#introduction-to-functional-programming-webcast-recording)
-[Introduction to Functional Programming Webcast Recording](https://ericelliottjs.com/product/webcast-the-two-pillars-of-javascript-introduction-to-functional-programming/)
 
 [Back To Top](#mentor-with-ee)
 ## How to Fix the ES6 class keyword
@@ -657,6 +680,6 @@ Another great way to help is to share this article with your friends."
 <iframe src="https://player.vimeo.com/video/69255635" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 
 
-## Introduction to Functional Programming Webcast Recording
+## Introduction to Functional Programming Webcast
 [Introduction to Functional Programming Webcast Recording](https://ericelliottjs.com/product/webcast-the-two-pillars-of-javascript-introduction-to-functional-programming/)
 [Back To Top](#mentor-with-ee)
