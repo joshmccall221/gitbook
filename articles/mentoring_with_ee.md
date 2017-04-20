@@ -5,8 +5,8 @@ A place to keep notes and examples!
   1. [Reading List](#reading-list)
   2. [Mentoring with EE](#mentoring-with-ee)
   3. [Blog](#blog)
-      - [Curry or Partial Application?](#curry-or-partial-application?)
-      - [Why I use Tape Instead of Mocha & So Should You](#why-i-use-tape-instead-of-mocha-&-so-should-you)
+      - [Curry or Partial Application](#curry-or-partial-application)
+      - [Why I use Tape Instead of Mocha and So Should You](#why-i-use-tape-instead-of-mocha-and-so-should-you)
       - [Why We Need WebAssembly An Interview with Brendan Eich](#why-we-need-webassembly-an-interview-with-brendan-eich)
       - [JavaScript Scene Tech Survey Results](#javascript-scene-tech-survey-results)
       - [What is WebAssembly The Dawn of a New Era](#what-is-webassembly-the-dawn-of-a-new-era)
@@ -451,12 +451,12 @@ A high-tech video time capsule from my future self
 herehereherehere 
 -->
 [Back To Top](#mentor-with-ee)
-## Curry or Partial Application?
+## Curry or Partial Application
 Jul 20, 2015
 The Difference Between Partial Application and Curry
 
 
-## Why I use Tape Instead of Mocha & So Should You
+## Why I use Tape Instead of Mocha and So Should You
 Jul 12, 2015
 [Measuring Software Quality](https://medium.com/javascript-scene/why-we-need-webassembly-an-interview-with-brendan-eich-7fb2a60b0723)
 
