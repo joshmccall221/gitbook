@@ -5,7 +5,9 @@ A place to keep notes and examples!
   1. [Reading List](#reading-list)
   2. [Mentoring with EE](#mentoring-with-ee)
   3. [Blog](#blog)
-      - [Why Hiring is So Hard in Tech](#Why-hiring-is-so-hard-in-tech)
+      - [Babys First Reaction](#babys-first-reaction)
+      - [JSX Looks Like An Abomination](#jsx-looks-like-an-abomination)
+      - [Why Hiring is So Hard in Tech](#why-hiring-is-so-hard-in-tech)
       - [Assessing Employee Performance](#assessing-employee-performance)
       - [How to Use ES6 for Universal JavaScript Apps](#how-to-use-es6-for-universal-javascript-apps)
       - [Common Misconceptions About Inheritance in JavaScript](#common-misconceptions-about-inheritance-in-javascript)
@@ -459,40 +461,45 @@ ES6, Node, React, Angular…
 ## Jun 18, 2015 - What is WebAssembly? The Dawn of a New Era
 Why the future of the web platform looks brighter than ever.
 
-
-## May 27, 2015 - Baby’s First Reaction
-A “Hello, World” Example for React
-Getting Started With React
-
-
-## May 20, 2015 - JSX Looks Like An Abomination
-But it’s Good for You
-TL;DR
-
-
 [Back To Top](#mentor-with-ee)
 herehereherehere 
 -->
-## Why Hiring is So Hard in Tech
+
+## Babys First Reaction
+May 27, 2015
+A “Hello, World” Example for React
+[Getting Started With React](https://medium.com/javascript-scene/baby-s-first-reaction-2103348eccdd)
+
+
+[Back To Top](#mentor-with-ee)
+## JSX Looks Like An Abomination
+May 20, 2015
+[But it’s Good for You](https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918)
+
+
+[Back To Top](#mentor-with-ee)
+## Why Hiring is So Hard in Tech
 May 13, 2015
 
-Talent Shortage
+[Talent Shortage](https://medium.com/javascript-scene/why-hiring-is-so-hard-in-tech-c462c3230017)
 
 
 [Back To Top](#mentor-with-ee)
 ## Assessing Employee Performance
 May 8, 2015
 
-You’re Doing it Rong
+[You’re Doing it Rong](https://medium.com/javascript-scene/assessing-employee-performance-1a8bdee45c1a)
 
-
+[Assessing Employee Performance](https://medium.com/javascript-scene/assessing-employee-performance-1a8bdee45c1a)
 [Back To Top](#mentor-with-ee)
 ## How to Use ES6 for Universal JavaScript Apps
 May 8, 2015
 
 ES6 is final. It’s time to start using it for production…
 [How to Use ES6 for Universal JavaScript Apps](https://medium.com/javascript-scene/how-to-use-es6-for-isomorphic-javascript-apps-2a9c3abe5ea2)
+
 [boilerplate](https://github.com/cloverfield-tools/prod-module-boilerplate)
+
 [Back To Top](#mentor-with-ee)
 ## Common Misconceptions About Inheritance in JavaScript
 Apr 17, 2015
