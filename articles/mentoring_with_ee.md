@@ -5,6 +5,8 @@ A place to keep notes and examples!
   1. [Reading List](#reading-list)
   2. [Mentoring with EE](#mentoring-with-ee)
   3. [Blog](#blog)
+      - [How to Build a High Velocity Development Team](#how-to-build-a-high-velocity-development-team)
+      - [ Get Ready for the Future ](#get-ready-for-the-future)
       - [Curry or Partial Application](#curry-or-partial-application)
       - [Why I use Tape Instead of Mocha and So Should You](#why-i-use-tape-instead-of-mocha-and-so-should-you)
       - [Why We Need WebAssembly An Interview with Brendan Eich](#why-we-need-webassembly-an-interview-with-brendan-eich)
@@ -435,32 +437,38 @@ Once in a while, I find a product so good that it makes a…
 How to Write Better Tests
 Most Developers Don’t…
 
-
-## Jul 27, 2015 -
-
-How to Build a High Velocity
-Development Team
-Be the Quantum Leap
-
-
-## Jul 24, 2015 - Get Ready for the Future
-A high-tech video time capsule from my future self
-
-
 [Back To Top](#mentor-with-ee)
 herehereherehere 
 -->
+
+## How to Build a High Velocity Development Team
+Jul 27, 2015
+
+[ Be the Quantum Leap ](https://medium.com/javascript-scene/how-to-build-a-high-velocity-development-team-4b2360d34021)
+
+
+[Back To Top](#mentor-with-ee)
+## Get Ready for the Future
+Jul 24, 2015
+
+[ A high-tech video time capsule from my future self ](https://medium.com/javascript-scene/get-ready-for-the-future-f4cf7610b985)
+
+
 [Back To Top](#mentor-with-ee)
 ## Curry or Partial Application
 Jul 20, 2015
-The Difference Between Partial Application and Curry
 
+[ The Difference Between Partial Application and Curry ](https://medium.com/javascript-scene/curry-or-partial-application-8150044c78b8)
 
+see video: [Practical Functional Programing](#practical-functional-programing)
+
+[Back To Top](#mentor-with-ee)
 ## Why I use Tape Instead of Mocha and So Should You
 Jul 12, 2015
-[Measuring Software Quality](https://medium.com/javascript-scene/why-we-need-webassembly-an-interview-with-brendan-eich-7fb2a60b0723)
 
+"If you get your kicks burning money, use Mocha, Jasmine, Jest, etc… But if you value your time, keep reading."
 
+[Back To Top](#mentor-with-ee)
 ## Why We Need WebAssembly An Interview with Brendan Eich
 Jun 27, 2015
 
@@ -709,4 +717,9 @@ Another great way to help is to share this article with your friends."
 
 ## Introduction to Functional Programming Webcast
 [Introduction to Functional Programming Webcast Recording](https://ericelliottjs.com/product/webcast-the-two-pillars-of-javascript-introduction-to-functional-programming/)
+
+## Practical Functional Programing
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XcS-LdEBUkE" frameborder="0" allowfullscreen></iframe>
+
+
 [Back To Top](#mentor-with-ee)
