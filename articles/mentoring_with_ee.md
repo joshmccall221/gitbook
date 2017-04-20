@@ -491,8 +491,8 @@ You’re Doing it Rong
 May 8, 2015
 
 ES6 is final. It’s time to start using it for production…
-
-
+[How to Use ES6 for Universal JavaScript Apps](https://medium.com/javascript-scene/how-to-use-es6-for-isomorphic-javascript-apps-2a9c3abe5ea2)
+[boilerplate](https://github.com/cloverfield-tools/prod-module-boilerplate)
 [Back To Top](#mentor-with-ee)
 ## Common Misconceptions About Inheritance in JavaScript
 Apr 17, 2015
@@ -502,6 +502,7 @@ WAT? [wat] — interjection: A sound a programmer makes when…
 * A class is a blueprint.
 * A prototype is an object instance.
 
+[Common Misconceptions About Inheritance in JavaScript](https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a)
 
 [Back To Top](#mentor-with-ee)
 ## The Compassion Challenge
