@@ -446,6 +446,16 @@ Jul 27, 2015
 
 [ Be the Quantum Leap ](https://medium.com/javascript-scene/how-to-build-a-high-velocity-development-team-4b2360d34021)
 
+### Everything is awesome!!!! 
+
+>>> READ THIS!
+
+#### Language Matters
+Normally I tell managers to hire great developers and give them broad freedom to implement things in the best way they know how. I have two exceptions to that rule. Language choice is one of them.
+* JavaScript is the standard language of the web platform, and your app should be written in JavaScript on both the client and the server side. Why?
+JavaScript is the most popular programming language on the planet*, and the easiest to hire for.
+* There are more working open-source solutions in JavaScript than there are in any other language. Your team will have to write less code from scratch.
+* JavaScript is the only language that can run universal code natively across the entire web platform stack, including clients, servers, and mobile.
 
 [Back To Top](#mentor-with-ee)
 ## Get Ready for the Future
