@@ -55,7 +55,7 @@ A place to keep notes and examples!
   Other reading: 
   * [ ] “Design Patterns” book by the Gang of Four: 
      “Program to an interface, not an implementation,” and “favor object composition over class inheritance.
-
+  * [ ] [ Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation (Addison-Wesley Signature Series (Fowler)) ](https://smile.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912?_encoding=UTF8&%2AVersion%2A=1&%2Aentries%2A=0)
 
 
 [Back To Top](#mentor-with-ee)
@@ -453,6 +453,7 @@ Jul 24, 2015
 
 [ A high-tech video time capsule from my future self ](https://medium.com/javascript-scene/get-ready-for-the-future-f4cf7610b985)
 
+>AWESOME VIDEOS!!!
 
 [Back To Top](#mentor-with-ee)
 ## Curry or Partial Application
