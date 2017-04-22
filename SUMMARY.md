@@ -26,5 +26,4 @@
     * [macOS workstation](articles/macOS_workstation.md)
     * [elementary OS](articles/elementary_os.md)
     * [VM Adventures](articles/vm_adventures.md)
-
-* [Reading List](articles/reading_list.md)
+    * [Reading List](articles/reading_list.md)

@@ -1,18 +1,23 @@
 # Gitbook
 
 ## Why 
-Most of my favorite tech blogs are simple and mostly look like they were edited by hand. With so much content I would bookmark a few articles (or the whole site) and promise myself I would come back. After a short time, my bookmarks became a mess and I found myself trying to google for that one thing that one guy said a while back. 
+I wanted a place to blog (reference resources) but didn't want to reinvent the wheel. It had to be public, easy to host (free / cheap) and would be great to scale with analytics. ;)
 
 
 ## My own blog (Problem)!
-I wanted a place to blog (reference resources) but didn't want to reinvent the wheel. The problem, I got sucked down the rabbit hole of Jekyll, gh-pages and pretty much everything listed on [staticgen](https://www.staticgen.com/). I was spending more time configuring then blogging. Once I got a theme published I realized it didn't have this feature or couldn't do that thing.
+
+Most of my favorite tech blogs are simple and mostly look like they were edited by hand. With so much content I would bookmark a few articles (or the whole site) and promise myself I would come back. After a short time, my bookmarks became a mess and I found myself trying to google for that one thing that one guy said a while back. The problem, I got sucked down the rabbit hole of Jekyll, gh-pages and pretty much everything listed on [staticgen](https://www.staticgen.com/). I was spending more time configuring then blogging. Once I got a theme published I realized it didn't have this feature or couldn't do that thing.
 
 Thants when I relized: 
 
 > The content is why I kept coming back not the flashy graphics! 
 
 
-As I looked for ways to organize my madness (that didn't require [ yak shaving ](https://www.google.com/search?q=yak+shaving&oq=yak+shaving&aqs=chrome..69i57j0l5.2923j0j7&sourceid=chrome&ie=UTF-8)) I started to see a trend: [Redux](http://redux.js.org/), [Learn Javascript](https://gitbookio.gitbooks.io/javascript/content/), [Front-End Developer Handbook](https://www.frontendhandbook.com/) and [many more](https://www.gitbook.com/explore). 
+As I looked for ways to organize my madness (that didn't require [ yak shaving ](https://www.google.com/search?q=yak+shaving&oq=yak+shaving&aqs=chrome..69i57j0l5.2923j0j7&sourceid=chrome&ie=UTF-8)) I started to see a trend: 
+* [Redux](http://redux.js.org/)
+* [Learn Javascript](https://gitbookio.gitbooks.io/javascript/content/)
+* [Front-End Developer Handbook](https://www.frontendhandbook.com/) 
+* [many more](https://www.gitbook.com/explore). 
 
 ## Gitbook
  
@@ -55,3 +60,5 @@ book.json
     }
 }
 ```
+
+There we go! 
