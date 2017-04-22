@@ -3,13 +3,13 @@
 
 * [Articles]()
   
-  * [2017 - Jan]()
+  * [2017]()
+    * [GitBook](articles/gitbook.md)
     * [Go!](articles/go.md)
-  * [2016 - Dec]()
+  * [2016]()
     * [Workiva!](articles/workiva.md)
     * [HackMyResume](articles/hackmyresume.md)
     * [Jekyll + formspree.io = <3](articles/formspree.md)
-  * [2016 - Nov]()
     * [OSX + Docker + GUI](articles/docker.md)
     * [Black Friday](articles/bf.md)
     * [My new terminal!](articles/my_new_term.md)
