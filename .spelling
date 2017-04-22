@@ -93,6 +93,15 @@ lindode
 devops
 homemade
 api
+clojure
+concatenative
+behaviors
+behavior
+mixins
+microservice
+monolthic
+microservices
+composable
  - ./SUMMARY.md
 2017
 GitBook
@@ -146,6 +155,12 @@ Pedalboardjs
 Rong
 Isnt
 Youre
+prototypal
+oo
+OCaml
+Frisby’s
+memoize
+Cycle.js
  - ./articles/my_new_term.md
 hyper.js
 Colorscheme
