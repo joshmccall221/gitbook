@@ -7,7 +7,7 @@ A place to keep notes and examples!
   3. [Blog](#blog)
       - [ Inside the Dev Team Death Spiral ](#inside-the-dev-team-death-spiral)
       - [ A Simple Challenge to Classical Inheritance Fans by Eric Elliott ](#a-simple-challenge-to-classical-inheritance-fans-by-eric-elliott)
-      - [ Interview Questions Every JavaScript Developer Should Know ](#interview-questions-every-javascript-developer-should-know)
+      - [ 10 Interview Questions Every JavaScript Developer Should Know ](#10-interview-questions-every-javascript-developer-should-know)
       - [ Every Developer Needs a Code Portfolio ](#every-developer-needs-a-code-portfolio)
       - [ Introducing the Stamp Specification ](#introducing-the-stamp-specification)
       - [ How to Make Your App 10 Times Better ](#how-to-make-your-app-10-times-better)
@@ -433,7 +433,7 @@ Oct 2, 2015
 [AKA: The Keys to JavaScript Mastery](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
 
-1. Can you name two programming paradigms important for JavaScript app developers?
+ 1. Can you name two programming paradigms important for JavaScript app developers?
 
 JavaScript is a multi-paradigm language, supporting imperative/procedural programming along with OOP (Object-Oriented Programming) and functional programming. JavaScript supports OOP with prototypal inheritance.
 
@@ -446,10 +446,12 @@ Learn More:
 * The Two Pillars of JavaScript Part 1 — Prototypal OO.
 * The Two Pillars of JavaScript Part 2 — Functional Programming.
 
-2. What is functional programming?
 
-Functional programming produces programs by composing mathematical functions and avoids shared state & mutable data. Lisp (specified in 1958) was among the first languages to support functional programming, and was heavily inspired by lambda calculus. Lisp and many Lisp family languages are still in common use today.
-Functional programming is an essential concept in JavaScript (one of the two pillars of JavaScript). Several common functional utilities were added to JavaScript in ES5.
+ 2. What is functional programming?
+
+* Functional programming produces programs by composing mathematical functions and avoids shared state & mutable data. Lisp (specified in 1958) was among the first languages to support functional programming, and was heavily inspired by lambda calculus. Lisp and many Lisp family languages are still in common use today.
+
+* Functional programming is an essential concept in JavaScript (one of the two pillars of JavaScript). Several common functional utilities were added to JavaScript in ES5.
 
 Good to hear:
 * Pure functions / function purity.
@@ -466,11 +468,12 @@ Learn More:
 * The Dao of Immutability.
 * Professor Frisby’s Mostly Adequate Guide to Functional Programming.
 * The Haskell School of Music.
-3. What is the difference between classical inheritance and prototypal inheritance?
 
-Class Inheritance: instances inherit from classes (like a blueprint — a description of the class), and create sub-class relationships: hierarchical class taxonomies. Instances are typically instantiated via constructor functions with the `new` keyword. Class inheritance may or may not use the `class` keyword from ES6.
+ 3. What is the difference between classical inheritance and prototypal inheritance?
 
-Prototypal Inheritance: instances inherit directly from other objects. Instances are typically instantiated via factory functions or `Object.create()`. Instances may be composed from many different objects, allowing for easy selective inheritance.
+* Class Inheritance: instances inherit from classes (like a blueprint — a description of the class), and create sub-class relationships: hierarchical class taxonomies. Instances are typically instantiated via constructor functions with the `new` keyword. Class inheritance may or may not use the `class` keyword from ES6.
+
+* Prototypal Inheritance: instances inherit directly from other objects. Instances are typically instantiated via factory functions or `Object.create()`. Instances may be composed from many different objects, allowing for easy selective inheritance.
 In JavaScript, prototypal inheritance is simpler &
 more flexible than class inheritance.
 
