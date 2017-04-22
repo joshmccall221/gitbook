@@ -9,7 +9,7 @@ I wanted a place to blog (reference resources) but didn't want to reinvent the w
 
 Thants when I relized: 
 
-> The content is why I kept coming back not the flash graphics! 
+> The content is why I kept coming back not the flashy graphics! 
 
 
 As I looked for ways to organize my madness (that didn't require [ yak shaving ](https://www.google.com/search?q=yak+shaving&oq=yak+shaving&aqs=chrome..69i57j0l5.2923j0j7&sourceid=chrome&ie=UTF-8)) I started to see a trend: [Redux](http://redux.js.org/), [Learn Javascript](https://gitbookio.gitbooks.io/javascript/content/), [Front-End Developer Handbook](https://www.frontendhandbook.com/) and [many more](https://www.gitbook.com/explore). 
