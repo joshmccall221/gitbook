@@ -7,7 +7,7 @@ Josh McCall | [GitHub](https://github.com/joshmccall221/gitbook) | [Twitter](htt
 
 
 
-<img src="" alt="Smiley face" height="420" width="42">
+<img src="http://1x1px.me/NFFFFFF-0.png"  height="500" >
 
 
 
