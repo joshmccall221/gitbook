@@ -2,7 +2,7 @@
 ## Interview:
 - https://usesthis.com/interviews/jessie.frazelle/
 
-#### Linux or Death (aka How to install Linux on a Mac) - Build kernnel from source
+#### Linux or Death (aka How to install Linux on a Mac) - Build kernel from source
 - https://blog.jessfraz.com/post/linux-on-mac/
 
 #### Docker Containers on the Desktop
@@ -11,7 +11,7 @@
 #### Ultimate Linux on the Desktop
 - https://blog.jessfraz.com/post/ultimate-linux-on-the-desktop/
 
-## Linux bootcamp: From casual Linux user to kernel hacker
+## Linux boot camp: From casual Linux user to kernel hacker
 - https://conferences.oreilly.com/oscon/open-source-2015/public/schedule/detail/41300
 - https://usesthis.com/interviews/jessie.frazelle/ 
 - https://www.safaribooksonline.com/library/view/oscon-2015-complete/9781491927991/video217962.html
@@ -174,7 +174,7 @@ with super/<kbd></kbd> (<code>Mod4</code>) being a popular alternative.
 </td><td>reload the configuration file
 </td></tr><tr>
 <td><img class="i3mod" src="https://i3wm.org/docs/logo-30.png" alt=""> + <kbd></kbd> + <kbd>r</kbd>
-</td><td>restart i3 inplace
+</td><td>restart i3 in place
 
 </td></tr><tr>
 <td><img class="i3mod" src="https://i3wm.org/docs/logo-30.png" alt=""> + <kbd></kbd> + <kbd>e</kbd>
@@ -331,7 +331,7 @@ the copyright notice and this permission notice are preserved on all copies.
 </td><td>reload the configuration file
 </td></tr><tr>
 <td><img class="i3mod" src="https://i3wm.org/docs/logo-30.png" alt=""> + <kbd></kbd> + <kbd>r</kbd>
-</td><td>restart i3 inplace
+</td><td>restart i3 in place
 
 </td></tr><tr>
 <td><img class="i3mod" src="https://i3wm.org/docs/logo-30.png" alt=""> + <kbd></kbd> + <kbd>e</kbd>

@@ -8,7 +8,7 @@
     * [Lifetime Learning](https://ericelliottjs.com/product/lifetime-access-pass/)
 * [Front End Handbook](https://www.frontendhandbook.com/)
     * [github - Front End Handbook](https://github.com/FrontendMasters/front-end-handbook) 
-        * [Front-End Salaries- national average in the U.S for a front-end developer ](https://www.frontendhandbook.com/practice/salaries.html)
+        * [Front-End Salaries- national average in the U.S. for a front-end developer ](https://www.frontendhandbook.com/practice/salaries.html)
     * (https://frontendmasters.com/)
     * [Cody Lindley](http://codylindley.com/) 
         * [Front-end Driven Applications – A New Approach to Applications](http://developer.telerik.com/featured/front-end-driven-applications-new-approach-applications/)

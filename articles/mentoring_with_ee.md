@@ -471,7 +471,7 @@ Jul 20, 2015
 
 [ The Difference Between Partial Application and Curry ](https://medium.com/javascript-scene/curry-or-partial-application-8150044c78b8)
 
-see video: [Practical Functional Programing](#practical-functional-programing)
+see video: [Practical Functional Programming](#practical-functional-programing)
 
 [Back To Top](#mentor-with-ee)
 ## Why I use Tape Instead of Mocha and So Should You
@@ -729,7 +729,7 @@ Another great way to help is to share this article with your friends."
 ## Introduction to Functional Programming Webcast
 [Introduction to Functional Programming Webcast Recording](https://ericelliottjs.com/product/webcast-the-two-pillars-of-javascript-introduction-to-functional-programming/)
 
-## Practical Functional Programing
+## Practical Functional Programming
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XcS-LdEBUkE" frameborder="0" allowfullscreen></iframe>
 
 

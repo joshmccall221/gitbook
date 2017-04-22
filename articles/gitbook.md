@@ -8,7 +8,7 @@ I wanted a place to blog (reference resources) but didn't want to reinvent the w
 
 Most of my favorite tech blogs are simple and mostly look like they were edited by hand. With so much content I would bookmark a few articles (or the whole site) and promise myself I would come back. After a short time, my bookmarks became a mess and I found myself trying to google for that one thing that one guy said a while back. The problem, I got sucked down the rabbit hole of Jekyll, gh-pages and pretty much everything listed on [staticgen](https://www.staticgen.com/). I was spending more time configuring then blogging. Once I got a theme published I realized it didn't have this feature or couldn't do that thing.
 
-Thants when I relized: 
+That's when I realized: 
 
 > The content is why I kept coming back not the flashy graphics! 
 

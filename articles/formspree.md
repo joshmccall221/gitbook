@@ -1,5 +1,5 @@
 # Email form with formspree.io
-I am a big fan of Jekyll. Generated static site hosted on gh-pages, whats not to love? 
+I am a big fan of Jekyll. Generated static site hosted on gh-pages, what's not to love? 
 
 ## Demo
 Working on gh-pages (*note*: emails will go to me):  
