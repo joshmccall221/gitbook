@@ -21,6 +21,7 @@
 * [Drafts]()
     * [Mentoring with EE](articles/mentoring_with_ee.md)
     * [Computer Speech](articles/computer_speech.md)
+    * [How I do computing (dream setup)](articles/how_i_compute.md)
     * [vmware fusion](articles/vmware_fusion.md)
     * [macOS workstation](articles/macOS_workstation.md)
     * [elementary OS](articles/elementary_os.md)

@@ -85,7 +85,9 @@ Slow Gui performance inside VM
   * https://github.com/jameskbride/vending_machine_kata_python
   * https://github.com/jarzac/vending_machine_kata
   * https://github.com/CHAOWEICHIU/vending-machine-kata
-
+  
+> dev: https://github.com/McCallTech/vendingMachineKata
+lindode / devops: https://github.com/joshmccall221/vendingMachineKata
 
 #### This gitbook Inspired by (You should check out...)
  * [secretgeek's gitbook](https://til.secretgeek.net/)
