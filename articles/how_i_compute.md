@@ -2,9 +2,8 @@
 4/21/17
 
 > Others: 
-[Jessie Frazelle](https://usesthis.com/interviews/jessie.frazelle)
-
-[Richard Stallman](https://stallman.org/stallman-computing.html)
+> [Jessie Frazelle](https://usesthis.com/interviews/jessie.frazelle)
+> [Richard Stallman](https://stallman.org/stallman-computing.html)
 
 
 
