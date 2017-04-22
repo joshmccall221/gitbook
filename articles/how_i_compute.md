@@ -38,3 +38,4 @@
 * macbook
 * [Dell 43 Ultra HD 4k Multi Client Monitor | P4317Q](http://www.dell.com/en-us/member/shop/dell-43-ultra-hd-4k-multi-client-monitor-p4317q/apd/210-ahsq/monitors-monitor-accessories?dgc=CJ&cid=47997&lid=4279734&acd=12309198375458460&ven1=12578053-3796334-b5fe47ab-027d-4866-b0cf-4fdccf1e1fe8&ven3=810703840937310293)
 * [Autonomous Smart Desk](https://www.autonomous.ai/smartdesk-sit-to-stand-height-adjustable-standing-desk)
+* [Pelican Case](https://blog.trekpak.com/2012/11/trekpak-in-the-wild/#!prettyPhoto)
