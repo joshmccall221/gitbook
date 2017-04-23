@@ -1,46 +1,6 @@
 # Mentor with EE
 A place to keep notes and examples!
 
-># Table of Contents
-  1. [Reading List](#reading-list)
-  2. [Mentoring with EE](#mentoring-with-ee)
-  3. [Blog](#blog)
-      - [ Inside the Dev Team Death Spiral ](#inside-the-dev-team-death-spiral)
-      - [ A Simple Challenge to Classical Inheritance Fans by Eric Elliott ](#a-simple-challenge-to-classical-inheritance-fans-by-eric-elliott)
-      - [ 10 Interview Questions Every JavaScript Developer Should Know ](#10-interview-questions-every-javascript-developer-should-know)
-      - [ Every Developer Needs a Code Portfolio ](#every-developer-needs-a-code-portfolio)
-      - [ Introducing the Stamp Specification ](#introducing-the-stamp-specification)
-      - [ How to Make Your App 10 Times Better ](#how-to-make-your-app-10-times-better)
-      - [ 5 Questions Every Unit Test Must Answer ](#5-questions-every-unit-test-must-answer )
-      - [How to Build a High Velocity Development Team](#how-to-build-a-high-velocity-development-team)
-      - [ Get Ready for the Future ](#get-ready-for-the-future)
-      - [Curry or Partial Application](#curry-or-partial-application)
-      - [Why I use Tape Instead of Mocha and So Should You](#why-i-use-tape-instead-of-mocha-and-so-should-you)
-      - [Why We Need WebAssembly An Interview with Brendan Eich](#why-we-need-webassembly-an-interview-with-brendan-eich)
-      - [JavaScript Scene Tech Survey Results](#javascript-scene-tech-survey-results)
-      - [What is WebAssembly The Dawn of a New Era](#what-is-webassembly-the-dawn-of-a-new-era)
-      - [Babys First Reaction](#babys-first-reaction)
-      - [JSX Looks Like An Abomination](#jsx-looks-like-an-abomination)
-      - [Why Hiring is So Hard in Tech](#why-hiring-is-so-hard-in-tech)
-      - [Assessing Employee Performance](#assessing-employee-performance)
-      - [How to Use ES6 for Universal JavaScript Apps](#how-to-use-es6-for-universal-javascript-apps)
-      - [Common Misconceptions About Inheritance in JavaScript](#common-misconceptions-about-inheritance-in-javascript)
-      - [Common Misconceptions About Inheritance in JavaScript](#common-misconceptions-about-inheritance-in-javaScript)
-      - [The Compassion Challenge](#the-compassion-challenge)
-      - [The Dao of Immutability](#the-dao-of-immutability)
-      - [How to Fix the ES6 class keyword](#how-to-fix-the-es6-class-keyword)
-      - [The Cure for Homelessness](#the-cure-for-homelessness)
-      - [Programming Literacy](# Programming Literacy)
-      - [JavaScript Training Sucks](#javaScript-training-Sucks)
-      - [The Two Pillars of JavaScript Pt 2](#the-two-pillars-of-javascript-pt-2)
-      - [The Two Pillars of JavaScript](#the-two-pillars-of-javascript)
-      - [Learn JavaScript](#learn-javascript)
-      - [Garbage In Garbage Out](#garbage-in-garbage-out)
-      - [If Your Head Isn’t In the Clouds, Chances Are You’re Not Soaring](#if-your-head-isnt-in-the-clouds-chances-are-youre-not-soaring)
-      - [Fighting Poverty in Schools](#fighting-poverty-in-schools)
-  4. [Book](#book)
-  5. [Videos](#videos)
-
 
 
 ## Useful Links: 
@@ -66,13 +26,13 @@ A place to keep notes and examples!
 
 
 [Back To Top](#mentor-with-ee)
-# Mentoring with EE:
+## Mentoring with EE:
 
 <script src="//repl.it/embed/GhUC/0.js"></script>
 
 [Back To Top](#mentor-with-ee)
 
-# Blog:
+## Blog:
 
 ```
 https://medium.com/@_ericelliott/latest
@@ -82,352 +42,352 @@ jQuery('.streamItem-cardInner.streamItem-cardInner--postPreview').map((i,v)=>{
 ```
 
 <!-- 
-## Mar 21 - Jam Session with Eric Elliott & James Womack: 
-#### How a Netflix Engineer Got Started with Code
-## Mar 19 - setState() Gate
-#### Navigating React setState() Behavior Confusion
+##### Mar 21 - Jam Session with Eric Elliott & James Womack: 
+########## How a Netflix Engineer Got Started with Code
+##### Mar 19 - setState() Gate
+########## Navigating React setState() Behavior Confusion
 
-## Mar 17 - Functors & Categories
+##### Mar 17 - Functors & Categories
 
-### Composable Software
+###### Composable Software
 Note: This is part of the “Composing Software” series on…
 
-## Mar 5 - Reduce (Composing Software)
+##### Mar 5 - Reduce (Composing Software)
 Note: This is part of the “Composing Software” series on learning functional programming and compositional…
 
-## Mar 4 - Higher Order Functions (Composing Software)
+##### Mar 4 - Higher Order Functions (Composing Software)
 
 
-## Feb 28 - TDD the RITE Way
+##### Feb 28 - TDD the RITE Way
 
-### Test Driven Development (TDD) is a process for writing software that provably satisfies the software requirements. The process…
+###### Test Driven Development (TDD) is a process for writing software that provably satisfies the software requirements. The process…
 
-## Feb 24 - A Functional Programmer’s Introduction to JavaScript (Composing Software)
+##### Feb 24 - A Functional Programmer’s Introduction to JavaScript (Composing Software)
 
 Note: This is part of the…
 
-## Feb 20 - Why Learn Functional Programming in JavaScript? (Composing Software)
+##### Feb 20 - Why Learn Functional Programming in JavaScript? (Composing Software)
 
 Note: This is part of the “Composing…
 
-## Feb 18 - The Rise and Fall and Rise of Functional Programming (Composing Software)
+##### Feb 18 - The Rise and Fall and Rise of Functional Programming (Composing Software)
 
 Note: This is part 1 of the…
 
-## Feb 2 - “## Junior Developer for Life” is for Suckers
+##### Feb 2 - “##### Junior Developer for Life” is for Suckers
 
-“## Junior dev for life” is a tagline that was recently popularized by Dan Abramov. Dan…
+“##### Junior dev for life” is a tagline that was recently popularized by Dan Abramov. Dan…
 
 
-## Jan 22 - Master the JavaScript Interview: What is a Promise?
+##### Jan 22 - Master the JavaScript Interview: What is a Promise?
 
 “Master the JavaScript Interview” is a series of posts designed to…
 
-## Jan 17 - Getting to 10x (Results): What Any Developer Can Learn from the Best
+##### Jan 17 - Getting to 10x (Results): What Any Developer Can Learn from the Best
 
 
-## Jan 10 - Survey: Getting to 10x — What do the Best Developers Have in Common?
+##### Jan 10 - Survey: Getting to 10x — What do the Best Developers Have in Common?
 
 UPDATE:
 
 
-## Jan 3 - Master the JavaScript Interview: What is Functional Programming?
+##### Jan 3 - Master the JavaScript Interview: What is Functional Programming?
 
 “Master the JavaScript Interview” is a series of…
 
 
-## Dec 30, 2016  - JavaScript New Year Resolutions Countdown
+##### Dec 30, 2016  - JavaScript New Year Resolutions Countdown
 
 It’s that time of year — time to start thinking of resolutions for the new year. But…
 
 
-## Dec 19, 2016  - 10 Most Shared JavaScript Scene Posts of 2016 - 
+##### Dec 19, 2016  - 10 Most Shared JavaScript Scene Posts of 2016 - 
 2016 -  was a stellar year for JavaScript Scene. We doubled our readership to more… 
 
-## Dec 15, 2016  - The JS Community has a Bullying Problem
+##### Dec 15, 2016  - The JS Community has a Bullying Problem
 
 JavaScript has grown up. It’s time for the community to grow up with it.
 
 
-## Dec 13, 2016  - The Outrageous Cost of Skipping TDD & Code Reviews
+##### Dec 13, 2016  - The Outrageous Cost of Skipping TDD & Code Reviews
 
 
 
-## Dec 9, 2016  - Top JavaScript Frameworks & Topics to Learn in 2017
+##### Dec 9, 2016  - Top JavaScript Frameworks & Topics to Learn in 2017
 
 
 
-## Dec 5, 2016  - You Might Not Need TypeScript (or Static Types)
+##### Dec 5, 2016  - You Might Not Need TypeScript (or Static Types)
 
 
 
-## Nov 24, 2016  - Why I’m Thankful for JS Fatigue. I know you’re sick of those words, but this is different.
+##### Nov 24, 2016  - Why I’m Thankful for JS Fatigue. I know you’re sick of those words, but this is different.
 
 
 
-## Nov 20, 2016  - Why Native Apps Really are Doomed: Native Apps are Doomed pt 2
+##### Nov 20, 2016  - Why Native Apps Really are Doomed: Native Apps are Doomed pt 2
 
 
 
-## Nov 18, 2016  - Stop Wasting Time: Pair Programming Rocks
+##### Nov 18, 2016  - Stop Wasting Time: Pair Programming Rocks
 
 The lone coder has a lot of advantages. Working in a personal cave away from all…
 
 
-## Nov 15, 2016  - Introduction to Node & Express
+##### Nov 15, 2016  - Introduction to Node & Express
 
 This post series has companion videos and exercises for members of “Learn JavaScript with Eric Elliott”…
 
 
-## Nov 12, 2016  - 10 Must See Web Apps & Games
+##### Nov 12, 2016  - 10 Must See Web Apps & Games
 
 JavaScript was born in 1995, and lived half its life as a toy language that people didn’t take very seriously…
 
 
-## Nov 7, 2016  - Native Apps are Doomed
+##### Nov 7, 2016  - Native Apps are Doomed
 
 From now on, I won’t be building any more native apps. All my apps going forward will be progressive web apps…
 
 
-## Nov 5, 2016  - Why Deadlines Need to Drop Dead
+##### Nov 5, 2016  - Why Deadlines Need to Drop Dead
 
 Deadlines are incredibly destructive to team productivity and morale. The #1 challenge software…
 
 
-## Oct 29, 2016  - Faster, More Reliable CI Builds with Yarn
+##### Oct 29, 2016  - Faster, More Reliable CI Builds with Yarn
 
 You may have heard of Yarn. It’s intended as a faster, more reliable alternative to the…
 
 
-## Oct 27, 2016  - No Escape? Microsoft is About to Eat Apple for Lunch
+##### Oct 27, 2016  - No Escape? Microsoft is About to Eat Apple for Lunch
 
 
 
-## Oct 26, 2016  - How to Land Your First Development Job in 5 Simple Steps
+##### Oct 26, 2016  - How to Land Your First Development Job in 5 Simple Steps
 
 
 
-## Oct 20, 2016  - Are Programmer Brains Different?
+##### Oct 20, 2016  - Are Programmer Brains Different?
 
 What can neuroscience teach us about the brains of software developers? A lot.
 
 
-## Oct 19, 2016  - Redux First Steps: Shotgun Episode 5
+##### Oct 19, 2016  - Redux First Steps: Shotgun Episode 5
 
 Shotgun is a video screencast show that lets you ride shotgun with me while I tackle real…
 
 
-## Oct 14, 2016  - The Essential Guide to Building Balanced Development Teams
+##### Oct 14, 2016  - The Essential Guide to Building Balanced Development Teams
 
 
 
-## Oct 1, 2016  - Angular 2 vs React: The Ultimate Dance Off
+##### Oct 1, 2016  - Angular 2 vs React: The Ultimate Dance Off
 
 Most people who follow me know that I personally favor React, but of course I like my…
 
 
-## Sep 5, 2016  - Master the JavaScript Interview: What is Function Composition?
+##### Sep 5, 2016  - Master the JavaScript Interview: What is Function Composition?
 
 “Master the JavaScript Interview” is a series of…
 
 
-## Sep 4, 2016  - Debugging Production JavaScript
+##### Sep 4, 2016  - Debugging Production JavaScript
 by Todd H. Gardner
 
 Editor’s Note: The hardest bugs to fix are the bugs you…
 
 
-## Aug 27, 2016  - 10 Tips for Better Redux Architecture
+##### Aug 27, 2016  - 10 Tips for Better Redux Architecture
 
 When I started using React, there was no Redux. There was only the Flux architecture, and…
 
 
-## Jul 17, 2016  - The Best Way to Learn to Code is to Code: Learn App Architecture by Building Apps 
+##### Jul 17, 2016  - The Best Way to Learn to Code is to Code: Learn App Architecture by Building Apps 
 
 
-## Jul 14, 2016  - Passwordless Authentication with React and Auth0 
+##### Jul 14, 2016  - Passwordless Authentication with React and Auth0 
 Editor’s Note: For years now, I’ve been telling people that passwords are…
 
 
-## Jul 2, 2016  - How to Build a Neuron: Exploring AI in JavaScript Pt 2
+##### Jul 2, 2016  - How to Build a Neuron: Exploring AI in JavaScript Pt 2
 
 
 
-## Jun 24, 2016  - How to Build a Neuron: Exploring AI in JavaScript Pt 1
+##### Jun 24, 2016  - How to Build a Neuron: Exploring AI in JavaScript Pt 1
 
 
 
-## Jun 22, 2016 - 12 Books Every JavaScript Developer Should Read
+##### Jun 22, 2016 - 12 Books Every JavaScript Developer Should Read
 
 
 
-## Jun 4, 2016 - The Shocking Secret About Static Types
+##### Jun 4, 2016 - The Shocking Secret About Static Types
 
 The popularity of TypeScript has really exploded recently. I like TypeScript, and I like…
 
 
-## Jun 3, 2016 - 
+##### Jun 3, 2016 - 
 Live Reloading Browser Previews: Shotgun Episode 4
 
 Shotgun is a new video screencast show that lets you ride shotgun with…
 
 
-## Jun 1, 2016 - JavaScript Factory Functions vs Constructor Functions vs Classes
+##### Jun 1, 2016 - JavaScript Factory Functions vs Constructor Functions vs Classes
 
 
 
-## May 30, 2016 - 3 Different Kinds of Prototypal Inheritance: ES6+ Edition
+##### May 30, 2016 - 3 Different Kinds of Prototypal Inheritance: ES6+ Edition
 
 
 
-## May 25, 2016 - 5 Common Misconceptions About TDD & Unit Tests
+##### May 25, 2016 - 5 Common Misconceptions About TDD & Unit Tests
 
 
 
-## May 21, 2016 - The Hidden Power of ES6 Generators: Observable Async Flow Control
+##### May 21, 2016 - The Hidden Power of ES6 Generators: Observable Async Flow Control
 
 
 
-## May 14, 2016 - 7 Surprising Things I Learned Writing a Fibonacci Generator in JavaScript
+##### May 14, 2016 - 7 Surprising Things I Learned Writing a Fibonacci Generator in JavaScript
 
 
 
-## May 10, 2016 - Tech Hiring Has Always Been Broken. Here’s How I Survived it for ## Decades.
+##### May 10, 2016 - Tech Hiring Has Always Been Broken. Here’s How I Survived it for ##### Decades.
 
 
 
-## May 2, 2016 - The Recruiter Plague: How Recruiters Have Broken Tech Hiring
+##### May 2, 2016 - The Recruiter Plague: How Recruiters Have Broken Tech Hiring
 
 
 
-## Apr 21, 2016 - 10 Priceless Resources for JavaScript Learners
+##### Apr 21, 2016 - 10 Priceless Resources for JavaScript Learners
 
 
 
-## Apr 20, 2016 - Getting Started With the Terminal, Git, and Node
+##### Apr 20, 2016 - Getting Started With the Terminal, Git, and Node
 
 
 
-## Apr 18, 2016 - How One Jira Ticket Made My Employer $1MM/Month: 7 Metrics that Actually Matter
+##### Apr 18, 2016 - How One Jira Ticket Made My Employer $1MM/Month: 7 Metrics that Actually Matter
 
 “You only get what…
 
 
-## Apr 16, 2016 - The Software Developer’s Library: A Treasure Trove of Books for People Who Love Code
+##### Apr 16, 2016 - The Software Developer’s Library: A Treasure Trove of Books for People Who Love Code
 
 
 
-## Apr 3, 2016 - How I Became a JavaScript Rock Star
+##### Apr 3, 2016 - How I Became a JavaScript Rock Star
 
 Years ago I came to San Francisco to join an exciting company building software for bands. Tools…
 
 
-## Apr 2, 2016 - What’s Better than a College Degree? Mentorship.
+##### Apr 2, 2016 - What’s Better than a College Degree? Mentorship.
 
 
 
-## Mar 31, 2016 - Want to Code? A University Degree Might be a Huge Waste of Time
+##### Mar 31, 2016 - Want to Code? A University Degree Might be a Huge Waste of Time
 
 
 
-## Mar 29, 2016 - Learn to Code: 13 Tips that Could Save You Years of Effort
+##### Mar 29, 2016 - Learn to Code: 13 Tips that Could Save You Years of Effort
 
 
 
-## Mar 25, 2016 - Master the JavaScript Interview: What is a Pure Function?
+##### Mar 25, 2016 - Master the JavaScript Interview: What is a Pure Function?
 
 
 
-## Mar 22, 2016 - Which Tech Should You Learn Now?
+##### Mar 22, 2016 - Which Tech Should You Learn Now?
 
 There are so many tech stacks and platforms to chose from. Should you learn Angular 2, React, Node, or…
 
 
-## Mar 21, 2016 - Looping Over Child Components in React: Shotgun Episode 3
+##### Mar 21, 2016 - Looping Over Child Components in React: Shotgun Episode 3
 
 
 
-## Mar 18, 2016 - Shotgun Episode 2: Writing Tests that Don’t Break
+##### Mar 18, 2016 - Shotgun Episode 2: Writing Tests that Don’t Break
 
 
 
-## Mar 16, 2016 - JavaScript Questions Episode 1
+##### Mar 16, 2016 - JavaScript Questions Episode 1
 
 
 
-## Mar 14, 2016 - Shotgun: JavaScript Video Experience
+##### Mar 14, 2016 - Shotgun: JavaScript Video Experience
 
 When I started out on my path to coding, I learned primarily from books. I didn’t know anybody…
 
 
-## Jan 25, 2016 - The Heart & Soul of Prototypal OO: Concatenative Inheritance
+##### Jan 25, 2016 - The Heart & Soul of Prototypal OO: Concatenative Inheritance
 
 
 
-## Jan 19, 2016 - Master the JavaScript Interview: What’s the Difference Between Class & Prototypal Inheritance?
+##### Jan 19, 2016 - Master the JavaScript Interview: What’s the Difference Between Class & Prototypal Inheritance?
 
 
 
-## Jan 13, 2016 - How to Learn ES6
+##### Jan 13, 2016 - How to Learn ES6
 
-We ran a survey at about the time the standard became official in ## June 2015 - to see how many people were using ES6. Nearly half of… 
+We ran a survey at about the time the standard became official in ##### June 2015 - to see how many people were using ES6. Nearly half of… 
 
-## Jan 7, 2016 - Master the JavaScript Interview: What is a Closure?
+##### Jan 7, 2016 - Master the JavaScript Interview: What is a Closure?
 
 “Master the JavaScript Interview” is a series of posts designed to…
 
 
-## Jan 1, 2016 - 10 Most Recommended JavaScript Scene Articles of 2015
+##### Jan 1, 2016 - 10 Most Recommended JavaScript Scene Articles of 2015
 
-## Dec 17, 2015 - Forget the Click Bait. Here’s What the JavaScript Job ## Market Really Looks Like in 2016
+##### Dec 17, 2015 - Forget the Click Bait. Here’s What the JavaScript Job ##### Market Really Looks Like in 2016
 
-## Nov 30, 2015 - JSHomes Teaches Homeless People to Code & You Can Help
+##### Nov 30, 2015 - JSHomes Teaches Homeless People to Code & You Can Help
 
 
 
-## Nov 27, 2015 - Must See JavaScript Dev Tools That Put Other Dev Tools to Shame
+##### Nov 27, 2015 - Must See JavaScript Dev Tools That Put Other Dev Tools to Shame
 “JavaScript sucks for large apps because it can’t…
 
 
-## Nov 23, 2015 - If You’re Homeless or About to Lose Your Home: Escaping Poverty with JavaScript
+##### Nov 23, 2015 - If You’re Homeless or About to Lose Your Home: Escaping Poverty with JavaScript
 
 
-## Nov 20, 2015 - Software Versions are Broken
+##### Nov 20, 2015 - Software Versions are Broken
 I’ll admit it. Like almost everybody in the Node community, I’m in the habit of abusing npm’s save feature:
 
 
-## Nov 17, 2015 - Don’t Sign That Contract! Developer Job Deal Breakers
+##### Nov 17, 2015 - Don’t Sign That Contract! Developer Job Deal Breakers
 
 
-## Nov 15, 2015 - What Kangaroos & Beachballs Can Teach You About Code
+##### Nov 15, 2015 - What Kangaroos & Beachballs Can Teach You About Code
 
 
-## Nov 5, 2015 - The Single Biggest Mistake Programmers Make Every Day
+##### Nov 5, 2015 - The Single Biggest Mistake Programmers Make Every Day
 
 
-## Nov 4, 2015 - JavaScript ES6+: var, let, or const?
+##### Nov 4, 2015 - JavaScript ES6+: var, let, or const?
 Perhaps the most important thing you can learn to be a better coder is to keep things simple…
 
 
 Eric Elliott in JavaScript Scene
-## Oct 14, 2015 - The Open Minded Explorer’s Guide to Object Composition
+##### Oct 14, 2015 - The Open Minded Explorer’s Guide to Object Composition
 
 
 [Back To Top](#mentor-with-ee)
 herehereherehere 
 -->
 [Back To Top](#mentor-with-ee)
-## Inside the Dev Team Death Spiral
+### Inside the Dev Team Death Spiral
 Oct 10, 2015
 [Not long ago, I set out to write an article about how to interview JavaScript developers. As I dug…](https://medium.com/javascript-scene/inside-the-dev-team-death-spiral-6a7ea255467b)
 
 [Back To Top](#mentor-with-ee)
-## A Simple Challenge to Classical Inheritance Fans by Eric Elliott
+### A Simple Challenge to Classical Inheritance Fans by Eric Elliott
 Oct 7, 2015
 [“When there is freedom from…](https://medium.com/javascript-scene/a-simple-challenge-to-classical-inheritance-fans-e78c2cf5eead)
 
 [Back To Top](#mentor-with-ee)
-## 10 Interview Questions Every JavaScript Developer Should Know
+### 10 Interview Questions Every JavaScript Developer Should Know
 Oct 2, 2015
 
 [AKA: The Keys to JavaScript Mastery](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
@@ -658,40 +618,40 @@ Learn more:
 
 
 [Back To Top](#mentor-with-ee)
-## Every Developer Needs a Code Portfolio
+### Every Developer Needs a Code Portfolio
 Sep 24, 2015
 
 [If you want to stand out, you need some publicly visible code.](https://medium.com/javascript-scene/introducing-the-stamp-specification-77f8911c2fee)
 
 [Back To Top](#mentor-with-ee)
-## Introducing the Stamp Specification
+### Introducing the Stamp Specification
 Sep 22, 2015
 
 [Move Over, `class`: Composable Factory Functions Are Here](https://medium.com/javascript-scene/introducing-the-stamp-specification-77f8911c2fee)
 
 [Back To Top](#mentor-with-ee)
-## How to Make Your App 10 Times Better
+### How to Make Your App 10 Times Better
 Sep 11, 2015
 [How to Make Your App 10 Times Better](https://medium.com/javascript-scene/how-to-make-your-app-10-times-better-with-11-lines-of-code-b79e1bc5a655)
 
 [Back To Top](#mentor-with-ee)
-## 5 Questions Every Unit Test Must Answer
+### 5 Questions Every Unit Test Must Answer
 Aug 29, 2015
 [How to Write Better Tests](https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d)
 
 Video: Watch the webcast recording, TDD in ES6 & React
 
 [Back To Top](#mentor-with-ee)
-## How to Build a High Velocity Development Team
+### How to Build a High Velocity Development Team
 Jul 27, 2015
 
 [ Be the Quantum Leap ](https://medium.com/javascript-scene/how-to-build-a-high-velocity-development-team-4b2360d34021)
 
-### Everything is awesome!!!! 
+#### Everything is awesome!!!! 
 
 >>> READ THIS!
 
-#### Language Matters
+##### Language Matters
 Normally I tell managers to hire great developers and give them broad freedom to implement things in the best way they know how. I have two exceptions to that rule. Language choice is one of them.
 * JavaScript is the standard language of the web platform, and your app should be written in JavaScript on both the client and the server side. Why?
 JavaScript is the most popular programming language on the planet*, and the easiest to hire for.
@@ -699,7 +659,7 @@ JavaScript is the most popular programming language on the planet*, and the easi
 * JavaScript is the only language that can run universal code natively across the entire web platform stack, including clients, servers, and mobile.
 
 [Back To Top](#mentor-with-ee)
-## Get Ready for the Future
+### Get Ready for the Future
 Jul 24, 2015
 
 [ A high-tech video time capsule from my future self ](https://medium.com/javascript-scene/get-ready-for-the-future-f4cf7610b985)
@@ -707,7 +667,7 @@ Jul 24, 2015
 >AWESOME VIDEOS!!!
 
 [Back To Top](#mentor-with-ee)
-## Curry or Partial Application
+### Curry or Partial Application
 Jul 20, 2015
 
 [ The Difference Between Partial Application and Curry ](https://medium.com/javascript-scene/curry-or-partial-application-8150044c78b8)
@@ -715,27 +675,27 @@ Jul 20, 2015
 see video: [Practical Functional Programming](#practical-functional-programing)
 
 [Back To Top](#mentor-with-ee)
-## Why I use Tape Instead of Mocha and So Should You
+### Why I use Tape Instead of Mocha and So Should You
 Jul 12, 2015
 
 "If you get your kicks burning money, use Mocha, Jasmine, Jest, etc… But if you value your time, keep reading."
 
 [Back To Top](#mentor-with-ee)
-## Why We Need WebAssembly An Interview with Brendan Eich
+### Why We Need WebAssembly An Interview with Brendan Eich
 Jun 27, 2015
 
 [Brendan Eich & Eric Elliott Discuss…](https://medium.com/javascript-scene/why-we-need-webassembly-an-interview-with-brendan-eich-7fb2a60b0723)
 
 
 [Back To Top](#mentor-with-ee)
-## JavaScript Scene Tech Survey Results
+### JavaScript Scene Tech Survey Results
 Jun 21, 2015
 
 [ES6, Node, React, Angular…](https://medium.com/javascript-scene/javascript-scene-tech-survey-d2449a529ed)
 
 
 [Back To Top](#mentor-with-ee)
-## What is WebAssembly The Dawn of a New Era
+### What is WebAssembly The Dawn of a New Era
 Jun 18, 2015
 
 [Pedalboardjs](http://dashersw.github.io/pedalboard.js/demo/)
@@ -743,27 +703,27 @@ Jun 18, 2015
 [Why the future of the web platform looks brighter than ever.](https://medium.com/javascript-scene/what-is-webassembly-the-dawn-of-a-new-era-61256ec5a8f6)
 
 [Back To Top](#mentor-with-ee)
-## Babys First Reaction
+### Babys First Reaction
 May 27, 2015
 A “Hello, World” Example for React
 [Getting Started With React](https://medium.com/javascript-scene/baby-s-first-reaction-2103348eccdd)
 
 
 [Back To Top](#mentor-with-ee)
-## JSX Looks Like An Abomination
+### JSX Looks Like An Abomination
 May 20, 2015
 [But it’s Good for You](https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918)
 
 
 [Back To Top](#mentor-with-ee)
-## Why Hiring is So Hard in Tech
+### Why Hiring is So Hard in Tech
 May 13, 2015
 
 [Talent Shortage](https://medium.com/javascript-scene/why-hiring-is-so-hard-in-tech-c462c3230017)
 
 
 [Back To Top](#mentor-with-ee)
-## Assessing Employee Performance
+### Assessing Employee Performance
 May 8, 2015
 
 [You’re Doing it Rong](https://medium.com/javascript-scene/assessing-employee-performance-1a8bdee45c1a)
@@ -771,7 +731,7 @@ May 8, 2015
 [Assessing Employee Performance](https://medium.com/javascript-scene/assessing-employee-performance-1a8bdee45c1a)
 
 [Back To Top](#mentor-with-ee)
-## How to Use ES6 for Universal JavaScript Apps
+### How to Use ES6 for Universal JavaScript Apps
 May 8, 2015
 
 ES6 is final. It’s time to start using it for production…
@@ -780,7 +740,7 @@ ES6 is final. It’s time to start using it for production…
 [boilerplate](https://github.com/cloverfield-tools/prod-module-boilerplate)
 
 [Back To Top](#mentor-with-ee)
-## Common Misconceptions About Inheritance in JavaScript
+### Common Misconceptions About Inheritance in JavaScript
 Apr 17, 2015
 
 WAT? [wat] — interjection: A sound a programmer makes when…
@@ -791,13 +751,13 @@ WAT? [wat] — interjection: A sound a programmer makes when…
 [Common Misconceptions About Inheritance in JavaScript](https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a)
 
 [Back To Top](#mentor-with-ee)
-## The Compassion Challenge
+### The Compassion Challenge
 Apr 10, 2015
 
 [Why Your Worst Pain is Your Biggest Opportunity](https://medium.com/javascript-scene/the-compassion-challenge-bf6b67f6c698)
 
 [Back To Top](#mentor-with-ee)
-## The Dao of Immutability
+### The Dao of Immutability
 Apr 9, 2015
 
 [The Way of the Functional Programmer](https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd)
@@ -805,25 +765,25 @@ Apr 9, 2015
 see:  [Introduction to Functional Programming Webcast Recording](#introduction-to-functional-programming-webcast-recording)
 
 [Back To Top](#mentor-with-ee)
-## How to Fix the ES6 class keyword
+### How to Fix the ES6 class keyword
 Mar 3, 2015
 [Make class inheritance compositional similar to the way stamps are…](https://medium.com/javascript-scene/how-to-fix-the-es6-class-keyword-2d42bb3f4caf)
 >"TL;DR Because of associated dangers with them (which have caused a lot of real damage to a lot of real projects) we need the ability to disallow `new`, `extends`, `super`, & `instanceof` in our lint rules. ES6 class won’t let us disallow `new` without throwing errors."
 
 [Back To Top](#mentor-with-ee)
-## The Cure for Homelessness
+### The Cure for Homelessness
 Feb 8, 2015
 How Tech can Bridge the Income Gap
 
 
 [Back To Top](#mentor-with-ee)
-## Programming Literacy
+### Programming Literacy
 Jan 23, 2015
 Why Every Kid Should Learn to Code
 
 
 [Back To Top](#mentor-with-ee)
-## JavaScript Training Sucks
+### JavaScript Training Sucks
 Dec 29, 2014
 
   "99 out of 100 JS developers lack the skills they need to fill hundreds of…"
@@ -833,7 +793,7 @@ Dec 29, 2014
   "You’re paying people to slow the rest of the team down. "
 
 [Back To Top](#mentor-with-ee)
-## The Two Pillars of JavaScript Pt 2
+### The Two Pillars of JavaScript Pt 2
 (Functional Programming)
 Dec 12, 2014
 
@@ -862,7 +822,7 @@ On his next walk with Qc Na, Anton attempted to impress his master by saying “
 
 [Back To Top](#mentor-with-ee)
 
-## The Two Pillars of JavaScript
+### The Two Pillars of JavaScript
 Oct 21, 2014
 
 Part 1: How to Escape the 7th Circle of Hell
@@ -886,7 +846,7 @@ Your code isn’t the product of your self expression any more than a painter’
 
 [Back To Top](#mentor-with-ee)
 
-## Fighting Poverty in Schools
+### Fighting Poverty in Schools
 Sep 28, 2014 
 
 How we act today will make or break our future
@@ -901,14 +861,14 @@ How we act today will make or break our future
 
 [Back To Top](#mentor-with-ee)
 
-## Learn JavaScript
+### Learn JavaScript
 Aug 3, 2014
 
 "The fact is, most JavaScript training sucks."
 
 [Back To Top](#mentor-with-ee)
 
-#### Why JavaScript?
+##### Why JavaScript?
 
 * [Learn JavaScript with Eric Elliott [video]](#learn-javaScript-with-eric-elliott)
 * [Classes vs Prototypes [video]](#classes-vs-prototypes)
@@ -921,7 +881,7 @@ Aug 3, 2014
 
 [Back To Top](#mentor-with-ee)
 
-## Garbage In Garbage Out
+### Garbage In Garbage Out
 Jul 21, 2014 
 
 Elliott’s Rule of Social Media
@@ -931,15 +891,15 @@ Curate the things you consume as carefully as you craft what you produce.
 
 [Back To Top](#mentor-with-ee)
 
-## If Your Head Isnt In the Clouds Chances Are Youre Not Soaring
-#### Eric Elliott in The Backer Army
+### If Your Head Isnt In the Clouds Chances Are Youre Not Soaring
+##### Eric Elliott in The Backer Army
 Jul 16, 2014
 
 "Don’t make my mistake. Think of the seven people you love most in the world. For the next seven days, start each morning with a short letter. Reach out to one of your most cherished loved ones. Share this article and add a tale or two about the trouble you got up to when you were a little less wise and a little less aware of what you couldn’t (or shouldn’t) do. Tell them how much you love them. Believe me, it would mean the world to them."
 
 [Back To Top](#mentor-with-ee)
 
-## Fighting Poverty with Code
+### Fighting Poverty with Code
 Jul 8, 2014 
 
 "Did you know it costs more money to let somebody sleep on the street than it costs to give them homes for free?"
@@ -953,24 +913,24 @@ Another great way to help is to share this article with your friends."
 
 [Back To Top](#mentor-with-ee)
 
-## Book:
+### Book:
 
 
 [Back To Top](#mentor-with-ee)
 
-## Videos:
-## Learn JavaScript with Eric Elliott
+### Videos:
+### Learn JavaScript with Eric Elliott
 
 <iframe src="https://player.vimeo.com/video/101269995" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 
-## Classes vs Prototypes
+### Classes vs Prototypes
 <iframe src="https://player.vimeo.com/video/69255635" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 
 
-## Introduction to Functional Programming Webcast
+### Introduction to Functional Programming Webcast
 [Introduction to Functional Programming Webcast Recording](https://ericelliottjs.com/product/webcast-the-two-pillars-of-javascript-introduction-to-functional-programming/)
 
-## Practical Functional Programming
+### Practical Functional Programming
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XcS-LdEBUkE" frameborder="0" allowfullscreen></iframe>
 
 
