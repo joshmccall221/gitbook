@@ -4,6 +4,7 @@
 * [Articles]()
   
   * [2017]()
+-   * [Good Reads](articles/good_reads.md)
     * [GitBook](articles/gitbook.md)
     * [Go!](articles/go.md)
   * [2016]()
