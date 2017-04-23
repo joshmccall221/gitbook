@@ -913,12 +913,12 @@ Another great way to help is to share this article with your friends."
 
 [Back To Top](#mentor-with-ee)
 
-### Book:
+## Book:
 
 
 [Back To Top](#mentor-with-ee)
 
-### Videos:
+## Videos:
 ### Learn JavaScript with Eric Elliott
 
 <iframe src="https://player.vimeo.com/video/101269995" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 

@@ -1,4 +1,6 @@
-# Making npm scripts great again!
+# npm-run-all
+
+## Making npm scripts great again!
 
 
 See: [npm-run-all](https://github.com/mysticatea/npm-run-all/blob/master/docs/npm-run-all.md)
@@ -11,7 +13,7 @@ npm scripts are great, but it started to get out of hand. Use this trick to clea
 ```
 npm i --save-dev npm-run-all
 ```
-## package.json
+### package.json
 
 ```
   "scripts": {

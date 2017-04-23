@@ -1,9 +1,7 @@
 # Go!
 
- #### =====>  Intro
+## Learning GO!
 
-
-Checklist: 
 
  [awesome-go](https://github.com/avelino/awesome-go):
 
