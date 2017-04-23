@@ -24,7 +24,8 @@
 * [Reddit-Unix](https://www.reddit.com/r/unixporn/)
 * [Fábio Rehm - Software Developer and Open Source Enthusiast](http://fabiorehm.com/)
     * [Running GUI apps with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/)
-*[Fredrik Averpil- A treasure trove of learning Python videos](https://fredrikaverpil.github.io/2016/11/02/a-treasure-trove-of-learning-python-videos/)
+* [Fredrik Averpil- A treasure trove of learning Python videos](https://fredrikaverpil.github.io/2016/11/02/a-treasure-trove-of-learning-python-videos/)
+* [Good Reads](#good-reads)
 ##Movies
 [Jobs (2013)](http://www.imdb.com/title/tt2357129/)
 [Steve Jobs (2015)](http://www.imdb.com/title/tt2080374/)
@@ -93,3 +94,9 @@ lindode / devops: https://github.com/joshmccall221/vendingMachineKata
  * [secretgeek's gitbook](https://til.secretgeek.net/)
  * [Redux Docs (gitbook)](http://redux.js.org/) 
  * [Medium:Publish gitbook with NPM](https://medium.com/@gpbl/how-to-use-gitbook-to-publish-docs-for-your-open-source-npm-packages-465dd8d5bfba#.dadjzqxiy)
+
+## Good Reads
+
+Be smart, read stuff!
+
+See: <a href="https://www.goodreads.com/review/list/65122171?shelf=tech" title="Josh McCall's book recommendations, liked quotes, book clubs, book trivia, book lists (tech shelf)"><img border="0" alt="Josh McCall's book recommendations, liked quotes, book clubs, book trivia, book lists (tech shelf)" src="https://www.goodreads.com/images/badge/badge1.jpg"></a>
