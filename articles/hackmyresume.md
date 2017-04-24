@@ -1,4 +1,6 @@
-#HackMyResume + JSON Resume
+# HackMyResume + JSON Resume
+
+## Cool links
 
 The open source initiative to create a JSON-based standard for resumes. For developers, by developers.
 

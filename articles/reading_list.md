@@ -1,4 +1,6 @@
-#Reading List
+# Reading List
+
+## Books
 * [_ericelliott]() 
     * [Book: Programming JavaScript Applications by Eric Elliott](http://chimera.labs.oreilly.com/books/1234000000262)
     * [Redux First Steps: Shotgun Episode 5](https://medium.com/javascript-scene/redux-first-steps-shotgun-episode-5-ab46af7c240d#.rwtkmbwqy)

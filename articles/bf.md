@@ -1,4 +1,5 @@
-# BF Deals:
+# BF 
+## Deals:
 * [apple watch NOW FROM $189.99](https://www.groupon.com/deals/gg-apple-watch-sport-38mm-refurbish)
     
     <img src="https://img.grouponcdn.com/deal/7uNhFzj1Uqfc3wL2M8cxmhPLabP/7u-1800x1080/v1/c700x420.jpg" width="150">

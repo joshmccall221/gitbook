@@ -1,6 +1,8 @@
 
 #Windows Development for $2.30/day
 
+## On anything but a PC (Chromebook, Mac, whatever....)
+
 I don't have a windows box (some may say I am not the biggest Microsoft fan) but I recently needed to troubleshoot a ASP issue (go figure). And even though Macs are the best PCs,   
 >[MacBook Pro declared 'best-performing' Windows laptop](https://www.cnet.com/news/macbook-pro-declared-best-performing-windows-laptop/)
 
@@ -8,7 +10,7 @@ the thought of dual booting for windows just makes me not want to dev at all.
 
 Secretly, I've wanted to play with Azure but M$ is known for costing out the nose and being *mostly anti-microsoft* I just didn't know where to start. I needed a way to dev in a windows env without running windooze.... 
 
-###First attempt: 
+##First attempt: 
 [modern ie](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) + VirtualBox
 
 Plagued with Guest Addition, battery draining and disk eating woes, this works, in a pinch but IMO not the best for long term dev. 
@@ -22,7 +24,7 @@ Plagued with Guest Addition, battery draining and disk eating woes, this works, 
 >* Resource hog
 >* Guest Additions 
 
-###Second attempt: 
+##Second attempt: 
 
 "If only I could get an affordable 'Linode-like' solution for windows..."
 

@@ -1,5 +1,7 @@
 
-#ASP .Net MVC development on a Chromebook!!! 
+# ASP .Net MVC development 
+
+## On a Chromebook!!! 
 
 
 So... in the rush of leaving work, I forgot to grab my MBP charger and my computer died. Never fear, Azure to the rescue (never thought I'd say that!). Spin up VM with VS, RDP and away we go. 

@@ -1,7 +1,7 @@
 # How I do computing 
 4/21/17
 
-> Others: 
+## Others: 
 
 > [Jessie Frazelle](https://usesthis.com/interviews/jessie.frazelle)
 
