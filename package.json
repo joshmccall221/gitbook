@@ -15,7 +15,7 @@
     "docs:prepare": "gitbook install",
     "docs:build": " gitbook build",
     "docs:git_master": "git add . && git commit -am 'gitbook updates' && git push",
-    "docs:git_gh_pages": " cd _book && echo joshuamccall.com  > CNAME && git init && git config --global user.name 'Josh McCall' &&  git config --global user.email joshmccall221@gmail.com && git commit --allow-empty -m 'Update docs and examples' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'Update docs and examples' && git push https://github.com/joshmccall221/gitbook.git gh-pages --force",
+    "docs:git_gh_pages": " cd _book && echo joshuamccall.com  > CNAME && git init && git config --global user.name 'Josh McCall' &&  git config --global user.email joshmccall221@gmail.com && git commit --allow-empty -m 'Update docs and examples' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'Update docs and examples' && git push git@github.com:joshmccall221/gitbook.git gh-pages --force",
     "serve": "gitbook serve",
       "preinstall": "curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash; . ~/.nvm/nvm.sh; nvm install 5; nvm use 5"
   },
