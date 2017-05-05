@@ -27,6 +27,7 @@
     * [Editor Wars](articles/editor_wars.md)
     * [Chrome Hacks](articles/google_chrome.md)
     * [Github](articles/github.md)
+    * [Building a Personal Brand](articles/github.md)
     * [Computer Speech](articles/computer_speech.md)
     * [How I do computing (dream setup)](articles/how_i_compute.md)
     * [vmware fusion](articles/vmware_fusion.md)

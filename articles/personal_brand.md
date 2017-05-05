@@ -1,4 +1,4 @@
-# Personal Brand
+# Building a Personal Brand
 
 ## What is it?
 
