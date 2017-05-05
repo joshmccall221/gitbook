@@ -22,7 +22,7 @@
       * [Azure, Visual Studio, ASP.NET MVC 5 Entity Framework!!!](articles/chromebook.md)
 
 * [Drafts]()
-    * [Building a Personal Brand](articles/github.md)
+    * [Building a Personal Brand](articles/personal_brand.md)
     * [Mentoring with EE](articles/mentoring_with_ee.md)
     * [Steno Adventures](articles/steno.md)
     * [Editor Wars](articles/editor_wars.md)
