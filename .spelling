@@ -119,6 +119,7 @@ MVC
 EE
 vmware
 macOS
+Steno
  - ./articles/azure_pricing.md
 MacBook
 anti-microsoft
@@ -192,3 +193,10 @@ haxor
  - ./articles/node.md
 md
 vmd
+ - ./articles/steno.md
+BluePloverPi
+bluetooth
+Mqrius
+keymap.c
+qmk
+_firmware
