@@ -23,7 +23,7 @@
 
 * [Drafts]()
     * [Mentoring with EE](articles/mentoring_with_ee.md)
-    * [Steno Adventures](?q=steno)
+    * [Steno Adventures](articles/steno.md)
     * [Computer Speech](articles/computer_speech.md)
     * [How I do computing (dream setup)](articles/how_i_compute.md)
     * [vmware fusion](articles/vmware_fusion.md)
