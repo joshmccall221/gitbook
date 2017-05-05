@@ -1,4 +1,4 @@
-# Gitbook
+# Gitbook : Getting started
 
 ## Why 
 I wanted a place to blog (reference resources) but didn't want to reinvent the wheel. It had to be public, easy to host (free / cheap) and would be great to scale with analytics. ;)
