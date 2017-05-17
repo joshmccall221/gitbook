@@ -11,7 +11,7 @@
   "scripts": {
     "start": "npm-run-all -l docs:*",
     "docs:clean": "rimraf _book",
-    "spellcheck": "mdspell -n -a './*.md' './articles/*.md'",
+    "docs:spellcheck": "mdspell -n -a './*.md' './articles/*.md'",
     "docs:prepare": "gitbook install",
     "docs:build": " gitbook build",
     "docs:git_master": "git add . && git commit -am 'gitbook updates' && git push",
