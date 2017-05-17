@@ -32,6 +32,7 @@ See: [HackMyResume + JSON Resume](http://joshuamccall.com/articles/hackmyresume.
 - [Brad Hussey](https://www.youtube.com/channel/UCVguiojKA6iobcySMJ5boNA)
 - [Jose Caballer](https://www.youtube.com/watch?v=hqYIe5Y76oY&utm_content=buffer1bd7b&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 - [simpleprogrammer](https://simpleprogrammer.com/)
+- [Other Josh McCall](https://joshmccall.com/web-design/)
 
 ### Tools
 - [spectacle-code-slide](https://github.com/thejameskyle/spectacle-code-slide)
