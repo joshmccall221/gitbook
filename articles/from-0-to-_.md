@@ -13,6 +13,7 @@ I would suggest getting a base before jumping into ember, like ladyleet did with
 <p><a href="https://vimeo.com/144527585">From 0 to Ember</a> from <a href="https://vimeo.com/globalembermeetup">Global Ember Meetup</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 #### Writeup:
+<img src="../images/ladyleet_basic_ember.png" width="">
 [How to set up a Basic Ember.js app](https://medium.freecodecamp.com/setting-up-a-basic-ember-js-app-c9323760c675)
 
 ##### Tools:
