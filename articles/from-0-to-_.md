@@ -1,5 +1,5 @@
 # From 0 to _
-
+## Getting started
 So you wanna learn to code... but where to start?
 
 This is a big topic. If javascript (JS) is where you wanna be I would checkout ember.js! The community, the resources and the framework make it easier for beginners to get things done. To see what I mean, watch [@ladyleet's](https://twitter.com/ladyleet) video and then read through her write up.
