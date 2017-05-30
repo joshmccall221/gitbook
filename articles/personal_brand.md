@@ -34,6 +34,13 @@ See: [HackMyResume + JSON Resume](http://joshuamccall.com/articles/hackmyresume.
 - [simpleprogrammer](https://simpleprogrammer.com/)
 - [Other Josh McCall](https://joshmccall.com/web-design/)
 
+#### Cory House
+
+[Twitter](https://twitter.com/housecor)
+[Medium](https://medium.freecodecamp.com/heres-why-client-side-rendering-won-46a349fadb52)
+[bitnative - Cory House](http://www.bitnative.com/)
+[Plural Sight](https://www.pluralsight.com/authors/cory-house)
+
 ### Tools
 - [spectacle-code-slide](https://github.com/thejameskyle/spectacle-code-slide)
 - [spectacle](https://github.com/FormidableLabs/spectacle)
