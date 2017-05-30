@@ -36,10 +36,10 @@ See: [HackMyResume + JSON Resume](http://joshuamccall.com/articles/hackmyresume.
 
 #### Cory House
 
-[Twitter](https://twitter.com/housecor)
-[Medium](https://medium.freecodecamp.com/heres-why-client-side-rendering-won-46a349fadb52)
-[bitnative - Cory House](http://www.bitnative.com/)
-[Plural Sight](https://www.pluralsight.com/authors/cory-house)
+- [Twitter](https://twitter.com/housecor)
+- [Medium](https://medium.freecodecamp.com/heres-why-client-side-rendering-won-46a349fadb52)
+- [bitnative - Cory House](http://www.bitnative.com/)
+- [Plural Sight](https://www.pluralsight.com/authors/cory-house)
 
 ### Tools
 - [spectacle-code-slide](https://github.com/thejameskyle/spectacle-code-slide)
