@@ -1,8 +1,7 @@
-# Building a Personal Brand
+# Jekyll
+
 ## Jekyll
-Site: https://jekyllrb.com/
-Playlist: https://www.youtube.com/playlist?list=PLrQsVT7x8HYGRo4WGKsjXx1cRAE8EAHgp
-Other playlist: https://www.youtube.com/playlist?list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-
+- Site: https://jekyllrb.com/
 
 ## Why Static?
 
@@ -28,6 +27,15 @@ Other playlist: https://www.youtube.com/playlist?list=PLWjCJDeWfDdfVEcLGAfdJn_HX
 ### GitHub Pages
 https://github.com/blog/2236-github-pages-now-runs-jekyll-3-2
 
+
+### Tom Preston-Werner (Founder of Github)
+https://github.com/mojombo
+http://tom.preston-werner.com/
+Blogging Like a Hacker
+http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html
+>"The system is simple enough that I can keep the entire conversion process in my head. The distance from my brain to my blog has shrunk, and, in the end, I think that will make me a better author."
+
+
 ### Obama
 #### Podcast
 54: Jekyll and CMS-less websites with Young Hahn and Dave Cole
@@ -45,24 +53,6 @@ http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platfo
 #### Hacker News
 - https://news.ycombinator.com/item?id=4842510
 
-
-### Tom Preston-Werner (Founder of Github)
-https://github.com/mojombo
-http://tom.preston-werner.com/
-Blogging Like a Hacker
-http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html
->"The system is simple enough that I can keep the entire conversion process in my head. The distance from my brain to my blog has shrunk, and, in the end, I think that will make me a better author."
-
-
-### React
-[site](https://facebook.github.io/react/)
-[code](https://github.com/facebook/react/tree/master/docs)
-
-### Local Sites
-- https://jimsapplservice.github.io/
-- http://ottumwa1stchurch.com/
-- https://github.com/AppleCreekIowa/applecreek-main/pull/1
-- http://www.leantechniques.co/
 
 ## Tools and Links
 StaticGen 
@@ -94,6 +84,8 @@ jekyllrc
 http://themes.jekyllrc.org/
 
 
+# How do you use it?
+
 ## _configure.yml
 
 ## _site
@@ -110,6 +102,17 @@ http://themes.jekyllrc.org/
 
 ## front matter
 
+## gh-pages
+
+## repo.github.io
+
+
+## gh-pages branch
+
+## CNAME
+
+## Code Envy
+- https://codenvy.io/site/login
 
 ### Links:
 Getting Started With Jekyll, The Static Site Generator
@@ -215,3 +218,37 @@ Continuous Deployment Of Jekyll Sites Powered By Docker - David Von Lehman / Jek
 - https://youtu.be/wMlPlKCZfEk
 - https://bitbucket.org/aerobatic/jekyll-cd-slides/src/c80720459e87?at=master
 - Slides: https://bitbucket.org/aerobatic/jekyll-cd-slides/src/c80720459e87f51b49b42f3b2aa8a260bddb9c92/_slides/007-dockerfile.html?at=master&fileviewer=file-view-default
+
+
+Introducing and Launching Jekyll 3.0
+- https://www.youtube.com/watch?v=sPZK8w55cBQ&index=3&list=PLrQsVT7x8HYGRo4WGKsjXx1cRAE8EAHgp
+- Parker Moore (parkr) - Maintainer
+  - Interview: https://www.netlify.com/blog/2016/03/11/interview-with-parker-moore-from-jekyll/
+  - Site: https://byparker.com/
+
+Converting a static site to Jekyll - CloudCannon Casts
+- https://youtu.be/yXXj9oYFXRI?list=PLrQsVT7x8HYGRo4WGKsjXx1cRAE8EAHgp
+- source : https://github.com/CloudCannon/creative-jekyll-theme/
+
+Building Our Agency Site With Jekyll - David Jones / JekyllConf 2016
+- https://youtu.be/4XxYQ7efk0E?list=PLrQsVT7x8HYGRo4WGKsjXx1cRAE8EAHgp
+- site: https://resolve.digital/services/
+- Jekyll import (RSS feed)
+
+Design + Code — Hour 8.2: Jekyll Blog Loop
+- https://www.youtube.com/watch?v=FiJuoFg_Ipc&list=PLrQsVT7x8HYGRo4WGKsjXx1cRAE8EAHgp&index=10
+
+
+### React
+[site](https://facebook.github.io/react/)
+[code](https://github.com/facebook/react/tree/master/docs)
+
+### Local Sites
+- https://jimsapplservice.github.io/
+- http://ottumwa1stchurch.com/
+- https://github.com/AppleCreekIowa/applecreek-main/pull/1
+- http://www.leantechniques.co/
+
+
+## Youtube
+- Playlist: https://www.youtube.com/playlist?list=PLrQsVT7x8HYGRo4WGKsjXx1cRAE8EAHgp
