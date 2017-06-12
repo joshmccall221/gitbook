@@ -5,10 +5,10 @@
 ## Josh McCall
 
 <img src="../images/avatar.png" width="150">
-| [joshuamccall.com](joshuamccall.com)
-| [<i class="fa fa-github"  aria-hidden="true"></i>GitHub](https://github.com/joshmccall221/gitbook)
-| [<i class="fa fa-twitter" aria-hidden="true"></i>joshmccall](https://twitter.com/joshmccall)
-| [<i class="fa fa-twitter" aria-hidden="true"></i>gaincompliance](https://twitter.com/gaincompliance)
+  [joshuamccall.com](joshuamccall.com)
+| [<i class="fa fa-github"  aria-hidden="true"></i> GitHub](https://github.com/joshmccall221/gitbook)
+| [<i class="fa fa-twitter" aria-hidden="true"></i> joshmccall](https://twitter.com/joshmccall)
+| [<i class="fa fa-twitter" aria-hidden="true"></i> gaincompliance](https://twitter.com/gaincompliance)
 
 
 ## Static Sites with Jekyll
@@ -40,8 +40,8 @@ Site: https://jekyllrb.com/
 
 ### Tom Preston-Werner (Founder of Github)
 <img src="https://avatars3.githubusercontent.com/u/1?v=3&s=460" width="150">
-github: [mojombo](https://github.com/mojombo)
-site: http://tom.preston-werner.com/
+  [<i class="fa fa-github"  aria-hidden="true"></i> mojombo](https://github.com/mojombo)
+| [tom.preston-werner.com](http://tom.preston-werner.com/)
 
 Blogging Like a Hacker ([Link](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html))
 >"The system is simple enough that I can keep the entire conversion process in my head. The distance from my brain to my blog has shrunk, and, in the end, I think that will make me a better author."
@@ -58,20 +58,21 @@ Blogging Like a Hacker ([Link](http://tom.preston-werner.com/2008/11/17/blogging
 
 >"We made the new platform 60% faster and this resulted in a 14% increase in donation conversions."
 
-[Podcast 54: Jekyll and CMS-less websites with Young Hahn and Dave Cole](http://5by5.tv/webahead/54 )
 
-[Hacker News](https://news.ycombinator.com/item?id=4842510)
+[<i class="fa fa-podcast" aria-hidden="true"></i> Podcast 54: Jekyll and CMS-less websites with Young Hahn and Dave Cole](http://5by5.tv/webahead/54)
+
+[<i class="fa fa-hacker-news" aria-hidden="true"></i> Hacker News](https://news.ycombinator.com/item?id=4842510)
 
 
-## But we need a backend right?
-- http://nobackend.org/
-- https://backendless.com/
-- http://unhosted.org/
-- https://staticapps.org/
-- https://serverless.com/blog/
-- https://coryrylan.com/blog/fast-and-secure-blogs-with-firebase
-- Middle-tier
-  - [Coding Architecture: When you need a 3 tier architecture](http://www.codingthearchitecture.com/2012/07/20/when_do_you_need_a_3_tier_architecture.html)
+### React
+![React-Jekyll](../images/React-Jekyll.png)
+
+([Link](https://github.com/facebook/react/tree/master/docs))
+
+### Lean TECHniques
+![LeanTECHniques](../images/LeanTECHniques.png)
+([Link](http://www.leantechniques.co/))
+
 
 
 # How do you use it?
@@ -103,6 +104,7 @@ Blogging Like a Hacker ([Link](http://tom.preston-werner.com/2008/11/17/blogging
 
 ## Code Envy
 - https://codenvy.io/site/login
+- https://www.eclipse.org/community/eclipse_newsletter/2016/august/article4.php
 
 ### Links:
 Getting Started With Jekyll, The Static Site Generator
@@ -111,16 +113,22 @@ https://youtu.be/iWowJBRMtpc?list=PLrQsVT7x8HYGRo4WGKsjXx1cRAE8EAHgp
 ________________
 
 
+### Local Sites
+- https://jimsapplservice.github.io/
+- http://ottumwa1stchurch.com/
+- https://github.com/AppleCreekIowa/applecreek-main/pull/1
+- http://www.leantechniques.co/
 
-## What is it?
 
-See: [New Pluralsight Course: Crafting a Brand for Growth and Prosperity - troyhunt.com](https://www.troyhunt.com/new-pluralsight-course-crafting-a-brand-for-growth-and-prosperity/)
+## Serverless resources
+- http://nobackend.org/
+- https://backendless.com/
+- http://unhosted.org/
+- https://staticapps.org/
+- https://serverless.com/blog/
+- https://coryrylan.com/blog/fast-and-secure-blogs-with-firebase
+- [Coding Architecture: When you need a 3 tier architecture](http://www.codingthearchitecture.com/2012/07/20/when_do_you_need_a_3_tier_architecture.html)
 
-## How to do it?
-
-See: [Gitbook: Getting started](http://joshuamccall.com/articles/gitbook.html)
-
-See: [HackMyResume + JSON Resume](http://joshuamccall.com/articles/hackmyresume.html)
 
 
 ## Tools and Links
@@ -169,35 +177,6 @@ http://themes.jekyllrc.org/
 - [Using Ember CLI as a Single Page Static Site Generator](https://medium.com/@jlsuttles/using-ember-cli-as-a-single-page-static-site-generator-62e4111b13db)
 - [Kickstarting a static website with ember.js and handlebars.js](https://roussos.cc/2013/10/20/kickstarting-a-static-website-emberjs-handlebarsjs/)
 - [ember-static](http://slides.com/eubenesa/ember-static#/5)
-
-### Brand
-
-
-- [Gary Vaynerchuk](https://www.youtube.com/channel/UCctXZhXmG-kf3tlIXgVZUlw)
-- [Simple Web Design Portfolio Layout Example Walkthrough ](https://www.youtube.com/watch?v=NZfS9xBvf-g)
-- [Brad Hussey](https://www.youtube.com/channel/UCVguiojKA6iobcySMJ5boNA)
-- [Jose Caballer](https://www.youtube.com/watch?v=hqYIe5Y76oY&utm_content=buffer1bd7b&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
-- [simpleprogrammer](https://simpleprogrammer.com/)
-- [Other Josh McCall](https://joshmccall.com/web-design/)
-
-#### Cory House
-
-- [Twitter](https://twitter.com/housecor)
-- [Medium](https://medium.freecodecamp.com/heres-why-client-side-rendering-won-46a349fadb52)
-- [bitnative - Cory House](http://www.bitnative.com/)
-- [Plural Sight](https://www.pluralsight.com/authors/cory-house)
-
-### Tools
-- [spectacle-code-slide](https://github.com/thejameskyle/spectacle-code-slide)
-- [spectacle](https://github.com/FormidableLabs/spectacle)
-- [laracasts](https://laracasts.com/)
-- [leveluplunch - (Justin Musgrove @jstnm)](https://www.leveluplunch.com/)
-  - https://www.leveluplunch.com/blog/2015/02/06/jekyll-presentation-dsmjs/
-  - slides: http://justinmusgrove.github.io/presentations/dsmjs-presentation-jekyll.html#1
-- [toranbillups](http://toranbillups.com/)
-- [kentcdodds](https://kentcdodds.com/)
-- [ericelliottjs](https://ericelliottjs.com/)
-- [troyhunt](https://www.troyhunt.com/)
 
 
 ### Other 
@@ -253,16 +232,49 @@ Design + Code — Hour 8.2: Jekyll Blog Loop
 - https://www.youtube.com/watch?v=FiJuoFg_Ipc&list=PLrQsVT7x8HYGRo4WGKsjXx1cRAE8EAHgp&index=10
 
 
-### React
-[site](https://facebook.github.io/react/)
-[code](https://github.com/facebook/react/tree/master/docs)
-
-### Local Sites
-- https://jimsapplservice.github.io/
-- http://ottumwa1stchurch.com/
-- https://github.com/AppleCreekIowa/applecreek-main/pull/1
-- http://www.leantechniques.co/
-
 
 ## Youtube
 - Playlist: https://www.youtube.com/playlist?list=PLrQsVT7x8HYGRo4WGKsjXx1cRAE8EAHgp
+
+
+
+## Personal Brand, What is it?
+
+See: [New Pluralsight Course: Crafting a Brand for Growth and Prosperity - troyhunt.com](https://www.troyhunt.com/new-pluralsight-course-crafting-a-brand-for-growth-and-prosperity/)
+
+## How to do it?
+
+See: [Gitbook: Getting started](http://joshuamccall.com/articles/gitbook.html)
+
+See: [HackMyResume + JSON Resume](http://joshuamccall.com/articles/hackmyresume.html)
+
+
+### Brand examples
+
+
+- [Gary Vaynerchuk](https://www.youtube.com/channel/UCctXZhXmG-kf3tlIXgVZUlw)
+- [Simple Web Design Portfolio Layout Example Walkthrough ](https://www.youtube.com/watch?v=NZfS9xBvf-g)
+- [Brad Hussey](https://www.youtube.com/channel/UCVguiojKA6iobcySMJ5boNA)
+- [Jose Caballer](https://www.youtube.com/watch?v=hqYIe5Y76oY&utm_content=buffer1bd7b&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+- [simpleprogrammer](https://simpleprogrammer.com/)
+- [Other Josh McCall](https://joshmccall.com/web-design/)
+
+#### Cory House
+
+- [Twitter](https://twitter.com/housecor)
+- [Medium](https://medium.freecodecamp.com/heres-why-client-side-rendering-won-46a349fadb52)
+- [bitnative - Cory House](http://www.bitnative.com/)
+- [Plural Sight](https://www.pluralsight.com/authors/cory-house)
+
+### Tools
+- [spectacle-code-slide](https://github.com/thejameskyle/spectacle-code-slide)
+- [spectacle](https://github.com/FormidableLabs/spectacle)
+- [laracasts](https://laracasts.com/)
+- [leveluplunch - (Justin Musgrove @jstnm)](https://www.leveluplunch.com/)
+  - https://www.leveluplunch.com/blog/2015/02/06/jekyll-presentation-dsmjs/
+  - slides: http://justinmusgrove.github.io/presentations/dsmjs-presentation-jekyll.html#1
+- [toranbillups](http://toranbillups.com/)
+- [kentcdodds](https://kentcdodds.com/)
+- [ericelliottjs](https://ericelliottjs.com/)
+- [troyhunt](https://www.troyhunt.com/)
+
