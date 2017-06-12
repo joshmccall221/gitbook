@@ -1,14 +1,15 @@
 # Jekyll
-# @dsmwebgeeks
-![jekyll](http://www.dsmwebgeeks.com/app/uploads/2017/05/jekyll.jpg)
+<!-- # @dsmwebgeeks -->
+<!-- ![jekyll](http://www.dsmwebgeeks.com/app/uploads/2017/05/jekyll.jpg) -->
 
-## Josh McCall
+<!-- ## Josh McCall -->
 
-<img src="../images/avatar.png" width="150">
-  [joshuamccall.com](joshuamccall.com)
-| [<i class="fa fa-github"  aria-hidden="true"></i> GitHub](https://github.com/joshmccall221/gitbook)
-| [<i class="fa fa-twitter" aria-hidden="true"></i> joshmccall](https://twitter.com/joshmccall)
-| [<i class="fa fa-twitter" aria-hidden="true"></i> gaincompliance](https://twitter.com/gaincompliance)
+
+<!-- <img src="../images/avatar.png" width="150"> -->
+  <!-- [joshuamccall.com](joshuamccall.com) -->
+<!-- | [<i class="fa fa-github"  aria-hidden="true"></i> joshmccall221](https://github.com/joshmccall221/gitbook) -->
+<!-- | [<i class="fa fa-twitter" aria-hidden="true"></i> joshmccall](https://twitter.com/joshmccall) -->
+<!-- | [<i class="fa fa-twitter" aria-hidden="true"></i> gaincompliance](https://twitter.com/gaincompliance) -->
 
 
 ## Static Sites with Jekyll
