@@ -1,5 +1,5 @@
 {
-    "plugins": ["disqus", "etoc"],
+    "plugins": [ "etoc"],
     "pluginsConfig": {
         "disqus": {
             "shortName": "joshuamccall"

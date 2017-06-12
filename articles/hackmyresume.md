@@ -17,6 +17,8 @@ The open source initiative to create a JSON-based standard for resumes. For deve
 
 Copy and Paste your info into the [Resume Editor](http://registry.jsonresume.org/) and click the download button!
 
+![jsonresume](../images/jsonresume.png)
+
 ## Have a resume.json? 
 
 Blindly copy and paste these commands (trust me, I know stuff). 
@@ -32,3 +34,6 @@ Blindly copy and paste these commands (trust me, I know stuff).
 ```bash 
 > open ./resume.html
 ```
+![resume_html](../images/resume_html.png)
+
+([Link](./resume.html))

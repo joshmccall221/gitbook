@@ -47,7 +47,7 @@ gitbook build
 gitbook serve
 ```
 
-### [Disqus](https://plugins.gitbook.com/plugin/disqus)
+### Optional: [Disqus](https://plugins.gitbook.com/plugin/disqus)
 
 ```
 book.json
