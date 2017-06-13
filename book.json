@@ -1,13 +1,16 @@
 {
-    "plugins": [ "etoc"],
-    "pluginsConfig": {
-        "disqus": {
-            "shortName": "joshuamccall"
-        },
-        "etoc": {
-            "mindepth": 1,
-            "maxdepth": 4,
-            "notoc": false
-        }
+  "plugins": [
+    "disqus",
+    "etoc"
+  ],
+  "pluginsConfig": {
+    "disqus": {
+      "shortName": "joshuamccall"
+    },
+    "etoc": {
+      "mindepth": 1,
+      "maxdepth": 4,
+      "notoc": false
     }
+  }
 }
