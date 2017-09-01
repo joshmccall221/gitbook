@@ -4,6 +4,7 @@
 * [Articles]()
   
   * [2017]()
+    * [VIM - multiple commands on same line](articles/vim_multiple_commands.md)
     * [Jekyll]()
       * [@dsmwebgeeks](articles/jekyll/jekyll.md)
       * [Josh](articles/jekyll/josh.md)
