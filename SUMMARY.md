@@ -40,3 +40,4 @@
     * [VM Adventures](articles/vm_adventures.md)
     * [Reading List](articles/reading_list.md)
     * [Test Draft](articles/test_draft.md)
+    * [Plop](articles/plop.md)
