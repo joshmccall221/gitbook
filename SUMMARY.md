@@ -23,11 +23,7 @@
     * [Chromebook all the things!!!]()
       * [$2 Azure club](articles/azure_pricing.md)
       * [Azure, Visual Studio, ASP.NET MVC 5 Entity Framework!!!](articles/chromebook.md)
-#{{properCase name}} 
-
-##{{titleCase name}}
-* [Test Art 2](test_art_2.md)
-* [Ta 2](ta_2.md)
+    * [Test Article](articles/test_article.md)
 * [Drafts]()
     * [Building a Personal Brand](articles/personal_brand.md)
     * [Mentoring with EE](articles/mentoring_with_ee.md)
@@ -43,4 +39,4 @@
     * [elementary OS](articles/elementary_os.md)
     * [VM Adventures](articles/vm_adventures.md)
     * [Reading List](articles/reading_list.md)
-* [Td 2](td_2.md)
+    * [Test Draft](articles/test_draft.md)

@@ -23,8 +23,4 @@
     * [Chromebook all the things!!!]()
       * [$2 Azure club](articles/azure_pricing.md)
       * [Azure, Visual Studio, ASP.NET MVC 5 Entity Framework!!!](articles/chromebook.md)
-#{{properCase name}} 
-
-##{{titleCase name}}
-* [Test Art 2](test_art_2.md)
-* [Ta 2](ta_2.md)
+    * [Test Article](articles/test_article.md)

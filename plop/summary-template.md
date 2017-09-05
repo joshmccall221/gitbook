@@ -1,1 +1,1 @@
-* [{{titleCase name}}]({{snakeCase name}}.md)
+    * [{{titleCase name}}](articles/{{snakeCase name}}.md)
