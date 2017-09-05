@@ -27,3 +27,4 @@
 
 ##{{titleCase name}}
 * [Test Art 2](test_art_2.md)
+* [Ta 2](ta_2.md)

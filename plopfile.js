@@ -20,20 +20,20 @@ module.exports = function (plop) {
             actions.push({
                 type: 'add',
                 path: 'articles/{{snakeCase name}}.md',
-                templateFile: 'plop/article_template.md'
+                templateFile: 'plop/article-template.md'
             });
 
             if(data.draft) {
                 actions.push({
                     type: 'add',
                     path: 'plop/draft_{{snakeCase name}}.md',
-                    templateFile: 'plop/summary_template.md'
+                    templateFile: 'plop/summary-template.md'
                 });
             } else {
                 actions.push({
                     type: 'add',
                     path: 'plop/article_{{snakeCase name}}.md',
-                    templateFile: 'plop/summary_template.md'
+                    templateFile: 'plop/summary-template.md'
                 });
             }
  

@@ -27,6 +27,7 @@
 
 ##{{titleCase name}}
 * [Test Art 2](test_art_2.md)
+* [Ta 2](ta_2.md)
 * [Drafts]()
     * [Building a Personal Brand](articles/personal_brand.md)
     * [Mentoring with EE](articles/mentoring_with_ee.md)
@@ -42,3 +43,4 @@
     * [elementary OS](articles/elementary_os.md)
     * [VM Adventures](articles/vm_adventures.md)
     * [Reading List](articles/reading_list.md)
+* [Td 2](td_2.md)
