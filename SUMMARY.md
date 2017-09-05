@@ -39,3 +39,4 @@
     * [VM Adventures](articles/vm_adventures.md)
     * [Reading List](articles/reading_list.md)
     * [Plop](articles/plop.md)
+    * [Uses](articles/uses.md)

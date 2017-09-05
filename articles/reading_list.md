@@ -1,5 +1,12 @@
 # Reading List
 
+## TODO: 
+- [ ] [how to start](https://www.youtube.com/watch?v=Q5jiifErFEE)
+- [ ] [troyhunt.com/how-i-optimised-my-life-to-make-my-job](https://www.troyhunt.com/how-i-optimised-my-life-to-make-my-job/)
+- [ ] [https://www.businessinsider.com.au/mark-zuckerberg-same-t-shirt-2014-11](https://www.businessinsider.com.au/mark-zuckerberg-same-t-shirt-2014-11)
+- [ ] [ember cordova](https://www.google.com/search?q=embercordova)
+- [ ] [https://www.google.com/search?q=youtube](https://www.google.com/search?q=youtube)
+
 ## Books
 * [_ericelliott]() 
     * [Book: Programming JavaScript Applications by Eric Elliott](http://chimera.labs.oreilly.com/books/1234000000262)

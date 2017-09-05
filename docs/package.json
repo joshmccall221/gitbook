@@ -13,7 +13,7 @@
     "postinstall": "gitbook install",
     "serve": "gitbook serve",
     "start": "npm-run-all -l docs:*",
-    "docs:spellcheck": "mdspell -n -a './*.md' './articles/*.md'",
+    "spellcheck": "mdspell -n -a './*.md' './articles/*.md'",
     "docs:summary": "rm SUMMARY.md; touch SUMMARY.md;",
     "docs:new_articles": "cat ./plop/article_* >> ./plop/articles.md",
     "docs:articles": "cat ./plop/articles.md >> ./SUMMARY.md",
