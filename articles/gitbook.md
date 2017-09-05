@@ -20,7 +20,6 @@ As I looked for ways to organize my madness (that didn't require [ yak shaving ]
 * [many more](https://www.gitbook.com/explore). 
 
 ## Gitbook
- 
 Even the sites that I bookmarked that were not a Gitbook they were simple and straight forward. Gitbook was searchable, easy to deploy and has plugins for analytics, disqus, etc. So, we have a static blogger that can be hosted anywhere, how do I use it?
 
 
@@ -35,20 +34,18 @@ npm install -g gitbook-cli
 ```
 
 ### Build locally
-
 ```
 gitbook install
 touch README.md
 gitbook build
-````
-## Serve locally
+```
 
+## Serve locally
 ```
 gitbook serve
 ```
 
 ### Optional: [Disqus](https://plugins.gitbook.com/plugin/disqus)
-
 ```
 book.json
 {
