@@ -28,6 +28,10 @@
     * [Running GUI apps with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/)
 * [Fredrik Averpil- A treasure trove of learning Python videos](https://fredrikaverpil.github.io/2016/11/02/a-treasure-trove-of-learning-python-videos/)
 * [Good Reads](#good-reads)
+
+## Podcast
+* [StartUp - StartUp is a podcast about what it’s really like to get a business off the ground.](https://gimletmedia.com/startup/)
+
 ##Movies
 [Jobs (2013)](http://www.imdb.com/title/tt2357129/)
 [Steve Jobs (2015)](http://www.imdb.com/title/tt2080374/)
