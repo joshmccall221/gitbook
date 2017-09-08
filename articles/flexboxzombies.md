@@ -1,4 +1,4 @@
 #Flexboxzombies 
 
 ##Flexboxzombies
-[flexboxzombies.com](flexboxzombies.com)
+[flexboxzombies.com](http://flexboxzombies.com/p/flexbox-zombies)
