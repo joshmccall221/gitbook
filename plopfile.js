@@ -1,7 +1,13 @@
 module.exports = function (plop) {
     plop.setGenerator('gitbook', {
         description: 'gitbook is awesome',
-        prompts: [{
+        prompts: [
+            {
+            type: 'input',
+            name: 'link',
+            message: 'link?'
+        },
+            {
             type: 'input',
             name: 'name',
             message: 'Article name?',
@@ -9,7 +15,8 @@ module.exports = function (plop) {
                 if ((/.+/).test(value)) { return true; }
                 return 'name is required';
             }
-        },{
+        },
+            {
             type: 'confirm',
             name: 'draft',
             message: 'Draft?'
