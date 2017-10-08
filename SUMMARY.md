@@ -46,3 +46,5 @@
     * [Youtube Dl](articles/youtube_dl.md)
     * [Building Mobile Applications With](articles/building_mobile_applications_with.md)
     * [Tts Audiobook](articles/tts_audiobook.md)
+    * [Getting Started With You Tube](articles/getting_started_with_you_tube.md)
+    * [Getting Started With You Tube](articles/getting_started_with_you_tube.md)
