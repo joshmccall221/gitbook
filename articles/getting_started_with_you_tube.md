@@ -55,7 +55,7 @@ After relizing I spent ~45 min playing with buttons, mic angles, and listening t
 
 ## Audio w/ OBS 
 
-<iframe width="300"  src="https://www.youtube.com/embed/YcDiBTQhgxs" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YcDiBTQhgxs" frameborder="0" allowfullscreen></iframe>
 
 <br /> 
 ### Let's get OBS installed
