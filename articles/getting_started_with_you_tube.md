@@ -41,8 +41,8 @@ So, to Best Buy I went.
 
 With the Blue Yeti in hand, we turn to YouTube (how do I use this thing?).  
 
-Of coarse I played with all the buttons but after I was done pushing all the buttons, setting up the Blue Yeti couldn't have been easier. 
-Settling on the cardioid setting, I found the best arrangement (so far) is the mic at a 45 and turned to the left. 
+Of coarse unboxing a new toy I had to play with all the buttons but after pushing all the buttons, setting up the Blue Yeti couldn't have been easier. 
+Settling on the cardioid setting, I found the best arrangement (so far) is having the mic at a 45 and turned to the left. 
 
 ![blue_yeti_cardioid](/images/blue_yeti_cardioid.jpg)
 
