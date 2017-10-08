@@ -1,7 +1,9 @@
 # Getting Started With YouTube <br /> (180 min and counting)
 
 ## Intro
-Blogs, technical write-ups, talks ... check, check and check. YouTube... CHECK! 
+Blogs, technical write-ups, talks ... check, check and check. 
+
+And now YouTube... CHECK! 
   > This is the HowTo I never found
 
 I have put off doing technical video ... until now.
