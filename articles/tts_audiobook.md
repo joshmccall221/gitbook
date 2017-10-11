@@ -66,5 +66,6 @@ To get your book from Calibre on your computer to your phone follow these steps:
 - On your phone, visit the url given.
 - Download the book and open with Calibre!
 
-- Download Moon+ Reader: [https://play.google.com/store/apps/details?id=com.flyersoft.moonreader](https://play.google.com/store/apps/details?id=com.flyersoft.moonreader)
+
+- Download: [Moon+ Reader](https://play.google.com/store/apps/details?id=com.flyersoft.moonreader)
 
