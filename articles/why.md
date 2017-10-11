@@ -17,7 +17,10 @@ Well ...
 
 ### A couple of thoughts behind this endeavor:
 #### Email is really blog/video/speaking topics
->"If someone emails a question, write the answer in a blog and respond with the link. The next time someone asks the question, it has already been answered."
+>"next time someone emails you... consider writing a blog post or adding to a wiki with your keystrokes, 
+then emailing the link to the original emailer." - Scott Hanselman
+
+>Read More: [DoTheyDeserveTheGiftOfYourKeystrokes](https://www.hanselman.com/blog/DoTheyDeserveTheGiftOfYourKeystrokes.aspx)
 
 I found this to be pretty profound, we spend time spinning our wheels with 1:1 interactions when we could be reaching a broader audience. 
 
