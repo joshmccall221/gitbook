@@ -62,7 +62,9 @@ After relizing I spent ~45 min playing with buttons, mic angles, and listening t
 <br /> 
 ### Let's get OBS installed
 ```
-$ sudo apt-get install obs-studio -y
+sudo add-apt-repository ppa:obsproject/obs-studio
+sudo apt-get update
+sudo apt-get install obs-studio -y
 ```
 < OBS Yeti filters > 
 

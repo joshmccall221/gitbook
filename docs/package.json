@@ -12,7 +12,7 @@
     "preinstall": "curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash; . ~/.nvm/nvm.sh; nvm install 5; nvm use 5",
     "postinstall": "gitbook install",
     "serve": "gitbook serve",
-    "start": "npm-run-all -l docs:*",
+    "start": "nvm i; npm i; npm-run-all -l docs:*",
     "spellcheck": "mdspell -n -a './*.md' './articles/*.md'",
     "docs:summary": "rm SUMMARY.md; touch SUMMARY.md;",
     "docs:new_articles": "cat ./plop/article_* >> ./plop/articles.md",
@@ -39,5 +39,9 @@
     "plop": "^1.8.1",
     "react": "^15.4.2",
     "rimraf": "2.5.4"
+  },
+  "dependencies": {
+    "gitbook-plugin-disqus": "^0.1.0",
+    "gitbook-plugin-etoc": "^1.2.2"
   }
 }
