@@ -1,4 +1,15 @@
 # From 0 to _
+## Why wait?
+### How to Teach Yourself Code
+> "Stop waiting for the perfect technical co-founder and actually learn to code"
+
+#### Video:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T0qAjgQFR4c" frameborder="0" allowfullscreen></iframe>
+<!--
+<iframe src="https://player.vimeo.com/video/144527585" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/144527585">From 0 to Ember</a> from <a href="https://vimeo.com/globalembermeetup">Global Ember Meetup</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+-->
+
 ## Getting started
 So you wanna learn to code... but where to start?
 
@@ -6,13 +17,11 @@ This is a big topic. If javascript (JS) is where you wanna be I would checkout e
 
 I would suggest getting a base before jumping into ember, like ladyleet did with her 2 week HTML/CSS/JS training, head over to freecodecamp to start you bootcamp! Don't worry about mastering ember (or anything just yet), as you work through the challenges you will get a feel for what's your niche.
 
-### From 0 to Ember
-#### Video:
-
-<iframe src="https://player.vimeo.com/video/144527585" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/144527585">From 0 to Ember</a> from <a href="https://vimeo.com/globalembermeetup">Global Ember Meetup</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-
 #### Writeup:
+```
+note: if you're new/haven't set up your machine for develpment, see below section on Tools.
+"If your following along with the blog... consider using [ember Twiddle](ember-twiddle.com)"
+```
 <img src="../images/ladyleet_basic_ember.png" width="">
 [How to set up a Basic Ember.js app](https://medium.freecodecamp.com/setting-up-a-basic-ember-js-app-c9323760c675)
 
@@ -28,8 +37,12 @@ Getting stuck on a challenge? Here is a link to my solutions.... but shh, you di
 
 [freecodecamp ( joshmccall221 )](https://www.freecodecamp.com/joshmccall221)
 
+### Ember Super-Rentals
+Ready for the next step? Follow the supper-rentals tutorial, you'll have an app running in no time!
 
+> See: [Super-Rentals ](https://guides.emberjs.com/v2.16.0/tutorial/ember-cli/)
 
 ## Conclusion
 
 Ready for more and need more suggestions? Have a resource that should be listed here? Leave a comment below or reach out to [@joshmccall](https://twitter.com/joshmccall)!
+
