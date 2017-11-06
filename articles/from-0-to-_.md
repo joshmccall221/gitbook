@@ -5,22 +5,25 @@
 
 #### Video:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T0qAjgQFR4c" frameborder="0" allowfullscreen></iframe>
-<!--
-<iframe src="https://player.vimeo.com/video/144527585" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/144527585">From 0 to Ember</a> from <a href="https://vimeo.com/globalembermeetup">Global Ember Meetup</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
--->
 
 ## Getting started
+
+### Free Code Camp
 So you wanna learn to code... but where to start?
 
-This is a big topic. If javascript (JS) is where you wanna be I would checkout ember.js! The community, the resources and the framework make it easier for beginners to get things done. To see what I mean, watch [@ladyleet's](https://twitter.com/ladyleet) video and then read through her write up.
+This is a big topic. If javascript (JS) is where you wanna be I would checkout [Free Code Camp(FCC)](https://www.freecodecamp.com/). Free code camp is probably my favorite thing on the internet!
 
-I would suggest getting a base before jumping into ember, like ladyleet did with her 2 week HTML/CSS/JS training, head over to freecodecamp to start you bootcamp! Don't worry about mastering ember (or anything just yet), as you work through the challenges you will get a feel for what's your niche.
+Getting stuck on a challenge? Here is a link to my solutions.... but shh, you didn't get this from me. ;)
+
+[freecodecamp ( joshmccall221 )](https://www.freecodecamp.com/joshmccall221)
+
+### Whats next?
+
+Got the basics covered? Ready to level up to app development? Check out ember.js! The community, the resources and the framework make it easier for beginners to get things done. To see what I mean, check out [@ladyleet's](https://twitter.com/ladyleet)  write up.
 
 #### Writeup:
 ```
 note: if you're new/haven't set up your machine for develpment, see below section on Tools.
-"If your following along with the blog... consider using [ember Twiddle](ember-twiddle.com)"
 ```
 <img src="../images/ladyleet_basic_ember.png" width="">
 [How to set up a Basic Ember.js app](https://medium.freecodecamp.com/setting-up-a-basic-ember-js-app-c9323760c675)
@@ -29,18 +32,16 @@ note: if you're new/haven't set up your machine for develpment, see below sectio
 If your following along with the blog... consider using [ember Twiddle](ember-twiddle.com):
 <img src="../images/ember_Twiddle.png" width="">
 
-### freecodecamp
-Free code camp is probably my favorite thing on the internet! Click this link to get started with HTML, CSS, JS etc...
-[freecodecamp](https://www.freecodecamp.com/)
-
-Getting stuck on a challenge? Here is a link to my solutions.... but shh, you didn't get this from me. ;)
-
-[freecodecamp ( joshmccall221 )](https://www.freecodecamp.com/joshmccall221)
 
 ### Ember Super-Rentals
 Ready for the next step? Follow the supper-rentals tutorial, you'll have an app running in no time!
 
 > See: [Super-Rentals ](https://guides.emberjs.com/v2.16.0/tutorial/ember-cli/)
+
+### But what about mobile?
+
+#### Building Performant Hybrid Apps with Ember
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UL7OkXyT_2o" frameborder="0" allowfullscreen></iframe>
 
 ## Conclusion
 
