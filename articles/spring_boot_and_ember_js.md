@@ -7,7 +7,7 @@
 [part 2](http://nortpoint.io/2016/10/17/lets-make-friends-with-spring-and-emberjs-part-2/)
 
 
-#### Ember.js support for JetBrains IDEs (IntelliJ, WebStorm, ...):
+#### Ember.js support for JetBrains IDEs (IntelliJ, WebStorm, ...)
 [Ember.js support for JetBrains IDEs (IntelliJ, WebStorm, ...)](https://github.com/Turbo87/intellij-emberjs)
 
 ### Links:
