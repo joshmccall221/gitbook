@@ -10,6 +10,12 @@
 #### Ember.js support for JetBrains IDEs (IntelliJ, WebStorm, ...)
 [Ember.js support for JetBrains IDEs (IntelliJ, WebStorm, ...)](https://github.com/Turbo87/intellij-emberjs)
 
+0|Dev
+- Setup / Install
+- part 1 w/ commits
+- part 2 w/ commits w/ ci/cd
+- test
+
 ### Links:
 - [Spring Boot Tutorial For Beginners](https://www.youtube.com/playlist?list=PLz5rnvLVJX5WlI-LrwZnVSCcXq21bbk6K)
 - [Spring Boot: REST + TDD from scratch](https://hackernoon.com/spring-boot-rest-tdd-from-scratch-15f13ed799e0)
