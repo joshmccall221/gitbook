@@ -1,6 +1,6 @@
-#SpringBootAndEmberJs
+#Spring Boot And EmberJS
 
-##Spring Boot And Ember Js
+##Spring Boot And EmberJS
 ### Tutorials:
 [part 1: lets-make-friends-with-spring-and-emberjs/](http://nortpoint.io/2016/10/13/lets-make-friends-with-spring-and-emberjs/)
 
