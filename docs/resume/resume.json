@@ -15,11 +15,23 @@
   "employment": {
     "history": [
       {
+        "position": "Engineer",
+        "employer": "Gain Compliance",
+        "summary": "",
+        "current": true,
+        "start": "2017-04-01",
+        "url": "Artisan",
+        "keywords": [],
+        "highlights": [
+          "Currently focussing on front-end work with a React-Redux stack and a Hapi.js server as our back-end for front-end leveraging REST-based HATEOAS patterns. Deploying continuously using Travis CI into Google’s App Engine platform. Contributing to interface design and user experience of the product."
+        ]
+      },
+      {
         "position": "Artisan",
         "employer": "Pillar Technology",
         "summary": "(Software. DevOps. Agile Coaching.)",
-        "current": true,
         "start": "2016-01-01",
+        "end": "2017-04-01",
         "url": "http://pillartechnology.com/",
         "keywords": [],
         "highlights": [
@@ -37,7 +49,9 @@
         "keywords": [],
         "highlights": [
           "John Deere: Farmer focused portal for managing operations",
-          "- AWS, Scala, NodeJS, React, Backbone.",
+          "- AWS, Java/Scala, NodeJS, React, Backbone.",
+          "- TDD, Pair Programming, Agile",
+          "- Containerized, Microservices, CI/CD",
           "Meredith Corporation: Custom  \"Quick Apps\" for bhg.com, rachaelray.com, parents.com etc.",
           "- JS, Angular, CSS/SASS, Custom CMS, Drupal, Java, JSP.",
           "Seneca Tank: ",
@@ -69,7 +83,8 @@
         "keywords": [],
         "highlights": [
           "Blue Button Initiative: Integrated healthcare platform.",
-          "- HTML, JS, CSS, SASS"
+          "- FrontEnd (HTML, JS, CSS, SASS)",
+          "- UI / UX"
         ]
       },
       {
@@ -143,6 +158,15 @@
     "history": [
       {
         "type": "volunteer",
+        "position": "City Organizer",
+        "organization": "DevOps Days Des Moines",
+        "start": "2017-01-01",
+        "url": "https://www.devopsdays.org/",
+        "summary": "Bringing Dev Ops Days conference to Des Moines 2018",
+        "highlights": []
+      },
+      {
+        "type": "volunteer",
         "position": "",
         "organization": "Free Code Camp",
         "start": "2014-01-01",
@@ -155,6 +179,7 @@
         "position": "",
         "organization": "Tech Journey",
         "start": "2014-01-01",
+        "end": "2016-01-01",
         "url": "http://www.techjourney.org/",
         "summary": "To inspire youth to increase their knowledge and interest in technology by providing engaging learning opportunities led by technology professionals",
         "highlights": []
