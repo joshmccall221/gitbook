@@ -822,36 +822,93 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="spring-boot-and-emberjs">Spring Boot And EmberJS</h1>
+                                <h1 id="0dev---spring-boot-and-emberjs--tdd">[ 0|Dev ] : Spring Boot And EmberJS (+ TDD)</h1>
 <!-- toc --><div id="toc" class="toc">
 
 <ul>
-<li><a href="#tutorials">Tutorials:</a><ul>
+<li><a href="#intro">Intro:</a></li>
+<li><a href="#getting-started">Getting Started</a><ul>
+<li><a href="#editor">Editor</a></li>
+</ul>
+</li>
+<li><a href="#startspringio">start.spring.io</a><ul>
 <li><a href="#emberjs-support-for-jetbrains-ides-intellij-webstorm-">Ember.js support for JetBrains IDEs (IntelliJ, WebStorm, ...)</a></li>
 </ul>
 </li>
-<li><a href="#links">Links:</a></li>
+<li><a href="#recap">Recap</a></li>
+<li><a href="#resources-and-further-reading">Resources and further reading:</a></li>
 </ul>
 
 </div><!-- tocstop -->
-<h2 id="spring-boot-and-emberjs">Spring Boot And EmberJS</h2>
-<h3 id="tutorials">Tutorials:</h3>
-<p><a href="http://nortpoint.io/2016/10/13/lets-make-friends-with-spring-and-emberjs/" target="_blank">part 1: lets-make-friends-with-spring-and-emberjs/</a></p>
-<p><a href="http://nortpoint.io/2016/10/17/lets-make-friends-with-spring-and-emberjs-part-2/" target="_blank">part 2</a></p>
-<h4 id="emberjs-support-for-jetbrains-ides-intellij-webstorm-">Ember.js support for JetBrains IDEs (IntelliJ, WebStorm, ...)</h4>
+<h2 id="intro">Intro:</h2>
+<p>In this write up we will focus on Spring + EmberJS (w/ TDD) while referencing the resources linked below.
+Keeping with the <code>0|Dev</code> theme, we will start without assumptions and walk through getting up and running from a new machine.
+:-)</p>
+<h2 id="getting-started">Getting Started</h2>
+<h3 id="editor">Editor</h3>
+<p><a href="https://www.jetbrains.com/idea/download/" target="_blank">IntelliJ IDEA - Ultimate (Free trial)</a></p>
+<h2 id="startspringio">start.spring.io</h2>
+<p>start.spring.io is powered by Spring Initializr and Pivotal Web Services and one easy way to get up and going with your spring boot application.</p>
+<p>We will be referencing this tutorial:</p>
+<blockquote>
+<p><a href="http://nortpoint.io/2016/10/13/lets-make-friends-with-spring-and-emberjs/" target="_blank">Let&#x2019;s make friends with Spring and EmberJS &#x2013; part 1 </a></p>
+</blockquote>
+<p>Instead of getting started with the mvn command, lets use the spring initializr.</p>
+<p><img src="../../images/spring_initializr.png" alt="spring_INITIALIZR"></p>
+<pre><code class="lang-pom.xml">&lt;dependency&gt;
+    &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-boot-starter-actuator&lt;/artifactId&gt;
+  &lt;/dependency&gt;
+  &lt;dependency&gt;
+    &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-boot-starter-test&lt;/artifactId&gt;
+    &lt;scope&gt;test&lt;/scope&gt;
+  &lt;/dependency&gt;
+  &lt;dependency&gt;
+    &lt;groupId&gt;com.jayway.restassured&lt;/groupId&gt;
+    &lt;artifactId&gt;rest-assured&lt;/artifactId&gt;
+    &lt;version&gt;2.8.0&lt;/version&gt;
+    &lt;scope&gt;test&lt;/scope&gt;
+  &lt;/dependency&gt;
+</code></pre>
+<pre><code>com.joshuamccall.StartApplication.SprimberjBackendApplication
+
+@RestController
+@RequestMapping(&quot;/customers&quot;)
+public class CustomerController {
+    private final CustomersFakeRepository customersFakeRepository;
+
+    @Autowired
+    public CustomerController(CustomersFakeRepository customersFakeRepository) {
+        this.customersFakeRepository = customersFakeRepository;
+    }
+
+    @RequestMapping(value = &quot;/{id}&quot;, method = RequestMethod.GET)
+    Customer getCustomer(@PathVariable(&quot;id&quot;) Integer id){
+        return customersFakeRepository.findById(id);
+    }
+}
+</code></pre><pre><code>com.joshuamccall.StartApplication.SprimberjBackendApplicationTests
+
+@Test
+public void customers() {
+  get(&quot;/customers/1&quot;).then().assertThat().body(equalTo(&quot;hello&quot;));
+}
+</code></pre><h3 id="emberjs-support-for-jetbrains-ides-intellij-webstorm-">Ember.js support for JetBrains IDEs (IntelliJ, WebStorm, ...)</h3>
 <p><a href="https://github.com/Turbo87/intellij-emberjs" target="_blank">Ember.js support for JetBrains IDEs (IntelliJ, WebStorm, ...)</a></p>
-<p>0|Dev</p>
+<h2 id="recap">Recap</h2>
+<h2 id="resources-and-further-reading">Resources and further reading:</h2>
 <ul>
-<li>Setup / Install</li>
-<li>part 1 w/ commits</li>
-<li>part 2 w/ commits w/ ci/cd</li>
-<li>test</li>
-</ul>
-<h3 id="links">Links:</h3>
-<ul>
-<li><a href="https://www.youtube.com/playlist?list=PLz5rnvLVJX5WlI-LrwZnVSCcXq21bbk6K" target="_blank">Spring Boot Tutorial For Beginners</a></li>
+<li><a href="http://nortpoint.io/2016/10/13/lets-make-friends-with-spring-and-emberjs/" target="_blank">Let&#x2019;s make friends with Spring and EmberJS &#x2013; part 1 </a></li>
+<li><a href="http://nortpoint.io/2016/10/17/lets-make-friends-with-spring-and-emberjs-part-2/" target="_blank">Let&#x2019;s make friends with Spring and EmberJS &#x2013; part 2</a></li>
+<li><a href="https://guides.emberjs.com/v2.16.0/tutorial/ember-cli/" target="_blank">Ember Super Rentals Tutorial</a></li>
 <li><a href="https://hackernoon.com/spring-boot-rest-tdd-from-scratch-15f13ed799e0" target="_blank">Spring Boot: REST + TDD from scratch</a></li>
+<li>YouTube Playlist:<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLz5rnvLVJX5WlI-LrwZnVSCcXq21bbk6K" target="_blank">Spring Boot Tutorial For Beginners</a></li>
 <li><a href="https://www.youtube.com/watch?v=R08YRplsYGw" target="_blank">Complete Core Java Programming Course Beginners to Advance </a></li>
+</ul>
+</li>
+<li><a href="https://www.pluralsight.com/courses/spring-boot-first-application" target="_blank">Pluralsight: Creating Your First Spring Boot Application</a></li>
 </ul>
 
                                 
@@ -896,7 +953,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Spring Boot And Ember Js","level":"1.3.26","depth":2,"next":{"title":"Cory House The Reusable Java Script Revolution Nejs Conf 2017","level":"1.3.27","depth":2,"path":"articles/cory_house_the_reusable_java_script_revolution_nejs_conf_2017.md","ref":"articles/cory_house_the_reusable_java_script_revolution_nejs_conf_2017.md","articles":[]},"previous":{"title":"Why","level":"1.3.25","depth":2,"path":"articles/why.md","ref":"articles/why.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["disqus","etoc"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"joshuamccall"},"etoc":{"mindepth":1,"maxdepth":4,"header":1,"h2lb":3,"notoc":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"articles/spring_boot_and_ember_js.md","mtime":"2017-11-13T17:23:56.835Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-11-17T15:46:40.765Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Spring Boot And Ember Js","level":"1.3.26","depth":2,"next":{"title":"Cory House The Reusable Java Script Revolution Nejs Conf 2017","level":"1.3.27","depth":2,"path":"articles/cory_house_the_reusable_java_script_revolution_nejs_conf_2017.md","ref":"articles/cory_house_the_reusable_java_script_revolution_nejs_conf_2017.md","articles":[]},"previous":{"title":"Why","level":"1.3.25","depth":2,"path":"articles/why.md","ref":"articles/why.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["disqus","etoc"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"joshuamccall"},"etoc":{"mindepth":1,"maxdepth":4,"header":1,"h2lb":3,"notoc":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"articles/spring_boot_and_ember_js.md","mtime":"2017-11-20T05:24:12.611Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-11-20T05:29:04.515Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
