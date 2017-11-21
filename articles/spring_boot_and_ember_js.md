@@ -149,7 +149,7 @@ Add the following to your test file.
 	}
 ```
 
-Now, as we make our bean, controller and store we are working towards making out test pass.
+Now, as we make our bean, controller and store we are working towards making our test pass.
 Usually we will unit test these individual pieces but for now we can follow the guide.
 
 Instead of running the curl command lets restart the dev server and run our test.
