@@ -189,6 +189,12 @@ Update config/environment.js with the following:
 - Intellij -> Tools -> Android -> SDK Manager
 - Intellij -> Tools -> Android -> AVD  Manager -> Actions -> Start
 
+### CLI
+> see: https://developer.android.com/studio/run/emulator-commandline.html
+```
+~/Library/Android/sdk/tools/bin/avdmanager list avd
+~/Library/Android/sdk/tools/emulator -avd Pixel_XL_API_26_2
+```
 ### View on Emulator
 - npm install cordova -g
 - corber proxy run android --emulator
