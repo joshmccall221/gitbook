@@ -32,16 +32,21 @@ Here are a few of my favorites that incorporate UX, responsiveness, straight for
 ### Personal Jekyll Theme
 https://le4ker.github.io/personal-jekyll-theme/
 
+![personal](http://jekyllthemes.org/thumbnails/personal.jpg)
+
 ### Spectral
 http://arkadianriver.github.io/spectral/
+
 ![Spectral](http://jekyllthemes.org/thumbnails/spectral.png)
 
 ### Event Jekyll Theme
 https://event-jekyll-theme.github.io/
+
 ![event](http://jekyllthemes.org/thumbnails/event-jekyll-theme.png)
 
 ### Agency Jekyll Theme
 https://y7kim.github.io/agency-jekyll-theme/
+
 ![Agency](http://jekyllthemes.org/thumbnails/agency.jpg)
 
 ## Why Jekyll
