@@ -30,13 +30,13 @@ With the outline above to consider, getting started can seem daunting. One way t
 Here are a few of my favorites that incorporate UX, responsiveness, straight forward navigation and (I think) are pretty.
 
 ### Personal Jekyll Theme
-https://github.com/le4ker/personal-jekyll-theme
+https://le4ker.github.io/personal-jekyll-theme/
 
 ### Spectral
-http://jekyllthemes.org/themes/spectral/
+http://arkadianriver.github.io/spectral/
 
 ### Event Jekyll Theme
-http://jekyllthemes.org/themes/event-jekyll-theme/
+https://event-jekyll-theme.github.io/
 
 ### Agency Jekyll Theme
 https://y7kim.github.io/agency-jekyll-theme/
