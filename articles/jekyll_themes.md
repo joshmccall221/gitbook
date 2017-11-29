@@ -51,7 +51,8 @@ https://y7kim.github.io/agency-jekyll-theme/
 
 ## Why Jekyll
 For why and getting started with Jekyll see [the talk I have at @dsmwebgeeks](http://joshuamccall.com/articles/jekyll/jekyll.html)
-Other links:
+
+## Other links:
 - [jekyllthemes](http://jekyllthemes.org/page9/)
 - [themes.jekyllrc](http://themes.jekyllrc.org/)
 - [my-favorite-free-themes-for-jekyll](https://medium.com/jonredeker/my-favorite-free-themes-for-jekyll-bcd6c918c907)
