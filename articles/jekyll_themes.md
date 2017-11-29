@@ -19,16 +19,27 @@ I prefer the KISS principle on this one. The more pages, links and navigation yo
 More links and menus are also just a pain to manage.
 
 ### Make it pretty!
-Sites from the 90's deserve to say in the 90's
+Sites from the 90's deserve to stay in the 90's.
 > see: [Space Jam](https://www.warnerbros.com/archive/spacejam/movie/jam.htm)
 
+Even someone who is non techy can tell when something is off about a site. It may seem like a small detail but the effort
+behind color pallets, typography, and site design have a huge impact on user experience and perceived confidence in your brand.
+
+## Where do I start?
+With the outline above to consider, getting started can seem daunting. One way to get a head start is to start with a foundation someone has built for you.
+Here are a few of my favorites that incorporate UX, responsiveness, straight forward navigation and (I think) are pretty.
+
+### Personal Jekyll Theme
 https://github.com/le4ker/personal-jekyll-theme
 
+### Spectral
 http://jekyllthemes.org/themes/spectral/
 
+### Event Jekyll Theme
 http://jekyllthemes.org/themes/event-jekyll-theme/
 
-http://arkadianriver.github.io/spectral/
+### Agency Jekyll Theme
+https://y7kim.github.io/agency-jekyll-theme/
 
 Other links:
 - [jekyllthemes](http://jekyllthemes.org/page9/)
