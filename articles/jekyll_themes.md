@@ -27,7 +27,7 @@ behind color pallets, typography, and site design have a huge impact on user exp
 
 ## Where do I start?
 With the outline above to consider, getting started can seem daunting. One way to get a head start is to start with a foundation someone has built for you.
-Here are a few of my favorites that incorporate UX, responsiveness, straight forward navigation and (I think) are pretty.
+Here are a few of my favorite (FREE) themes that incorporate UX, responsiveness, straight forward navigation and (I think) are pretty.
 
 ### Personal Jekyll Theme
 https://le4ker.github.io/personal-jekyll-theme/
