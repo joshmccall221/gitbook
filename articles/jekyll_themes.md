@@ -44,6 +44,8 @@ https://event-jekyll-theme.github.io/
 https://y7kim.github.io/agency-jekyll-theme/
 ![Agency](http://jekyllthemes.org/thumbnails/agency.jpg)
 
+## Why Jekyll
+For why and getting started with Jekyll see [the talk I have at @dsmwebgeeks](http://joshuamccall.com/articles/jekyll/jekyll.html)
 Other links:
 - [jekyllthemes](http://jekyllthemes.org/page9/)
 - [themes.jekyllrc](http://themes.jekyllrc.org/)
