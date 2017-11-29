@@ -15,7 +15,12 @@ It is hard to get a site to not look great on a laptop or desktop, but what happ
 Having your content adapt to screen size not only makes your site look better but helps with functionality as well.
 
 ### Navigation and 404s
+I prefer the KISS principle on this one. The more pages, links and navigation you have the more confusing the site can be to navigate.
+More links and menus are also just a pain to manage.
 
+### Make it pretty!
+Sites from the 90's deserve to say in the 90's
+> see: [Space Jam](https://www.warnerbros.com/archive/spacejam/movie/jam.htm)
 
 https://github.com/le4ker/personal-jekyll-theme
 
