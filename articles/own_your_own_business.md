@@ -7,10 +7,10 @@ Whether your dream is an online ebay/etsy store or a full blown brick and mortar
 questions is invaluable. Below are resources/tips/tricks you may fine useful!
 
 ### FDD: Navigating Independent Consulting with Failure Driven Development (Dustin Thostenson [@dustinson](https://twitter.com/dustinson))
+
 [Omaha .NET user group August meeting](https://omahamtg.com/Event/Details/240)
 
 <iframe src="https://player.vimeo.com/video/182027814" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/182027814">August 2016 .NET UG Meeting</a> from <a href="https://vimeo.com/omahamtg">Omaha Microsoft Technology Group</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 ## First steps:
 
