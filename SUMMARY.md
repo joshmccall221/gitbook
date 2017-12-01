@@ -52,3 +52,4 @@
     * [Spring Boot And Ember Js](articles/spring_boot_and_ember_js.md)
     * [Cory House The Reusable Java Script Revolution Nejs Conf 2017](articles/cory_house_the_reusable_java_script_revolution_nejs_conf_2017.md)
     * [Jekyll Themes](articles/jekyll_themes.md)
+    * [Own Your Own Business](articles/own_your_own_business.md)
