@@ -12,3 +12,6 @@
 
 [how-to-customise-your-linux-desktop-i3-window-manager](http://www.zdnet.com/article/how-to-customise-your-linux-desktop-i3-window-manager/)
 
+## i3 Reference Card
+
+<iframe width="560" height="315" src="https://i3wm.org/docs/refcard.html" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
