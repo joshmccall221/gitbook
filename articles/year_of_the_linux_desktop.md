@@ -2,7 +2,7 @@
 
 ##Year Of The Linux Desktop
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I hear 2018 is going to be the year of linux on the desktop</p>&mdash; Ryan Bergman (@ryber) <a href="https://twitter.com/ryber/status/939160191098064896?ref_src=twsrc%5Etfw">December 8, 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Dilly Dilly!!!!</p>&mdash; josh mccall (@joshmccall) <a href="https://twitter.com/joshmccall/status/939256290693603328?ref_src=twsrc%5Etfw">December 8, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## My move to SUSE
