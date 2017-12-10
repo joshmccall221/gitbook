@@ -15,3 +15,6 @@
 ## i3 Reference Card
 
 <iframe width="560" height="315" src="https://i3wm.org/docs/refcard.html" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+## Screen brightness
+ [Screen brightness](https://wiki.archlinux.org/index.php?title=Backlight&printable=yes)
