@@ -11,6 +11,8 @@
 ## openSUSE + i3
 
 [how-to-customise-your-linux-desktop-i3-window-manager](http://www.zdnet.com/article/how-to-customise-your-linux-desktop-i3-window-manager/)
+[Hands on with the i3 Window Manager: Installing, configuring and using
+](http://www.zdnet.com/article/hands-on-with-the-i3-window-manager-installing-configuring-and-using/)
 
 ## i3 Reference Card
 
