@@ -67,7 +67,57 @@ There we go!
 
 [Using Gitbook to document an open source project](https://medium.com/@gpbl/how-to-use-gitbook-to-publish-docs-for-your-open-source-npm-packages-465dd8d5bfba)
 
-
+[https://github.com/GitbookIO/plugin](https://github.com/GitbookIO/plugin)
 
 [https://github.com/Bandwidth/docs-theme\#readme](https://github.com/Bandwidth/docs-theme#readme "GitBook API Theme")
+
+[https://www.npmjs.com/package/gitbook-plugin-theme-gestalt](https://www.npmjs.com/package/gitbook-plugin-theme-gestalt)
+
+[https://plugins.gitbook.com/plugin/summary](https://plugins.gitbook.com/plugin/summary)
+
+[https://plugins.gitbook.com/plugin/recently-updated](https://plugins.gitbook.com/plugin/recently-updated)
+
+[https://plugins.gitbook.com/plugin/codesandbox](https://plugins.gitbook.com/plugin/codesandbox)
+
+* [https://npm.runkit.com/gitbook-plugin-codesandbox](https://npm.runkit.com/gitbook-plugin-codesandbox)
+* [https://github.com/WebEngage/gitbook-plugin-copy-code-button](https://github.com/WebEngage/gitbook-plugin-copy-code-button)
+
+[https://plugins.gitbook.com/plugin/terminal](https://plugins.gitbook.com/plugin/terminal)
+
+[https://github.com/chudaol/gitbook-plugin-insert-md\#readme](https://github.com/chudaol/gitbook-plugin-insert-md#readme)
+
+[https://github.com/visallo/gitbook-plugin-github-embed](https://github.com/visallo/gitbook-plugin-github-embed)
+
+[https://plugins.gitbook.com/plugin/exercises](https://plugins.gitbook.com/plugin/exercises)
+
+[https://github.com/KimGenius/plugin-codetabs\#readme](https://github.com/KimGenius/plugin-codetabs#readme)
+
+[https://plugins.gitbook.com/plugin/include-codeblock](https://plugins.gitbook.com/plugin/include-codeblock)
+
+[https://plugins.gitbook.com/plugin/insert-logo](https://plugins.gitbook.com/plugin/insert-logo)
+
+[https://plugins.gitbook.com/plugin/versions](https://plugins.gitbook.com/plugin/versions)
+
+[https://www.npmjs.com/package/gitbook-plugin-image-captions](https://www.npmjs.com/package/gitbook-plugin-image-captions)
+
+[https://github.com/Mavrin/gitbook-plugin-jsfiddle](https://github.com/Mavrin/gitbook-plugin-jsfiddle)
+
+[https://www.npmjs.com/package/gitbook-tester](https://www.npmjs.com/package/gitbook-tester)
+
+[https://www.npmjs.com/package/gitbook-tester](https://www.npmjs.com/package/gitbook-tester)  
+[https://toolchain.gitbook.com/themes/](https://toolchain.gitbook.com/themes/)
+
+
+
+### Storybook
+
+[https://github.com/tuchk4/storybook-readme](https://github.com/tuchk4/storybook-readme)[https://storybook.js.org/addons/addon-gallery/](https://storybook.js.org/addons/addon-gallery/)
+
+[https://github.com/storybook-eol/addon-backgrounds](https://github.com/storybook-eol/addon-backgrounds)
+
+[https://github.com/storybooks/addon-jsx](https://github.com/storybooks/addon-jsx)
+
+[https://github.com/tsuyoshiwada/storybook-chrome-screenshot](https://github.com/tsuyoshiwada/storybook-chrome-screenshot)
+
+[https://github.com/storybooks/storybook](https://github.com/storybooks/storybook)
 
