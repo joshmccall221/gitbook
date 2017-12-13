@@ -20,3 +20,18 @@
 
 ## Screen brightness
  [Screen brightness](https://wiki.archlinux.org/index.php?title=Backlight&printable=yes)
+ [light](https://cialu.net/brightness-control-not-work-i3wm/)
+
+## Google Chrome
+[google-chrome-stable](https://www.linuxbabe.com/desktop-linux/how-to-install-google-chrome-on-opensuse-leap-42-1)
+
+## Suse Studio
+[YouTube: Mum Tries To Build Her Own Open Suse Based Linux Distro With Suse Studio (2017)](https://www.youtube.com/watch?v=0b44nYqZL7U&t=194s)
+
+## i3
+[manjaro-i3](https://github.com/search?q=org%3Amanjaro+manjaro-i3&type=Code)
+
+## Random
+[Hacker News: why-use-tumbleweed](https://news.ycombinator.com/item?id=11385287)
+[why-use-tumbleweed](https://rootco.de/2016-03-28-why-use-tumbleweed/)
+[SUSEstudio: joshuamccall](https://susestudio.com/u/joshuamccall)
