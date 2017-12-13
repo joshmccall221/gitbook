@@ -8,7 +8,6 @@ disqus: false
 | [<i class="fa fa-twitter" aria-hidden="true"></i> joshmccall](https://twitter.com/joshmccall)
 
 
-<img src="http://1x1px.me/NFFFFFF-0.png"  height="500" >
 
 
 
