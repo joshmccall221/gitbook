@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/joshmccall221
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://joshuamccall.com
+  * I am joshmccall221 (https://keybase.io/joshmccall221) on keybase.
+  * I have a public key ASAFfh1uREzfHwSedC7MHnhTI9s0zo6xgfdJIDYF265NLgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120057e1d6e444cdf1f049e742ecc1e785323db34ce8eb181f749203605dbae4d2e0a",
+      "host": "keybase.io",
+      "kid": "0120057e1d6e444cdf1f049e742ecc1e785323db34ce8eb181f749203605dbae4d2e0a",
+      "uid": "d04576254a88181e88415745f66ca019",
+      "username": "joshmccall221"
+    },
+    "merkle_root": {
+      "ctime": 1513281061,
+      "hash": "5fa44dab97f241322e110fb566f01fa3b56d29eb62495b35a24bd4b103525d98f4b99e8642ca8d6f8b4a414cf1289fbb094109c2a21f83712617c9108be05d40",
+      "hash_meta": "792696816122fa15fd32e0781084bf2213a54a25711274eee2fb2a002d82bb7c",
+      "seqno": 1820060
+    },
+    "service": {
+      "hostname": "joshuamccall.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.37"
+  },
+  "ctime": 1513281080,
+  "expire_in": 504576000,
+  "prev": "cffb3a515517218a31344ac70f24140ce1a68af2d1323db4621d35c887417fa2",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgBX4dbkRM3x8EnnQuzB54UyPbNM6OsYH3SSA2BduuTS4Kp3BheWxvYWTFA0x7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMDU3ZTFkNmU0NDRjZGYxZjA0OWU3NDJlY2MxZTc4NTMyM2RiMzRjZThlYjE4MWY3NDkyMDM2MDVkYmFlNGQyZTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMDU3ZTFkNmU0NDRjZGYxZjA0OWU3NDJlY2MxZTc4NTMyM2RiMzRjZThlYjE4MWY3NDkyMDM2MDVkYmFlNGQyZTBhIiwidWlkIjoiZDA0NTc2MjU0YTg4MTgxZTg4NDE1NzQ1ZjY2Y2EwMTkiLCJ1c2VybmFtZSI6Impvc2htY2NhbGwyMjEifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MTMyODEwNjEsImhhc2giOiI1ZmE0NGRhYjk3ZjI0MTMyMmUxMTBmYjU2NmYwMWZhM2I1NmQyOWViNjI0OTViMzVhMjRiZDRiMTAzNTI1ZDk4ZjRiOTllODY0MmNhOGQ2ZjhiNGE0MTRjZjEyODlmYmIwOTQxMDljMmEyMWY4MzcxMjYxN2M5MTA4YmUwNWQ0MCIsImhhc2hfbWV0YSI6Ijc5MjY5NjgxNjEyMmZhMTVmZDMyZTA3ODEwODRiZjIyMTNhNTRhMjU3MTEyNzRlZWUyZmIyYTAwMmQ4MmJiN2MiLCJzZXFubyI6MTgyMDA2MH0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJqb3NodWFtY2NhbGwuY29tIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zNyJ9LCJjdGltZSI6MTUxMzI4MTA4MCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiJjZmZiM2E1MTU1MTcyMThhMzEzNDRhYzcwZjI0MTQwY2UxYTY4YWYyZDEzMjNkYjQ2MjFkMzVjODg3NDE3ZmEyIiwic2Vxbm8iOjksInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAkOODWlerrYW+dNtEmW7cXQoZnA7HvGyGY6/AU89uLGR0+1QV/nJuhBjcEWKpoSSm6sfQr4Bzu/uJ62RGf6QLA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFISuZUrZjAg9lzy/6yqBDgJX5o299YlaO0wRHgTcb2ao3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/joshmccall221
+
+==================================================================
