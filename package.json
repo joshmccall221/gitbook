@@ -22,6 +22,7 @@
     "docs:drafts": "cat ./plop/drafts.md >> ./SUMMARY.md",
     "docs:cleanup": "rm ./plop/article_* ; touch ./plop/article_blank.md; rm ./plop/draft_*; touch ./plop/draft_blank.md;",
     "docs:build": "gitbook build ./ ./docs",
+    "docs:keybase": "cp ./keybase.txt ./docs",
     "docs:status": "git status",
     "docs:git_master": "git add . && git commit -am 'gitbook updates'&& git push josh master",
     "wip:clean": "rimraf _book",
