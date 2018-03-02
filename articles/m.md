@@ -1,5 +1,7 @@
 # Microsoft
 
+## Resume
+[Link](http://joshuamccall.com/resume/)
 
 ## Teams
 
@@ -108,7 +110,3 @@ Best wishes,
 [1](https://www.glassdoor.com/Salary/Microsoft-Software-Development-Engineer-II-Salaries-E1651_DAO.htm?filter.jobTitleExact=Software+Development+Engineer-II)
 [2](https://www.glassdoor.com/Salary/Microsoft-Software-Development-Engineer-II-Salaries-E1651_DAO.htm?filter.jobTitleExact=Software+Development+Engineer-II)
 
-## TODO:
-
-- Resume
-- Pick Two
