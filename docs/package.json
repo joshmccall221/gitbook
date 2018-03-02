@@ -15,7 +15,7 @@
     "go": "npm i; npm start",
     "start": "npm-run-all -l docs:*",
     "spellcheck": "mdspell -n -a './*.md' './articles/*.md'",
-    "new":"plop ./plopfile.js",
+    "new": "plop ./plopfile.js",
     "docs:summary": "rm SUMMARY.md; touch SUMMARY.md;",
     "docs:new_articles": "cat ./plop/article_* >> ./plop/articles.md",
     "docs:articles": "cat ./plop/articles.md >> ./SUMMARY.md",
@@ -45,6 +45,8 @@
   },
   "dependencies": {
     "gitbook-plugin-disqus": "^0.1.0",
-    "gitbook-plugin-etoc": "^1.2.2"
+    "gitbook-plugin-etoc": "^1.2.2",
+    "jsonresume-theme-elegant-leonth": "^1.0.3",
+    "jsonresume-theme-nominaltech-nl": "^0.4.97"
   }
 }

@@ -1,131 +1,136 @@
 {
   "name": "Josh McCall",
-  "info": {},
+  "info": {
+    "label": "",
+    "image": "",
+    "brief": "I love working with passionate people who love what they do. As a software engineer my focus is helping others through the use of technology. Mostly front end technologies with a focus on UI/UX. I enjoy connecting people with technology no matter the platform."
+  },
+  "contact": {
+    "email": "joshmccall221@gmail.com",
+    "phone": "(515)-999-0221",
+    "website": "http://joshuamccall.com/"
+  },
   "meta": {
-    "format": "FRESH@0.6.0",
-    "version": "0.1.0"
+    "format": "FRESH@^1.0.0-beta",
+    "modified": "2018-03-02T08:08:46.258Z"
   },
   "location": {
     "city": "Nevada",
-    "region": "Iowa",
+    "region": "IA",
     "country": "US",
     "code": "50201",
-    "address": "805 10th St "
+    "address": "805 10th St"
   },
   "employment": {
     "history": [
       {
+        "position": "Consultant",
+        "employer": "Trility Consulting",
+        "summary": "Part of the acceleration team, I work with clients to transform they way they leverage technology as a part of their business. ",
+        "current": true,
+        "start": "2017-12-15",
+        "end": "",
+        "url": "https://trility.io/",
+        "keywords": [],
+        "highlights": [
+          "Node / React / Ember / AWS",
+          "UI/UX Design & Development",
+          "Continuous Compliance",
+          "Continuous Integration / Continuous Delivery",
+          "Infrastructure As Code",
+          "Training & Coaching",
+          "Delivery Consulting"
+        ]
+      },
+      {
         "position": "Engineer",
         "employer": "Gain Compliance",
-        "summary": "",
-        "current": true,
+        "summary": "Focusing on the user experience paired with short feedback iterations  working directly with end users  to craft a better path forward for compliance reporting.",
         "start": "2017-04-01",
-        "url": "Artisan",
+        "end": "2017-12-15",
+        "url": "http://gaincompliance.com/",
         "keywords": [],
         "highlights": [
-          "Currently focussing on front-end work with a React-Redux stack and a Hapi.js server as our back-end for front-end leveraging REST-based HATEOAS patterns. Deploying continuously using Travis CI into Google’s App Engine platform. Contributing to interface design and user experience of the product."
+          "Node / React / Redux",
+          "Hapi.js / HATEOAS",
+          "CI / CD",
+          "Google App Engine"
         ]
       },
       {
-        "position": "Artisan",
+        "position": "Consultant ",
         "employer": "Pillar Technology",
-        "summary": "(Software. DevOps. Agile Coaching.)",
+        "summary": "Fuses software craftsmanship with strategy, innovation, DX & marketing to solve your biggest business problems.",
         "start": "2016-01-01",
         "end": "2017-04-01",
-        "url": "http://pillartechnology.com/",
+        "url": "https://pillartechnology.com/",
         "keywords": [],
         "highlights": [
-          "Pioneer: Cloud-based data aggregation providing agricultural insights.",
-          "- AWS, Docker, Python, Angular."
+          "Angular / Python / AWS"
         ]
       },
       {
-        "position": "Software Engineer",
+        "position": "Consultant",
         "employer": "Source Allies Inc.",
-        "summary": "(TDD. XP. Agile Focus.)",
+        "summary": "Working with a number of clients [ John Deere / Meredith Corporation (Better Homes and Gardens, Rachael Ray, Parents) / Seneca Tank / Adventureland ]  delivering software with the technology stack that best fits the business need. ",
         "start": "2014-01-01",
         "end": "2016-01-01",
         "url": "http://www.sourceallies.com/",
         "keywords": [],
         "highlights": [
-          "John Deere: Farmer focused portal for managing operations",
-          "- AWS, Java/Scala, NodeJS, React, Backbone.",
-          "- TDD, Pair Programming, Agile",
-          "- Containerized, Microservices, CI/CD",
-          "Meredith Corporation: Custom  \"Quick Apps\" for bhg.com, rachaelray.com, parents.com etc.",
-          "- JS, Angular, CSS/SASS, Custom CMS, Drupal, Java, JSP.",
-          "Seneca Tank: ",
-          "- PHP, Zend framework, Vagrant, Docker, Jenkins.",
-          "Adventureland: Ticket sales and processing. Multi-factor 3D bar code scanning.",
-          "- PHP, Magento, Python, Django, Perl."
+          "AWS / Java / Scala /Node / React / Backbone",
+          "Node / Angular / CSS / SASS / Drupal / Java / JSP",
+          "PHP / Zend / Laravel / Python /  Vagrant / Docker / Jenkins / Perl"
+        ]
+      },
+      {
+        "position": "UI Developer",
+        "employer": "Amida",
+        "summary": "Rapid Mockup and Prototyping. Iterative Design.  508 Compliance.",
+        "start": "2014-01-01",
+        "end": "2015-01-01",
+        "url": "https://www.amida.com/",
+        "keywords": [],
+        "highlights": [
+          "FrontEnd (HTML, JS, CSS, SASS)",
+          "UI / UX"
         ]
       },
       {
         "position": "Application System Engineer",
-        "employer": "Wells Fargo Home Mortgage",
-        "summary": "(Intelligent error handling, reporting and zero downtime response.)",
+        "employer": "Wells Fargo",
+        "summary": "Intelligent error handling, reporting and zero downtime response.",
         "start": "2014-01-01",
-        "end": "2014-01-01",
+        "end": "2015-01-01",
         "url": "",
         "keywords": [],
         "highlights": [
-          "Support team, programmatically (re)processing loan documents.",
-          "- .Net WPF. SQL. Bash Scripting."
-        ]
-      },
-      {
-        "position": "UI / UX",
-        "employer": "Amida",
-        "summary": "(Rapid Mockup and Prototyping. Iterative Design.  508 Compliance.)",
-        "start": "2014-01-01",
-        "end": "2014-01-01",
-        "url": "http://www.amida-tech.com/",
-        "keywords": [],
-        "highlights": [
-          "Blue Button Initiative: Integrated healthcare platform.",
-          "- FrontEnd (HTML, JS, CSS, SASS)",
-          "- UI / UX"
+          ".Net / WPF / SQL / Bash Scripting."
         ]
       },
       {
         "position": "Development / Technician",
         "employer": "Ames Laboratory",
-        "summary": "(Security, Web Development, Networking, On-boarding and IT Support)",
+        "summary": "Security, Web Development, Networking, On-boarding and IT Support",
         "start": "2008-01-01",
         "end": "2013-01-01",
         "url": "https://www.ameslab.gov/",
         "keywords": [],
         "highlights": [
-          "Development of external and interal apps: ameslab.gov",
-          "- Drupal, JS, CSS"
+          "Drupal / JavaScript /  CSS",
+          "Security Audits",
+          "Networking"
         ]
       },
       {
         "position": "Technician",
         "employer": "Home Town Tech",
-        "summary": "(Websites, Technical Service, Hands on training.)",
+        "summary": "Websites / Technical Service /  Hands on training",
         "start": "2008-01-01",
         "end": "2013-01-01",
         "url": "http://hometowntech.com/",
         "keywords": [],
-        "highlights": [
-          "Small business sites and remote support.",
-          "- Joomla, Wordpress, Drupal"
-        ]
-      },
-      {
-        "position": "Consultant",
-        "employer": "Tireless Wake",
-        "summary": "(Web Development and Technology Consulting)",
-        "start": "2006-01-01",
-        "end": "2012-01-01",
-        "keywords": [],
-        "highlights": [
-          "Web development, IT Service and Sales ",
-          "- Joomla, Wordpress, Drupal",
-          "Practical Farmers of Iowa: Web Development and Technology Consulting",
-          "- Web Development, Server Install, Support"
-        ]
+        "highlights": []
       }
     ]
   },
@@ -160,9 +165,10 @@
         "type": "volunteer",
         "position": "City Organizer",
         "organization": "DevOps Days Des Moines",
-        "start": "2017-01-01",
-        "url": "https://www.devopsdays.org/",
-        "summary": "Bringing Dev Ops Days conference to Des Moines 2018",
+        "start": "2017-06-01",
+        "end": "",
+        "url": "https://www.devopsdays.org/events/2018-des-moines/welcome/",
+        "summary": "Devopsdays is a worldwide series of technical conferences covering topics of software development, IT infrastructure operations, and the intersection between them. Each event is run by volunteers from the local area.",
         "highlights": []
       },
       {
@@ -170,6 +176,7 @@
         "position": "",
         "organization": "Free Code Camp",
         "start": "2014-01-01",
+        "end": "",
         "url": "https://www.freecodecamp.com/",
         "summary": "An open source community of busy people who learn to code  projects for nonprofits.",
         "highlights": []
@@ -181,7 +188,7 @@
         "start": "2014-01-01",
         "end": "2016-01-01",
         "url": "http://www.techjourney.org/",
-        "summary": "To inspire youth to increase their knowledge and interest in technology by providing engaging learning opportunities led by technology professionals",
+        "summary": "To inspire youth to increase their knowledge and interest in technology by providing engaging learning opportunities led by technology professionals.",
         "highlights": []
       },
       {
@@ -189,6 +196,7 @@
         "position": "",
         "organization": "Hyperstream",
         "start": "2014-01-01",
+        "end": "2016-01-01",
         "url": "http://hyperstream.org/",
         "summary": "The Tech Hub for Iowa Students",
         "highlights": []
@@ -201,16 +209,16 @@
   "writing": [],
   "social": [
     {
-      "label": "LinkedIn",
-      "network": "LinkedIn",
-      "url": "https://www.linkedin.com/in/joshmccalliowastateuniversity",
-      "user": "joshmccalliowastateuniversity"
-    },
-    {
       "label": "Twitter",
       "network": "Twitter",
-      "url": "https://www.twitter.com/joshmccall",
+      "url": "",
       "user": "joshmccall"
+    },
+    {
+      "label": "LinkedIn",
+      "network": "LinkedIn",
+      "url": "https://www.linkedin.com/in/joshmccalliowastateuniversity/",
+      "user": "joshmccalliowastateuniversity"
     }
   ],
   "interests": [],
