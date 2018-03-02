@@ -6,7 +6,7 @@
 | Team        | Comment|Position | Description|
 | ------------- |:-------------:|:-------------:| -----:|
 | Knowledge and Growth  |The Knowledge and Growth team is very interested in you!| Software Engineer II | [Link](https://careers.microsoft.com/jobdetails.aspx?ss=&pg=0&so=&rw=1&jid=347944&jlang=en&pp=ss )|
-|Storefronts team       |One more team for you!  |       |       [Link](#store-fronts)|
+|Store Fronts team       |One more team for you!  |       |       [Link](#store-fronts)|
 |Bing Ads| Bing Ads is also interested in you!|Software Engineer II |[Link](https://careers.microsoft.com/jobdetails.aspx?ss=&pg=0&so=&rw=1&jid=348395&jlang=en&pp=ss)|
 |AI & R|AI & R is also interested in you!  | Software Engineer II |[Link](https://careers.microsoft.com/jobdetails.aspx?ss=&pg=0&so=&rw=1&jid=346744&jlang=en&pp=ss)|
 | O2 Team |One more for you!  |Software Engineer |[Link](https://careers.microsoft.com/jobdetails.aspx?ss=&pg=0&so=&rw=1&jid=345804&jlang=en&pp=ss)|
@@ -14,7 +14,6 @@
 
 ### Store Fronts
 
-One more team for you!
 
 Do you have a passion for great customer experiences and yearn to see a direct tie between your work and revenue? If so, the Storefronts team in the Universal Store is the place be! We are radically redefining how customers experience, learn, try, and buy our 1st and 3rd party products online and in the store client. As part of this transformation, we have brought together MicrosoftStore.com, Windows, Windows Phone, and Xbox app stores to create a single organization within the Universal Store so we can build a world-class experience and continue to drive amazing customer satisfaction and revenue growth. Our team is responsible for building the next set of Microsoft ecommerce web experiences that delights our customers and makes it ridiculously easy to learn, try and buy both 1st and 3rd-party hardware, as well as apps, games, movies, music and books.
 
