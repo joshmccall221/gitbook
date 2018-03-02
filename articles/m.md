@@ -13,6 +13,51 @@
 | O2 Team |One more for you!  |Software Engineer |[Link](https://careers.microsoft.com/jobdetails.aspx?ss=&pg=0&so=&rw=1&jid=345804&jlang=en&pp=ss)|
 
 
+### Store Fronts
+
+One more team for you!
+
+Do you have a passion for great customer experiences and yearn to see a direct tie between your work and revenue? If so, the Storefronts team in the Universal Store is the place be! We are radically redefining how customers experience, learn, try, and buy our 1st and 3rd party products online and in the store client. As part of this transformation, we have brought together MicrosoftStore.com, Windows, Windows Phone, and Xbox app stores to create a single organization within the Universal Store so we can build a world-class experience and continue to drive amazing customer satisfaction and revenue growth. Our team is responsible for building the next set of Microsoft ecommerce web experiences that delights our customers and makes it ridiculously easy to learn, try and buy both 1st and 3rd-party hardware, as well as apps, games, movies, music and books.
+
+The Storefronts Purchase Experience Team drives the Customer-facing UX that enables purchase of physical and digital goods, and the redemption of 5x5 tokens for Windows 10, Xbox and Office on the Modern commerce stack. We sit alongside the Discovery and Product Detail Page teams to deliver the E2E Store experience.  We are looking for a highly-motivated Software Engineer to work on our single page web application that drives the purchase experiences across all Microsoft platforms for millions of customers weekly.  Candidates should be passionate about the latest industry leading web technologies and be comfortable working in an agile team that deploys daily.
+
+Responsibilities of this role:
+
+- Writing customer facing UX with high quality across all markets
+
+- Providing technical assessments and feasibility analysis of product requirements
+
+- Working with PM and Quality teams to define, design and implement features
+
+- Working with partners across multiple teams to design-end-to end systems and experiences
+
+- Driving internal architecture and influencing team member designs
+
+- Investigating and prototyping new technologies and frameworks
+
+
+Basic Qualifications:
+
+- 3+ years’ experience in software development life cycle
+
+- Experience programming in JavaScript
+
+- Experience with React and Node.js strongly desired
+
+
+Preferred Qualifications:
+
+- Experience in developing large scale software
+
+- Strong communication and collaboration skills, able to deal with ambiguity and prioritize issues
+
+- Comfortable writing tests as features are delivered, code quality and stability in finite increments
+
+- Ability to quickly ramp up on multiple technology areas
+
+Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, sex, sexual orientation, gender identity or expression, religion, national origin or ancestry, age, disability, marital status, pregnancy, protected veteran status, protected genetic information, political affiliation, or any other characteristics protected by local laws, regulations, or ordinances.
+
+This position is based in Redmond, WA, and open to candidates with existing US work authorization.
 
 ## Interview TIps
 
@@ -59,52 +104,6 @@ Best wishes,
 
 
 
-## Team Descriptions
-### Store Fronts
-
-One more team for you!
-
-Do you have a passion for great customer experiences and yearn to see a direct tie between your work and revenue? If so, the Storefronts team in the Universal Store is the place be! We are radically redefining how customers experience, learn, try, and buy our 1st and 3rd party products online and in the store client. As part of this transformation, we have brought together MicrosoftStore.com, Windows, Windows Phone, and Xbox app stores to create a single organization within the Universal Store so we can build a world-class experience and continue to drive amazing customer satisfaction and revenue growth. Our team is responsible for building the next set of Microsoft ecommerce web experiences that delights our customers and makes it ridiculously easy to learn, try and buy both 1st and 3rd-party hardware, as well as apps, games, movies, music and books.
-
-The Storefronts Purchase Experience Team drives the Customer-facing UX that enables purchase of physical and digital goods, and the redemption of 5x5 tokens for Windows 10, Xbox and Office on the Modern commerce stack. We sit alongside the Discovery and Product Detail Page teams to deliver the E2E Store experience.  We are looking for a highly-motivated Software Engineer to work on our single page web application that drives the purchase experiences across all Microsoft platforms for millions of customers weekly.  Candidates should be passionate about the latest industry leading web technologies and be comfortable working in an agile team that deploys daily.
-
-Responsibilities of this role:
-
-- Writing customer facing UX with high quality across all markets
-
-- Providing technical assessments and feasibility analysis of product requirements
-
-- Working with PM and Quality teams to define, design and implement features
-
-- Working with partners across multiple teams to design-end-to end systems and experiences
-
-- Driving internal architecture and influencing team member designs
-
-- Investigating and prototyping new technologies and frameworks
-
-
-Basic Qualifications:
-
-- 3+ years’ experience in software development life cycle
-
-- Experience programming in JavaScript
-
-- Experience with React and Node.js strongly desired
-
-
-Preferred Qualifications:
-
-- Experience in developing large scale software
-
-- Strong communication and collaboration skills, able to deal with ambiguity and prioritize issues
-
-- Comfortable writing tests as features are delivered, code quality and stability in finite increments
-
-- Ability to quickly ramp up on multiple technology areas
-
-Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, sex, sexual orientation, gender identity or expression, religion, national origin or ancestry, age, disability, marital status, pregnancy, protected veteran status, protected genetic information, political affiliation, or any other characteristics protected by local laws, regulations, or ordinances.
-
-This position is based in Redmond, WA, and open to candidates with existing US work authorization.
 
 ## Notes
 
