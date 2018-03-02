@@ -1,6 +1,5 @@
 # Microsoft
 
-## Microsoft
 
 ## Teams
 
