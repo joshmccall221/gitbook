@@ -25,7 +25,7 @@
     "docs:build": "gitbook build ./ ./docs",
     "docs:keybase": "cp ./keybase.txt ./docs",
     "docs:status": "git status",
-    "docs:git_master": "git add . && git commit -am 'gitbook updates'&& git push master",
+    "docs:git_master": "git add . && git commit -am 'gitbook updates'&& git push",
     "wip:clean": "rimraf _book",
     "wip:git_gh_pages": "cd _book; rm ./.gitignore; git commit --allow-empty -m 'ghpages: Update docs and examples' && touch .nojekyll && git add . && git commit -am 'Update docs and examples' && git checkout -b gh-pages; git push --set-upstream josh gh-pages; git fetch; git rebase gh-pages;  git push git@github.com:joshmccall221/gitbook.git gh-pages --force"
   },
