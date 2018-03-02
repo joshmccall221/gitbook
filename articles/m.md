@@ -6,10 +6,10 @@
 | Team        | Comment|Position | Description|
 | ------------- |:-------------:|:-------------:| -----:|
 | Knowledge and Growth  |The Knowledge and Growth team is very interested in you!| Software Engineer II | [Link](https://careers.microsoft.com/jobdetails.aspx?ss=&pg=0&so=&rw=1&jid=347944&jlang=en&pp=ss )|
-|Store Fronts team       |One more team for you!  |       |       [Link](#store-fronts)|
+|Store Fronts |One more team for you!  |       |       [Link](#store-fronts)|
 |Bing Ads| Bing Ads is also interested in you!|Software Engineer II |[Link](https://careers.microsoft.com/jobdetails.aspx?ss=&pg=0&so=&rw=1&jid=348395&jlang=en&pp=ss)|
 |AI & R|AI & R is also interested in you!  | Software Engineer II |[Link](https://careers.microsoft.com/jobdetails.aspx?ss=&pg=0&so=&rw=1&jid=346744&jlang=en&pp=ss)|
-| O2 Team |One more for you!  |Software Engineer |[Link](https://careers.microsoft.com/jobdetails.aspx?ss=&pg=0&so=&rw=1&jid=345804&jlang=en&pp=ss)|
+| O2 |One more for you!  |Software Engineer |[Link](https://careers.microsoft.com/jobdetails.aspx?ss=&pg=0&so=&rw=1&jid=345804&jlang=en&pp=ss)|
 
 
 ### Store Fronts
