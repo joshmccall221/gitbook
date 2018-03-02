@@ -59,7 +59,8 @@ Best wishes,
 
 
 
-## Store Fronts
+## Team Descriptions
+### Store Fronts
 
 One more team for you!
 
