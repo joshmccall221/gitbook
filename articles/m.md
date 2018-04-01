@@ -110,3 +110,11 @@ Best wishes,
 [1](https://www.glassdoor.com/Salary/Microsoft-Software-Development-Engineer-II-Salaries-E1651_DAO.htm?filter.jobTitleExact=Software+Development+Engineer-II)
 [2](https://www.glassdoor.com/Salary/Microsoft-Software-Development-Engineer-II-Salaries-E1651_DAO.htm?filter.jobTitleExact=Software+Development+Engineer-II)
 
+## Study
+
+### Rob Conery
+ - The Imposters Handbook
+
+####  Lambda
+     https://medium.com/@ayanonagon/the-y-combinator-no-not-that-one-7268d8d46
+     https://www.youtube.com/watch?v=FITJMJjASUs
