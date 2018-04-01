@@ -118,3 +118,11 @@ Best wishes,
 ####  Lambda
      https://medium.com/@ayanonagon/the-y-combinator-no-not-that-one-7268d8d46
      https://www.youtube.com/watch?v=FITJMJjASUs
+     https://somafm.com/player/#/now-playing/dubstep
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;I think that most of my success ... comes from..&quot; -- <a href="https://twitter.com/shanselman?ref_src=twsrc%5Etfw">@shanselman</a> <a href="https://t.co/SEmhHRhzy0">pic.twitter.com/SEmhHRhzy0</a></p>&mdash; Josh (@joshmccall) <a href="https://twitter.com/joshmccall/status/980253702014537728?ref_src=twsrc%5Etfw">April 1, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Brain = mush! <a href="https://t.co/g8AwTFkd7t">https://t.co/g8AwTFkd7t</a> <a href="https://t.co/9nlP4hiw19">pic.twitter.com/9nlP4hiw19</a></p>&mdash; Josh (@joshmccall) <a href="https://twitter.com/joshmccall/status/980462565397532674?ref_src=twsrc%5Etfw">April 1, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
