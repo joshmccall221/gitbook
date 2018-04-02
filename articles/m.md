@@ -112,6 +112,8 @@ Best wishes,
 
 ## Study
 
+https://careers.microsoft.com/us/en/actioncenter
+
 ### Rob Conery
  - The Imposters Handbook
 
