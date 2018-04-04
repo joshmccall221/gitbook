@@ -6,18 +6,36 @@ Codenvy Link:[  React Sling Shot Corber ](https://codenvy.io/f?name%3Dreact-slin
 
 ###Step 1:
 
-![ReactSlingShotCorber1](../images/ReactSlingShotCorber1.png)
+```
 run command to get preview url
+```
+
+![ReactSlingShotCorber1](../images/ReactSlingShotCorber1.png)
+
 ###Step 2:
 
 ![ReactSlingShotCorber2](../images/ReactSlingShotCorber2.png)
+
+```
 Run go.sh script
+```
+
 ###Step 2.a:
+
+```
 - Follow commands....
-###Step 3:
-![ReactSlingShotCorber3](../images/ReactSlingShotCorber3.png)
+```
+
+###Step 3 & 4:
+
+
+```
 - Download apk
-###Step 4:
+
 - Run on Android
+```
+![ReactSlingShotCorber3](../images/ReactSlingShotCorber3.png)
+
 ###Step 5:
+
 - Profit
