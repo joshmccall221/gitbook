@@ -2,7 +2,7 @@
 
 ##React Sling Shot Corber
 
-Codenvy Link:[  React Sling Shot Corber ](https://codenvy.io/f?name=react-slingshot-corber&user=joshmccall221)
+Codenvy Link:[  React Sling Shot Corber ](https://codenvy.io/f?id=factorynx26ferhsvi7s69i)
 
 ###Step 1:
 
