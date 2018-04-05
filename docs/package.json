@@ -9,8 +9,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "preinstall": "curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash; . ~/.nvm/nvm.sh; nvm i",
-    "postinstall": "gitbook install",
+    "preinstall": "curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash; . /home/$(whoami)/.nvm/nvm.sh; nvm i; nvm run node --version; node --version ",
+    "postinstall": "gitbook install; npm run start",
     "serve": "echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p; gitbook serve",
     "go": "npm i; npm start",
     "start": "npm-run-all -l docs:*",
