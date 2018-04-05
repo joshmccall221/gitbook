@@ -9,10 +9,10 @@
     "doc": "docs"
   },
   "scripts": {
-    "preinstall": "curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash; . /home/$(whoami)/.nvm/nvm.sh; nvm i; nvm run node --version; node --version ",
-    "postinstall": "gitbook install; npm run start",
+    "p": "curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash; . /home/$(whoami)/.nvm/nvm.sh; nvm i; nvm alias $(cat .nvmrc);",
+    "preinstall": " . /home/$(whoami)/.nvm/nvm.sh; nvm i; nvm alias $(cat .nvmrc);",
+    "postinstall": "node --version; npm i -g gitbook; gitbook install; npm run start",
     "serve": "echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p; gitbook serve",
-    "go": "npm i; npm start",
     "start": "npm-run-all -l docs:*",
     "spellcheck": "mdspell -n -a './*.md' './articles/*.md'",
     "new": "plop ./plopfile.js",
