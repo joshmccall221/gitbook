@@ -10,7 +10,7 @@
   },
   "scripts": {
     "p": "curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash; . /home/$(whoami)/.nvm/nvm.sh; nvm i; nvm alias $(cat .nvmrc);",
-    "preinstall": " . /home/$(whoami)/.nvm/nvm.sh; nvm i; nvm alias $(cat .nvmrc);",
+    "preinstall": "rm -rf node_modules; . /home/$(whoami)/.nvm/nvm.sh; nvm i; nvm alias $(cat .nvmrc);",
     "postinstall": "node --version; npm i -g gitbook; gitbook install; npm run start",
     "serve": "echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p; gitbook serve",
     "start": "npm-run-all -l docs:*",

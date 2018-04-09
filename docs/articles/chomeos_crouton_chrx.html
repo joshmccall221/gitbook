@@ -927,6 +927,7 @@
 </ul>
 </li>
 <li><a href="#pro-tip">Pro Tip</a><ul>
+<li><a href="#starting-crouton">Starting Crouton</a></li>
 <li><a href="#chrx">Chrx</a></li>
 </ul>
 </li>
@@ -961,6 +962,25 @@ esc + [refesh(F3 on my model)] + Power</p>
 <p>Ctrl + Alt + T
 crosh: shell <enter></enter></p>
 </blockquote>
+<h4 id="starting-crouton">Starting Crouton</h4>
+<p>crouton will create some start scripts for you:</p>
+<pre><code>chronos@localhost / $ start
+startcode            starti3              startxfce4
+startcli             startgnome           startidea            startxiwi
+</code></pre><p>They are found here:</p>
+<pre><code>chronos@localhost / $ which startcode
+/usr/local/bin/startcode
+</code></pre><p>I made the startcode and it looks like:</p>
+<pre><code>chronos@localhost / $ cat $(which startcode)
+sudo startxiwi -T code
+</code></pre><p>Running <code>startcode</code>:</p>
+<pre><code>chronos@localhost / $ startcode
+</code></pre><p>Gives you:
+<img src="../images/startcode.png" alt="startcode"></p>
+<p>This forwards your xsession using crouton integration extension to display your GUI IDE in a tab. Toggle fullscreen to hide the url or launch in window mode:</p>
+<pre><code>chronos@localhost / $ cat $(which startcode)
+sudo startxiwi code
+</code></pre><p>Personally I love the tabbed workflow of having three tabs: docs/jira ticket, ide, localhost.</p>
 <h2 id="chrx">Chrx</h2>
 <p>Want more of a linux feel while still being able to use ChromeOS without a reboot:</p>
 <blockquote>
@@ -1007,7 +1027,7 @@ crosh: shell <enter></enter></p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Chomeos Crouton Chrx","level":"1.2.1.2","depth":3,"next":{"title":"2017","level":"1.2.2","depth":2,"ref":"","articles":[{"title":"VIM - multiple commands on same line","level":"1.2.2.1","depth":3,"path":"articles/vim_multiple_commands.md","ref":"articles/vim_multiple_commands.md","articles":[]},{"title":"Jekyll","level":"1.2.2.2","depth":3,"path":"articles/jekyll/jekyll.md","ref":"articles/jekyll/jekyll.md","articles":[]},{"title":"from 0 to _","level":"1.2.2.3","depth":3,"path":"articles/from-0-to-_.md","ref":"articles/from-0-to-_.md","articles":[]},{"title":"Node Tips","level":"1.2.2.4","depth":3,"path":"articles/node.md","ref":"articles/node.md","articles":[]},{"title":"markdown-spellcheck","level":"1.2.2.5","depth":3,"path":"articles/markdown-spellcheck.md","ref":"articles/markdown-spellcheck.md","articles":[]},{"title":"npm-run-all","level":"1.2.2.6","depth":3,"path":"articles/npmrunall.md","ref":"articles/npmrunall.md","articles":[]},{"title":"GitBook","level":"1.2.2.7","depth":3,"path":"articles/gitbook.md","ref":"articles/gitbook.md","articles":[]},{"title":"Go!","level":"1.2.2.8","depth":3,"path":"articles/go.md","ref":"articles/go.md","articles":[]}]},"previous":{"title":"React Sling Shot Corber","level":"1.2.1.1","depth":3,"path":"articles/react_sling_shot_corber.md","ref":"articles/react_sling_shot_corber.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["disqus","etoc"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"joshuamccall"},"etoc":{"mindepth":1,"maxdepth":4,"header":1,"h2lb":3,"notoc":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"articles/chomeos_crouton_chrx.md","mtime":"2018-04-09T16:34:34.530Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-09T16:35:33.859Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Chomeos Crouton Chrx","level":"1.2.1.2","depth":3,"next":{"title":"2017","level":"1.2.2","depth":2,"ref":"","articles":[{"title":"VIM - multiple commands on same line","level":"1.2.2.1","depth":3,"path":"articles/vim_multiple_commands.md","ref":"articles/vim_multiple_commands.md","articles":[]},{"title":"Jekyll","level":"1.2.2.2","depth":3,"path":"articles/jekyll/jekyll.md","ref":"articles/jekyll/jekyll.md","articles":[]},{"title":"from 0 to _","level":"1.2.2.3","depth":3,"path":"articles/from-0-to-_.md","ref":"articles/from-0-to-_.md","articles":[]},{"title":"Node Tips","level":"1.2.2.4","depth":3,"path":"articles/node.md","ref":"articles/node.md","articles":[]},{"title":"markdown-spellcheck","level":"1.2.2.5","depth":3,"path":"articles/markdown-spellcheck.md","ref":"articles/markdown-spellcheck.md","articles":[]},{"title":"npm-run-all","level":"1.2.2.6","depth":3,"path":"articles/npmrunall.md","ref":"articles/npmrunall.md","articles":[]},{"title":"GitBook","level":"1.2.2.7","depth":3,"path":"articles/gitbook.md","ref":"articles/gitbook.md","articles":[]},{"title":"Go!","level":"1.2.2.8","depth":3,"path":"articles/go.md","ref":"articles/go.md","articles":[]}]},"previous":{"title":"React Sling Shot Corber","level":"1.2.1.1","depth":3,"path":"articles/react_sling_shot_corber.md","ref":"articles/react_sling_shot_corber.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["disqus","etoc"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"joshuamccall"},"etoc":{"mindepth":1,"maxdepth":4,"header":1,"h2lb":3,"notoc":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"articles/chomeos_crouton_chrx.md","mtime":"2018-04-09T17:05:31.186Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-09T17:07:05.861Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

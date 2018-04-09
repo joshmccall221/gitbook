@@ -27,6 +27,39 @@ To get to shell:
 > Ctrl + Alt + T
 > crosh: shell <Enter>
 
+#### Starting Crouton
+crouton will create some start scripts for you:
+```
+chronos@localhost / $ start
+startcode            starti3              startxfce4
+startcli             startgnome           startidea            startxiwi
+```
+They are found here:
+```
+chronos@localhost / $ which startcode
+/usr/local/bin/startcode
+```
+I made the startcode and it looks like:
+```
+chronos@localhost / $ cat $(which startcode)
+sudo startxiwi -T code
+```
+Running `startcode`:
+```
+chronos@localhost / $ startcode
+```
+
+Gives you:
+![startcode](/images/startcode.png)
+
+This forwards your xsession using crouton integration extension to display your GUI IDE in a tab. Toggle fullscreen to hide the url or launch in window mode:
+
+```
+chronos@localhost / $ cat $(which startcode)
+sudo startxiwi code
+```
+Personally I love the tabbed workflow of having three tabs: docs/jira ticket, ide, localhost.
+
 ## Chrx
 Want more of a linux feel while still being able to use ChromeOS without a reboot:
 > [chrx](https://chrx.org/)
