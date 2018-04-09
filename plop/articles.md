@@ -24,3 +24,4 @@
     * [Chromebook all the things!!!]()
       * [$2 Azure club](articles/azure_pricing.md)
       * [Azure, Visual Studio, ASP.NET MVC 5 Entity Framework!!!](articles/chromebook.md)
+    * [Chomeos Crouton Chrx](articles/chomeos_crouton_chrx.md)

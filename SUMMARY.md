@@ -24,6 +24,7 @@
     * [Chromebook all the things!!!]()
       * [$2 Azure club](articles/azure_pricing.md)
       * [Azure, Visual Studio, ASP.NET MVC 5 Entity Framework!!!](articles/chromebook.md)
+    * [Chomeos Crouton Chrx](articles/chomeos_crouton_chrx.md)
 * [Drafts]()
     * [Building a Personal Brand](articles/personal_brand.md)
     * [Mentoring with EE](articles/mentoring_with_ee.md)
