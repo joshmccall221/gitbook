@@ -2,7 +2,10 @@
 
 ##Chomeos Crouton Chrx
 Chromebooks / ChromeOS is the bomb! My daily driver and what I do all my development on currently!
+
 ##Chomeos
+Here is a couple of tips/tricks to get you going:
+
 ### Powerwash
 Screw something up? Need a fresh start?
 
