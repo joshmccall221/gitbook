@@ -32,4 +32,4 @@ Want more of a linux feel while still being able to use ChromeOS without a reboo
 > [chrx](https://chrx.org/)
 
 My setup:
-![chrxSetup](./images/chrx.png)
+![chrxSetup](/images/chrx.png)
