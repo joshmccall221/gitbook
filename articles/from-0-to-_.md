@@ -56,7 +56,7 @@ Cory House walks you through the buzzwords and also the decision process of deci
 > [Github: React Sling Shot + corber.io](http://joshuamccall.com/articles/react_sling_shot_corber.html)
 
 Whether it's Emberjs, React, Vuejs... I want to tackle as much ground as possible. This project shows how to integrate your shiny new react dev environment into a corber.io project to target web as well as native/hybrid apps!!!
-#### Even more?
+### Even more?
 You're approaching rock star status!!! Whether your new to dev or a seasoned pro, this book should be on your reading list!
 
 > [Rob Conery : THE IMPOSTER'S HANDBOOK ](https://bigmachine.io/products/the-imposters-handbook/?variant=40784923784)
