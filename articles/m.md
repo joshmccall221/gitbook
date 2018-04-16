@@ -3,6 +3,7 @@
 ## Resume
 [Link](http://joshuamccall.com/resume/)
 
+[Top](#microsoft)
 ## Teams
 
 | Team        | Comment|Position | Description|
@@ -14,6 +15,7 @@
 | O2 |One more for you!  |Software Engineer |[Link](https://careers.microsoft.com/jobdetails.aspx?ss=&pg=0&so=&rw=1&jid=345804&jlang=en&pp=ss)|
 
 
+[Top](#microsoft)
 ### Store Fronts
 
 
@@ -59,10 +61,12 @@ Microsoft is an equal opportunity employer. All qualified applicants will receiv
 
 This position is based in Redmond, WA, and open to candidates with existing US work authorization.
 
+[Top](#microsoft)
 ## Interview TIps
 
 See: [Loop Prep](https://drive.google.com/file/d/0ByQQZTuX45lKVF9MX29DMnZwM2xqMENZbTJJbWVDMmF5X0dR/view?usp=sharing)
 
+[Top](#microsoft)
 ### Tips:
 
 Please be ready to code and answer problem solving questions. Tech screens can lean toward CS fundamentals. You could get asked a diverse range of questions (data structures, link list, binary trees and so forth).
@@ -80,6 +84,7 @@ http://www.pcworld.com/article/2452820/nadella-on-microsofts-culture-change-noth
 Satya Nadella's Microsoft is a very different animal, unafraid to use any technology if it gets the job done.
 
 
+[Top](#microsoft)
 ### The Evolution of Microsoft:
 
 #### Here are some great links to look at:
@@ -96,6 +101,7 @@ Softpedia:  [ Microsoft Becomes the Worlds Number 1 Place to Work ]( http://news
 
 The Register:  [Microsoft has developed its own linux repeat microsoft has developed its own linux ] ( http://www.theregister.co.uk/2015/09/18/microsoft_has_developed_its_own_linux_repeat_microsoft_has_developed_its_own_linux/)
 
+[Top](#microsoft)
 #### Here are some general guidance on interviewing:
 
 http://blogs.microsoft.com/jobs/
@@ -105,22 +111,29 @@ Best wishes,
 
 
 
+[Top](#microsoft)
 ## Notes
 
 [1](https://www.glassdoor.com/Salary/Microsoft-Software-Development-Engineer-II-Salaries-E1651_DAO.htm?filter.jobTitleExact=Software+Development+Engineer-II)
 [2](https://www.glassdoor.com/Salary/Microsoft-Software-Development-Engineer-II-Salaries-E1651_DAO.htm?filter.jobTitleExact=Software+Development+Engineer-II)
 
+[Top](#microsoft)
 ## Study
 
 https://careers.microsoft.com/us/en/actioncenter
 
+[Top](#microsoft)
 ### Rob Conery
  - The Imposters Handbook
 
+[Top](#microsoft)
 #### General Notes
      https://somafm.com/player/#/now-playing/dubstep
 
+[Top](#microsoft)
 #### Chapters
+
+[Top](#microsoft)
 ##### Big-0
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;I think that most of my success ... comes from..&quot; -- <a href="https://twitter.com/shanselman?ref_src=twsrc%5Etfw">@shanselman</a> <a href="https://t.co/SEmhHRhzy0">pic.twitter.com/SEmhHRhzy0</a></p>&mdash; Josh (@joshmccall) <a href="https://twitter.com/joshmccall/status/980253702014537728?ref_src=twsrc%5Etfw">April 1, 2018</a></blockquote>
@@ -130,6 +143,7 @@ https://careers.microsoft.com/us/en/actioncenter
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Brain = mush! <a href="https://t.co/g8AwTFkd7t">https://t.co/g8AwTFkd7t</a> <a href="https://t.co/9nlP4hiw19">pic.twitter.com/9nlP4hiw19</a></p>&mdash; Josh (@joshmccall) <a href="https://twitter.com/joshmccall/status/980462565397532674?ref_src=twsrc%5Etfw">April 1, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+[Top](#microsoft)
 #####  Lambda Calculus
      https://medium.com/@ayanonagon/the-y-combinator-no-not-that-one-7268d8d46
      https://www.youtube.com/watch?v=FITJMJjASUs
