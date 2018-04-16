@@ -123,6 +123,17 @@ Best wishes,
 https://careers.microsoft.com/us/en/actioncenter
 
 [Top](#microsoft)
+### Reading List
+Pluralsight:
+- JS Dev Env
+ - Algorithms
+ - Typescript
+ - TDD
+ - C#
+- hackerrank.com
+- Design patterns (book)
+
+[Top](#microsoft)
 ### Rob Conery
  - The Imposters Handbook
 
