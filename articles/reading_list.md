@@ -1,6 +1,6 @@
 # Reading List
 
-## TODO: 
+## TODO:
 - [ ] [how to start](https://www.youtube.com/watch?v=Q5jiifErFEE)
 - [ ] [troyhunt.com/how-i-optimised-my-life-to-make-my-job](https://www.troyhunt.com/how-i-optimised-my-life-to-make-my-job/)
 - [ ] [https://www.businessinsider.com.au/mark-zuckerberg-same-t-shirt-2014-11](https://www.businessinsider.com.au/mark-zuckerberg-same-t-shirt-2014-11)
@@ -8,7 +8,7 @@
 - [ ] [https://www.google.com/search?q=youtube](https://www.google.com/search?q=youtube)
 
 ## Books
-* [_ericelliott]() 
+* [_ericelliott]()
     * [Book: Programming JavaScript Applications by Eric Elliott](http://chimera.labs.oreilly.com/books/1234000000262)
     * [Redux First Steps: Shotgun Episode 5](https://medium.com/javascript-scene/redux-first-steps-shotgun-episode-5-ab46af7c240d#.rwtkmbwqy)
     * [Shotgun: JavaScript Video Experience - episode one](https://medium.com/javascript-scene/shotgun-javascript-video-experience-c8b6a7771d49#.goab6m44u)
@@ -16,10 +16,10 @@
     * [learnjs](https://medium.com/javascript-scene/tagged/learnjs)
     * [Lifetime Learning](https://ericelliottjs.com/product/lifetime-access-pass/)
 * [Front End Handbook](https://www.frontendhandbook.com/)
-    * [github - Front End Handbook](https://github.com/FrontendMasters/front-end-handbook) 
+    * [github - Front End Handbook](https://github.com/FrontendMasters/front-end-handbook)
         * [Front-End Salaries- national average in the U.S. for a front-end developer ](https://www.frontendhandbook.com/practice/salaries.html)
     * (https://frontendmasters.com/)
-    * [Cody Lindley](http://codylindley.com/) 
+    * [Cody Lindley](http://codylindley.com/)
         * [Front-end Driven Applications – A New Approach to Applications](http://developer.telerik.com/featured/front-end-driven-applications-new-approach-applications/)
         * [front-end driven apps](http://presentboldly.com/codylindley/front-end-driven-applications/2)
         * (http://codylindley.com/interview/)
@@ -75,11 +75,11 @@ OSX:
 
   * dotfiles
     * https://github.com/toranb/dotfiles
-Debian Adventures: 
+Debian Adventures:
   * https://www.debian.org/devel/debian-installer/
 
-Color Scheme: 
-  * Nova 
+Color Scheme:
+  * Nova
     * http://www.trevordmiller.com/nova/
   * hypernight
     * https://www.npmjs.com/package/hypernight
@@ -99,13 +99,13 @@ Slow Gui performance inside VM
   * https://github.com/jameskbride/vending_machine_kata_python
   * https://github.com/jarzac/vending_machine_kata
   * https://github.com/CHAOWEICHIU/vending-machine-kata
-  
+
 > dev: https://github.com/McCallTech/vendingMachineKata
 lindode / devops: https://github.com/joshmccall221/vendingMachineKata
 
 #### This gitbook Inspired by (You should check out...)
  * [secretgeek's gitbook](https://til.secretgeek.net/)
- * [Redux Docs (gitbook)](http://redux.js.org/) 
+ * [Redux Docs (gitbook)](http://redux.js.org/)
  * [Medium:Publish gitbook with NPM](https://medium.com/@gpbl/how-to-use-gitbook-to-publish-docs-for-your-open-source-npm-packages-465dd8d5bfba#.dadjzqxiy)
 
 ## Good Reads
@@ -113,3 +113,7 @@ lindode / devops: https://github.com/joshmccall221/vendingMachineKata
 Be smart, read stuff!
 
 See: <a href="https://www.goodreads.com/review/list/65122171?shelf=tech" title="Josh McCall's book recommendations, liked quotes, book clubs, book trivia, book lists (tech shelf)"><img border="0" alt="Josh McCall's book recommendations, liked quotes, book clubs, book trivia, book lists (tech shelf)" src="https://www.goodreads.com/images/badge/badge1.jpg"></a>
+
+#### Uncategorized
+
+[hybrid](https://frontendmasters.com/books/front-end-handbook/2018/?q=hybrid)
