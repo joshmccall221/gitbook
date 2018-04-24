@@ -7,8 +7,12 @@ disqus: false
 | [<i class="fa fa-github"  aria-hidden="true"></i> joshmccall221](https://github.com/joshmccall221/gitbook)
 | [<i class="fa fa-twitter" aria-hidden="true"></i> joshmccall](https://twitter.com/joshmccall)
 
-
-
-
-
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
