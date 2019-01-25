@@ -12,6 +12,10 @@ The open source initiative to create a JSON-based standard for resumes. For deve
 
 >[Resume Editor](http://registry.jsonresume.org/)
 
+>[standardresume](https://standardresume.co/)
+
+>[Stack Overflow](https://stackoverflow.com/users/story/current?ac=1)
+
 
 ## Just getting started? 
 
