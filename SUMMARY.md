@@ -4,7 +4,6 @@
 * [Articles]()
   * [2025]()
     * [Migrating from GitBook CLI to HonKit](articles/honkit_migration.md)
-    * [How Claude AI Assisted with the HonKit Migration](articles/claude_honkit_migration.md)
   * [2018]()
     * [React Sling Shot Corber](articles/react_sling_shot_corber.md)
     * [Chomeos Crouton Chrx](articles/chomeos_crouton_chrx.md)
