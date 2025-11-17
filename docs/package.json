@@ -9,20 +9,19 @@
     "doc": "docs"
   },
   "scripts": {
-    "p": "curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash; . /home/$(whoami)/.nvm/nvm.sh; nvm i $(cat .nvmrc); nvm alias $(cat .nvmrc);",
-    "preinstall": "rm -rf node_modules; . /home/$(whoami)/.nvm/nvm.sh; nvm i; nvm alias $(cat .nvmrc);",
-    "postinstall": "nvm use; node --version; npm i -g gitbook npm-run-all; gitbook install; npm run start",
-    "serve": "echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p; gitbook serve",
-    "start": "npm-run-all -l docs:*",
+    "serve": "honkit serve",
+    "build": "honkit build ./ ./docs",
+    "start": "npm run serve",
     "spellcheck": "mdspell -n -a './*.md' './articles/*.md'",
     "new": "plop ./plopfile.js",
+    "go": "npm-run-all -l docs:*",
     "docs:summary": "rm SUMMARY.md; touch SUMMARY.md;",
     "docs:new_articles": "cat ./plop/article_* >> ./plop/articles.md",
     "docs:articles": "cat ./plop/articles.md >> ./SUMMARY.md",
     "docs:new_drafts": "cat ./plop/draft_* >> ./plop/drafts.md",
     "docs:drafts": "cat ./plop/drafts.md >> ./SUMMARY.md",
     "docs:cleanup": "rm ./plop/article_* ; touch ./plop/article_blank.md; rm ./plop/draft_*; touch ./plop/draft_blank.md;",
-    "docs:build": "gitbook build ./ ./docs",
+    "docs:build": "honkit build ./ ./docs",
     "docs:keybase": "cp ./keybase.txt ./docs",
     "docs:status": "git status",
     "docs:git_master": "git add . && git commit -am 'gitbook updates'&& git push",
@@ -36,12 +35,12 @@
     "react": "~0.13.x || ~0.14.x || ^15.0.0"
   },
   "devDependencies": {
-    "gitbook-cli": "^2.3.0",
+    "honkit": "^5.0.0",
     "markdown-spellcheck": "^0.11.0",
-    "npm-run-all": "^4.0.2",
-    "plop": "^1.8.1",
+    "npm-run-all": "^4.1.5",
+    "plop": "^1.9.1",
     "react": "^15.4.2",
-    "rimraf": "2.5.4"
+    "rimraf": "^5.0.0"
   },
   "dependencies": {
     "gitbook-plugin-disqus": "^0.1.0",

@@ -3,11 +3,10 @@
 <html lang="" >
     <head>
         <meta charset="UTF-8">
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>markdown-spellcheck · GitBook</title>
+        <title>markdown-spellcheck · HonKit</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="generator" content="HonKit 5.1.5">
         
         
         
@@ -25,7 +24,7 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
                 
             
                 
@@ -74,7 +73,7 @@
     </head>
     <body>
         
-<div class="book">
+<div class="book honkit-cloak">
     <div class="book-summary">
         
             
@@ -880,8 +879,8 @@
     <li class="divider"></li>
 
     <li>
-        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
-            Published with GitBook
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
         </a>
     </li>
 </ul>
@@ -923,7 +922,7 @@
 <!-- toc --><div id="toc" class="toc">
 
 <ul>
-<li><a href="#i-cant-speell-spell">I can&apos;t <del>speell</del> spell</a></li>
+<li><a href="#i-cant-speell-spell">I can't <del>speell</del> spell</a></li>
 <li><a href="#install">Install</a></li>
 <li><a href="#packagejson">package.json</a></li>
 <li><a href="#running">Running</a></li>
@@ -932,22 +931,22 @@
 </ul>
 
 </div><!-- tocstop -->
-<h2 id="i-cant-speell-spell">I can&apos;t <del>speell</del> spell</h2>
+<h2 id="i-cant-speell-spell">I can't <del>speell</del> spell</h2>
 <p>See: <a href="https://www.npmjs.com/package/markdown-spellcheck" target="_blank">markdown-spellcheck</a></p>
-<p>Whether its a fat finger or having trouble braining, I don&apos;t want my typos ending up in my code or articles. After one too many helpful critiques it was time to set up spellcheck.</p>
+<p>Whether its a fat finger or having trouble braining, I don't want my typos ending up in my code or articles. After one too many helpful critiques it was time to set up spellcheck.</p>
 <blockquote>
 <p>Note: I am 1337 haxor and blogging out of <a href="http://spacemacs.org/" target="_blank">spacemacs</a> </p>
 </blockquote>
 <h2 id="install">Install</h2>
 <pre><code>npm i --save-dev markdown-spellcheck
 </code></pre><h2 id="packagejson">package.json</h2>
-<pre><code>  &quot;scripts&quot;: {
-    &quot;spellcheck&quot;: &quot;mdspell -n -a &apos;./*.md&apos; &apos;./articles/*.md&apos;&quot;,
+<pre><code>  "scripts": {
+    "spellcheck": "mdspell -n -a './*.md' './articles/*.md'",
   }
 </code></pre><h2 id="running">Running</h2>
 <pre><code>&gt;&gt;&gt; npm run spellcheck
 </code></pre><h2 id="output">Output</h2>
-<p><img src="../images/mdspellcheck.png" alt="npm-run-all output"></p>
+<p><img src="../images/mdspellcheck.png" alt="npm-run-all output"></img></p>
 <h2 id="conclusion">Conclusion</h2>
 <p>Safety check for my spelling challenged brain!</p>
 
@@ -993,12 +992,56 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"markdown-spellcheck","level":"1.2.2.5","depth":3,"next":{"title":"npm-run-all","level":"1.2.2.6","depth":3,"path":"articles/npmrunall.md","ref":"articles/npmrunall.md","articles":[]},"previous":{"title":"Node Tips","level":"1.2.2.4","depth":3,"path":"articles/node.md","ref":"articles/node.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["disqus","etoc"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"joshuamccall"},"etoc":{"mindepth":1,"maxdepth":4,"header":1,"h2lb":3,"notoc":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"articles/markdown-spellcheck.md","mtime":"2019-01-24T22:03:25.391Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-25T01:59:44.732Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"markdown-spellcheck","level":"1.2.2.5","depth":3,"next":{"title":"npm-run-all","level":"1.2.2.6","depth":3,"path":"articles/npmrunall.md","ref":"articles/npmrunall.md","articles":[]},"previous":{"title":"Node Tips","level":"1.2.2.4","depth":3,"path":"articles/node.md","ref":"articles/node.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["disqus","etoc"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"joshuamccall"},"etoc":{"mindepth":1,"maxdepth":4,"header":1,"h2lb":3,"notoc":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"articles/markdown-spellcheck.md","mtime":"2025-11-17T20:04:18.208Z","type":"markdown"},"gitbook":{"version":"5.1.5","time":"2025-11-17T20:40:51.100Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
 
         
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
     <script src="../gitbook/gitbook.js"></script>
     <script src="../gitbook/theme.js"></script>
     
@@ -1028,10 +1071,6 @@
     
         
         <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
         
     
         

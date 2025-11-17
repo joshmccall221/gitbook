@@ -14,6 +14,7 @@
     "start": "npm run serve",
     "spellcheck": "mdspell -n -a './*.md' './articles/*.md'",
     "new": "plop ./plopfile.js",
+    "go": "npm-run-all -l docs:*",
     "docs:summary": "rm SUMMARY.md; touch SUMMARY.md;",
     "docs:new_articles": "cat ./plop/article_* >> ./plop/articles.md",
     "docs:articles": "cat ./plop/articles.md >> ./SUMMARY.md",

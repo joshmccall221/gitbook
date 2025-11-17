@@ -3,11 +3,10 @@
 <html lang="" >
     <head>
         <meta charset="UTF-8">
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Spring Boot And Ember Js · GitBook</title>
+        <title>Spring Boot And Ember Js · HonKit</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="generator" content="HonKit 5.1.5">
         
         
         
@@ -25,7 +24,7 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
                 
             
                 
@@ -74,7 +73,7 @@
     </head>
     <body>
         
-<div class="book">
+<div class="book honkit-cloak">
     <div class="book-summary">
         
             
@@ -880,8 +879,8 @@
     <li class="divider"></li>
 
     <li>
-        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
-            Published with GitBook
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
         </a>
     </li>
 </ul>
@@ -955,7 +954,7 @@ Keeping with the <code>0|Dev</code> theme, we will start without assumptions and
 <h2 id="getting-started">Getting Started</h2>
 <p>We will be referencing this tutorial:</p>
 <blockquote>
-<p><a href="http://nortpoint.io/2016/10/13/lets-make-friends-with-spring-and-emberjs/" target="_blank">Let&#x2019;s make friends with Spring and EmberJS &#x2013; part 1 </a></p>
+<p><a href="http://nortpoint.io/2016/10/13/lets-make-friends-with-spring-and-emberjs/" target="_blank">Let’s make friends with Spring and EmberJS – part 1 </a></p>
 </blockquote>
 <h2 id="startspringio">start.spring.io</h2>
 <p>Instead of getting started with the mvn command, lets use the <a href="http://start.spring.io/" target="_blank">spring initializr</a>.</p>
@@ -963,12 +962,12 @@ Keeping with the <code>0|Dev</code> theme, we will start without assumptions and
 <p>or you can download the zip here: <a href="../../images/springEmberCorber/sprimberj-backend.zip">sprimberj-backend.zip</a></p>
 </blockquote>
 <p>start.spring.io is powered by Spring Initializr and Pivotal Web Services and one easy way to get up and going with your spring boot application.</p>
-<p><img src="../../images/springEmberCorber/spring_initializr.png" alt="spring_INITIALIZR"></p>
+<p><img src="../../images/springEmberCorber/spring_initializr.png" alt="spring_INITIALIZR"></img></p>
 <h3 id="editor">Editor</h3>
 <p>With the sprimberj-backend.zip in hand, lets fire up or editor.</p>
 <p><a href="https://www.jetbrains.com/idea/download/" target="_blank">IntelliJ IDEA - Ultimate (Free trial)</a></p>
 <ul>
-<li>IntelliJ -&gt; Right Click &quot;sprimberj-backend.zip&quot; -&gt; Reveal in Finder</li>
+<li>IntelliJ -&gt; Right Click "sprimberj-backend.zip" -&gt; Reveal in Finder</li>
 <li>Unzip (Double Click)</li>
 <li>sprimberj-backend/pom.xml -&gt; + Add as Maven Project</li>
 </ul>
@@ -1004,7 +1003,7 @@ Keeping with the <code>0|Dev</code> theme, we will start without assumptions and
 </code></pre><h2 id="test">Test</h2>
 <p>Most know testing is good but few start with tests and follow TDD.
 For me, clear test and commits not only help keep sanity, it improves efficiency, quality and value of your projects.</p>
-<p><img src="../../images/springEmberCorber/TDD-cycle.png" alt="TDD_cycle"></p>
+<p><img src="../../images/springEmberCorber/TDD-cycle.png" alt="TDD_cycle"></img></p>
 <h3 id="red---lets-start-with-a-failing-test">Red - Lets start with a failing test.</h3>
 <p>Add the following to:
 SprimberjBackendApplicationTests.java</p>
@@ -1024,7 +1023,7 @@ public class SprimberjBackendApplicationTests {
 
     @Test
     public void home() {
-        get(&quot;/&quot;).then().assertThat().body(equalTo(&quot;&quot;));
+        get("/").then().assertThat().body(equalTo(""));
     }
 
 }
@@ -1037,9 +1036,9 @@ public class SprimberjBackendApplicationTests {
 <li>right click (SprimberjBackendApplicationTests.java) -&gt; Run</li>
 </ul>
 <p>We should see the following:</p>
-<pre><code>Response body doesn&apos;t match expectation.
-Expected: &quot;&quot;
-  Actual: {&quot;statusCode&quot;:404,&quot;error&quot;:&quot;Not Found&quot;,&quot;message&quot;:&quot;Not Found&quot;}
+<pre><code>Response body doesn't match expectation.
+Expected: ""
+  Actual: {"statusCode":404,"error":"Not Found","message":"Not Found"}
 </code></pre><h3 id="green---lets-make-it-pass">Green - Lets make it pass!</h3>
 <ul>
 <li>Right click (sprimberj-backend/src/main/java/com/joshuamccall/StartApplication/)</li>
@@ -1054,29 +1053,29 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HomeController {
-    @RequestMapping(&quot;/&quot;)
+    @RequestMapping("/")
     public String HomeController() {
-        return &quot;&quot;;
+        return "";
     }
 }
 </code></pre><p>With the dev sever running lets run our test again.</p>
 <p>Now we should see:</p>
 <blockquote>
-<p>&quot;1 test passed&quot;!!!</p>
+<p>"1 test passed"!!!</p>
 </blockquote>
 <p>If you open a browser to <code>http://localhost:8080/</code> you will see a blank white page (and not an error)!!!</p>
 <h3 id="red---green---recap">Red - Green - Recap</h3>
 <p>At this point, we have bootstrapped our app with Spring Boot and test drove our first route.
-It doesn&apos;t look like much but now we can continue with TDD!</p>
+It doesn't look like much but now we can continue with TDD!</p>
 <h3 id="red---customers-1-2-and-3">Red - customers (1, 2 and 3)</h3>
 <p>We have already bootstrapped the app, gotten the dev server running and our first test passing, so as we follow the tutorial we can start with <code>Customer.java</code>.
 But before we do, lets get a failing test.</p>
 <p>Add the following to your test file.</p>
 <pre><code>    @Test
     public void customers() {
-        get(&quot;/customers/1&quot;).then().assertThat().body(equalTo(&quot;{\&quot;id\&quot;:1,\&quot;fullName\&quot;:\&quot;Edsger Dijkstra\&quot;,\&quot;phone\&quot;:\&quot;11-111-111\&quot;}&quot;));
-        get(&quot;/customers/2&quot;).then().assertThat().body(equalTo(&quot;{\&quot;id\&quot;:2,\&quot;fullName\&quot;:\&quot;Ada Lovelace\&quot;,\&quot;phone\&quot;:\&quot;22-222-222\&quot;}&quot;));
-        get(&quot;/customers/3&quot;).then().assertThat().body(equalTo(&quot;{\&quot;id\&quot;:3,\&quot;fullName\&quot;:\&quot;Alan Turing\&quot;,\&quot;phone\&quot;:\&quot;33-333-333\&quot;}&quot;));
+        get("/customers/1").then().assertThat().body(equalTo("{\"id\":1,\"fullName\":\"Edsger Dijkstra\",\"phone\":\"11-111-111\"}"));
+        get("/customers/2").then().assertThat().body(equalTo("{\"id\":2,\"fullName\":\"Ada Lovelace\",\"phone\":\"22-222-222\"}"));
+        get("/customers/3").then().assertThat().body(equalTo("{\"id\":3,\"fullName\":\"Alan Turing\",\"phone\":\"33-333-333\"}"));
     }
 </code></pre><p>Now, as we make our bean, controller and store we are working towards making our test pass.
 Usually we will unit test these individual pieces but for now we can follow the guide.</p>
@@ -1102,8 +1101,8 @@ In this section we will walk through turning your Ember app into a mobile app wi
 <li>corber init</li>
 </ul>
 <p>Update config/environment.js with the following:</p>
-<pre><code>    rootURL: &apos;&apos;,
-    locationType: &apos;hash&apos;,
+<pre><code>    rootURL: '',
+    locationType: 'hash',
 </code></pre><ul>
 <li>corber platform add android</li>
 <li>corber build --platform=android</li>
@@ -1123,11 +1122,11 @@ In this section we will walk through turning your Ember app into a mobile app wi
 <li>corber proxy run android --emulator</li>
 </ul>
 </blockquote>
-<p><img src="../../images/springEmberCorber/android_emulator.png" alt="android_emulator"></p>
+<p><img src="../../images/springEmberCorber/android_emulator.png" alt="android_emulator"></img></p>
 <h2 id="resources-and-further-reading">Resources and further reading:</h2>
 <ul>
-<li><a href="http://nortpoint.io/2016/10/13/lets-make-friends-with-spring-and-emberjs/" target="_blank">Let&#x2019;s make friends with Spring and EmberJS &#x2013; part 1 </a></li>
-<li><a href="http://nortpoint.io/2016/10/17/lets-make-friends-with-spring-and-emberjs-part-2/" target="_blank">Let&#x2019;s make friends with Spring and EmberJS &#x2013; part 2</a></li>
+<li><a href="http://nortpoint.io/2016/10/13/lets-make-friends-with-spring-and-emberjs/" target="_blank">Let’s make friends with Spring and EmberJS – part 1 </a></li>
+<li><a href="http://nortpoint.io/2016/10/17/lets-make-friends-with-spring-and-emberjs-part-2/" target="_blank">Let’s make friends with Spring and EmberJS – part 2</a></li>
 <li><a href="https://guides.emberjs.com/v2.16.0/tutorial/ember-cli/" target="_blank">Ember Super Rentals Tutorial</a></li>
 <li><a href="https://hackernoon.com/spring-boot-rest-tdd-from-scratch-15f13ed799e0" target="_blank">Spring Boot: REST + TDD from scratch</a></li>
 <li>YouTube Playlist:<ul>
@@ -1181,12 +1180,56 @@ In this section we will walk through turning your Ember app into a mobile app wi
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Spring Boot And Ember Js","level":"1.3.26","depth":2,"next":{"title":"Cory House The Reusable Java Script Revolution Nejs Conf 2017","level":"1.3.27","depth":2,"path":"articles/cory_house_the_reusable_java_script_revolution_nejs_conf_2017.md","ref":"articles/cory_house_the_reusable_java_script_revolution_nejs_conf_2017.md","articles":[]},"previous":{"title":"Why","level":"1.3.25","depth":2,"path":"articles/why.md","ref":"articles/why.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["disqus","etoc"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"joshuamccall"},"etoc":{"mindepth":1,"maxdepth":4,"header":1,"h2lb":3,"notoc":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"articles/spring_boot_and_ember_js.md","mtime":"2019-01-24T22:03:25.395Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-25T01:59:44.732Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Spring Boot And Ember Js","level":"1.3.26","depth":2,"next":{"title":"Cory House The Reusable Java Script Revolution Nejs Conf 2017","level":"1.3.27","depth":2,"path":"articles/cory_house_the_reusable_java_script_revolution_nejs_conf_2017.md","ref":"articles/cory_house_the_reusable_java_script_revolution_nejs_conf_2017.md","articles":[]},"previous":{"title":"Why","level":"1.3.25","depth":2,"path":"articles/why.md","ref":"articles/why.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["disqus","etoc"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"joshuamccall"},"etoc":{"mindepth":1,"maxdepth":4,"header":1,"h2lb":3,"notoc":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"articles/spring_boot_and_ember_js.md","mtime":"2025-11-17T20:04:18.209Z","type":"markdown"},"gitbook":{"version":"5.1.5","time":"2025-11-17T20:40:51.100Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
 
         
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
     <script src="../gitbook/gitbook.js"></script>
     <script src="../gitbook/theme.js"></script>
     
@@ -1216,10 +1259,6 @@ In this section we will walk through turning your Ember app into a mobile app wi
     
         
         <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
         
     
         
