@@ -146,6 +146,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.2.1.2" data-path="articles/claude_honkit_migration.html">
+            
+                <a href="articles/claude_honkit_migration.html">
+            
+                    
+                    How Claude AI Assisted with the GitBook to HonKit Migration 
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -950,6 +963,76 @@
   <a href="joshuamccall.com">joshuamccall.com</a>
 | <a href="https://github.com/joshmccall221/gitbook" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> joshmccall221</a>
 | <a href="https://twitter.com/joshmccall" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> joshmccall</a></p>
+<h2 id="writing-articles-with-plop">Writing Articles with Plop</h2>
+<p>This gitbook uses <a href="https://plopjs.com/" target="_blank">Plop</a> to scaffold new articles. Here's how to create a new article:</p>
+<h3 id="quick-start">Quick Start</h3>
+<pre><code class="lang-bash">npm run new
+</code></pre>
+<h3 id="what-youll-be-asked">What You'll Be Asked</h3>
+<p>Plop will prompt you for three pieces of information:</p>
+<ol>
+<li><strong>link?</strong> - The URL or reference link for your article (can be left blank)</li>
+<li><strong>Article name?</strong> - The name of your article (required)</li>
+<li><strong>Draft?</strong> - Whether this is a draft (y/n)</li>
+</ol>
+<h3 id="what-gets-created">What Gets Created</h3>
+<p>When you run <code>npm run new</code>, plop will:</p>
+<ol>
+<li>Create a new article file in <code>articles/.md</code></li>
+<li>Create a summary entry file in <code>plop/</code>:<ul>
+<li><code>plop/article_.md</code> (if not a draft)</li>
+<li><code>plop/draft_.md</code> (if marked as draft)</li>
+</ul>
+</li>
+</ol>
+<h3 id="building-your-summarymd">Building Your SUMMARY.md</h3>
+<p>After creating articles, run the build process to update your table of contents:</p>
+<pre><code class="lang-bash">npm run go
+</code></pre>
+<p>This command will:</p>
+<ul>
+<li>Recreate SUMMARY.md</li>
+<li>Collect all article entries from <code>plop/article_*</code> files</li>
+<li>Collect all draft entries from <code>plop/draft_*</code> files</li>
+<li>Append them to SUMMARY.md</li>
+<li>Clean up the temporary plop files</li>
+<li>Build the gitbook</li>
+<li>Copy keybase.txt to docs</li>
+<li>Show git status</li>
+</ul>
+<h3 id="complete-workflow-example">Complete Workflow Example</h3>
+<pre><code class="lang-bash"><span class="hljs-comment"># Create a new article</span>
+
+&lt;!-- toc --&gt;
+
+- [Answer the prompts:](#answer-the-prompts)
+- [<span class="hljs-built_in">link</span>? https://example.com/my-article](#link-httpsexamplecommy-article)
+- [Article name? My Awesome Article](#article-name-my-awesome-article)
+- [Draft? n](#draft-n)
+- [Build and update everything](#build-and-update-everything)
+- [Serve locally to preview](#serve-locally-to-preview)
+
+&lt;!-- tocstop --&gt;
+
+npm run new
+<span class="hljs-comment"># Answer the prompts:</span>
+<span class="hljs-comment"># link? https://example.com/my-article</span>
+<span class="hljs-comment"># Article name? My Awesome Article</span>
+<span class="hljs-comment"># Draft? n</span>
+
+<span class="hljs-comment"># Build and update everything</span>
+npm run go
+
+<span class="hljs-comment"># Serve locally to preview</span>
+npm run serve
+</code></pre>
+<h3 id="development-commands">Development Commands</h3>
+<ul>
+<li><code>npm run serve</code> - Serve the gitbook locally</li>
+<li><code>npm run build</code> - Build the gitbook to ./docs</li>
+<li><code>npm run new</code> - Create a new article with plop</li>
+<li><code>npm run go</code> - Full build process (summary + build + cleanup)</li>
+</ul>
 <p><br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
 <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
 <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br></p>
@@ -988,7 +1071,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"disqus":false,"title":"README","level":"1.1","depth":1,"next":{"title":"Articles","level":"1.2","depth":1,"ref":"","articles":[{"title":"2025","level":"1.2.1","depth":2,"ref":"","articles":[{"title":"Migrating from GitBook CLI to HonKit","level":"1.2.1.1","depth":3,"path":"articles/honkit_migration.md","ref":"articles/honkit_migration.md","articles":[]}]},{"title":"2018","level":"1.2.2","depth":2,"ref":"","articles":[{"title":"React Sling Shot Corber","level":"1.2.2.1","depth":3,"path":"articles/react_sling_shot_corber.md","ref":"articles/react_sling_shot_corber.md","articles":[]},{"title":"Chomeos Crouton Chrx","level":"1.2.2.2","depth":3,"path":"articles/chomeos_crouton_chrx.md","ref":"articles/chomeos_crouton_chrx.md","articles":[]}]},{"title":"2017","level":"1.2.3","depth":2,"ref":"","articles":[{"title":"VIM - multiple commands on same line","level":"1.2.3.1","depth":3,"path":"articles/vim_multiple_commands.md","ref":"articles/vim_multiple_commands.md","articles":[]},{"title":"Jekyll","level":"1.2.3.2","depth":3,"path":"articles/jekyll/jekyll.md","ref":"articles/jekyll/jekyll.md","articles":[]},{"title":"from 0 to _","level":"1.2.3.3","depth":3,"path":"articles/from-0-to-_.md","ref":"articles/from-0-to-_.md","articles":[]},{"title":"Node Tips","level":"1.2.3.4","depth":3,"path":"articles/node.md","ref":"articles/node.md","articles":[]},{"title":"markdown-spellcheck","level":"1.2.3.5","depth":3,"path":"articles/markdown-spellcheck.md","ref":"articles/markdown-spellcheck.md","articles":[]},{"title":"npm-run-all","level":"1.2.3.6","depth":3,"path":"articles/npmrunall.md","ref":"articles/npmrunall.md","articles":[]},{"title":"GitBook","level":"1.2.3.7","depth":3,"path":"articles/gitbook.md","ref":"articles/gitbook.md","articles":[]},{"title":"Go!","level":"1.2.3.8","depth":3,"path":"articles/go.md","ref":"articles/go.md","articles":[]}]},{"title":"2016","level":"1.2.4","depth":2,"ref":"","articles":[{"title":"Workiva!","level":"1.2.4.1","depth":3,"path":"articles/workiva.md","ref":"articles/workiva.md","articles":[]},{"title":"HackMyResume","level":"1.2.4.2","depth":3,"path":"articles/hackmyresume.md","ref":"articles/hackmyresume.md","articles":[]},{"title":"Jekyll + formspree.io = <3","level":"1.2.4.3","depth":3,"path":"articles/formspree.md","ref":"articles/formspree.md","articles":[]},{"title":"OSX + Docker + GUI","level":"1.2.4.4","depth":3,"path":"articles/docker.md","ref":"articles/docker.md","articles":[]},{"title":"Black Friday","level":"1.2.4.5","depth":3,"path":"articles/bf.md","ref":"articles/bf.md","articles":[]},{"title":"My new terminal!","level":"1.2.4.6","depth":3,"path":"articles/my_new_term.md","ref":"articles/my_new_term.md","articles":[]},{"title":"Riding shotgun with Elliot","level":"1.2.4.7","depth":3,"path":"articles/riding_shotgun_with_elliot.md","ref":"articles/riding_shotgun_with_elliot.md","articles":[]},{"title":"Chromebook all the things!!!","level":"1.2.4.8","depth":3,"ref":"","articles":[{"title":"$2 Azure club","level":"1.2.4.8.1","depth":4,"path":"articles/azure_pricing.md","ref":"articles/azure_pricing.md","articles":[]},{"title":"Azure, Visual Studio, ASP.NET MVC 5 Entity Framework!!!","level":"1.2.4.8.2","depth":4,"path":"articles/chromebook.md","ref":"articles/chromebook.md","articles":[]}]}]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["disqus","etoc"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"joshuamccall"},"etoc":{"mindepth":1,"maxdepth":4,"header":1,"h2lb":3,"notoc":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2025-11-17T20:04:18.203Z","type":"markdown"},"gitbook":{"version":"5.1.5","time":"2025-11-17T22:08:33.249Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"disqus":false,"title":"README","level":"1.1","depth":1,"next":{"title":"Articles","level":"1.2","depth":1,"ref":"","articles":[{"title":"2025","level":"1.2.1","depth":2,"ref":"","articles":[{"title":"Migrating from GitBook CLI to HonKit","level":"1.2.1.1","depth":3,"path":"articles/honkit_migration.md","ref":"articles/honkit_migration.md","articles":[]},{"title":"How Claude AI Assisted with the GitBook to HonKit Migration ","level":"1.2.1.2","depth":3,"path":"articles/claude_honkit_migration.md","ref":"articles/claude_honkit_migration.md","articles":[]}]},{"title":"2018","level":"1.2.2","depth":2,"ref":"","articles":[{"title":"React Sling Shot Corber","level":"1.2.2.1","depth":3,"path":"articles/react_sling_shot_corber.md","ref":"articles/react_sling_shot_corber.md","articles":[]},{"title":"Chomeos Crouton Chrx","level":"1.2.2.2","depth":3,"path":"articles/chomeos_crouton_chrx.md","ref":"articles/chomeos_crouton_chrx.md","articles":[]}]},{"title":"2017","level":"1.2.3","depth":2,"ref":"","articles":[{"title":"VIM - multiple commands on same line","level":"1.2.3.1","depth":3,"path":"articles/vim_multiple_commands.md","ref":"articles/vim_multiple_commands.md","articles":[]},{"title":"Jekyll","level":"1.2.3.2","depth":3,"path":"articles/jekyll/jekyll.md","ref":"articles/jekyll/jekyll.md","articles":[]},{"title":"from 0 to _","level":"1.2.3.3","depth":3,"path":"articles/from-0-to-_.md","ref":"articles/from-0-to-_.md","articles":[]},{"title":"Node Tips","level":"1.2.3.4","depth":3,"path":"articles/node.md","ref":"articles/node.md","articles":[]},{"title":"markdown-spellcheck","level":"1.2.3.5","depth":3,"path":"articles/markdown-spellcheck.md","ref":"articles/markdown-spellcheck.md","articles":[]},{"title":"npm-run-all","level":"1.2.3.6","depth":3,"path":"articles/npmrunall.md","ref":"articles/npmrunall.md","articles":[]},{"title":"GitBook","level":"1.2.3.7","depth":3,"path":"articles/gitbook.md","ref":"articles/gitbook.md","articles":[]},{"title":"Go!","level":"1.2.3.8","depth":3,"path":"articles/go.md","ref":"articles/go.md","articles":[]}]},{"title":"2016","level":"1.2.4","depth":2,"ref":"","articles":[{"title":"Workiva!","level":"1.2.4.1","depth":3,"path":"articles/workiva.md","ref":"articles/workiva.md","articles":[]},{"title":"HackMyResume","level":"1.2.4.2","depth":3,"path":"articles/hackmyresume.md","ref":"articles/hackmyresume.md","articles":[]},{"title":"Jekyll + formspree.io = <3","level":"1.2.4.3","depth":3,"path":"articles/formspree.md","ref":"articles/formspree.md","articles":[]},{"title":"OSX + Docker + GUI","level":"1.2.4.4","depth":3,"path":"articles/docker.md","ref":"articles/docker.md","articles":[]},{"title":"Black Friday","level":"1.2.4.5","depth":3,"path":"articles/bf.md","ref":"articles/bf.md","articles":[]},{"title":"My new terminal!","level":"1.2.4.6","depth":3,"path":"articles/my_new_term.md","ref":"articles/my_new_term.md","articles":[]},{"title":"Riding shotgun with Elliot","level":"1.2.4.7","depth":3,"path":"articles/riding_shotgun_with_elliot.md","ref":"articles/riding_shotgun_with_elliot.md","articles":[]},{"title":"Chromebook all the things!!!","level":"1.2.4.8","depth":3,"ref":"","articles":[{"title":"$2 Azure club","level":"1.2.4.8.1","depth":4,"path":"articles/azure_pricing.md","ref":"articles/azure_pricing.md","articles":[]},{"title":"Azure, Visual Studio, ASP.NET MVC 5 Entity Framework!!!","level":"1.2.4.8.2","depth":4,"path":"articles/chromebook.md","ref":"articles/chromebook.md","articles":[]}]}]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["disqus","etoc"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"joshuamccall"},"etoc":{"mindepth":1,"maxdepth":4,"header":1,"h2lb":3,"notoc":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2025-11-17T22:11:32.544Z","type":"markdown"},"gitbook":{"version":"5.1.5","time":"2025-11-17T22:17:02.129Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
