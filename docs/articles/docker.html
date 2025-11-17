@@ -3,11 +3,10 @@
 <html lang="" >
     <head>
         <meta charset="UTF-8">
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>OSX + Docker + GUI · GitBook</title>
+        <title>OSX + Docker + GUI · HonKit</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="generator" content="HonKit 5.1.5">
         
         
         
@@ -25,7 +24,7 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
                 
             
                 
@@ -74,7 +73,7 @@
     </head>
     <body>
         
-<div class="book">
+<div class="book honkit-cloak">
     <div class="book-summary">
         
             
@@ -880,8 +879,8 @@
     <li class="divider"></li>
 
     <li>
-        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
-            Published with GitBook
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
         </a>
     </li>
 </ul>
@@ -938,13 +937,13 @@
 <li>OS X 10.11.6 (El Capitan)</li>
 <li>Docker </li>
 <li>XQuartz </li>
-<li>Jessie Frazelle&#x2019;s Dockerfile</li>
+<li>Jessie Frazelle’s Dockerfile</li>
 </ul>
 <h2 id="install">Install</h2>
 <pre><code class="lang-bash">brew cask install xquartz
 <span class="hljs-comment">## restart ## </span>
-open <span class="hljs-_">-a</span> XQuartz
-ip=$(ifconfig en0 | grep inet | awk <span class="hljs-string">&apos;$1==&quot;inet&quot; {print $2}&apos;</span>)
+open -a XQuartz
+ip=$(ifconfig en0 | grep inet | awk <span class="hljs-string">'$1=="inet" {print $2}'</span>)
 <span class="hljs-comment">## command + , : Preferences -&gt; Security </span>
 <span class="hljs-comment"># Check both boxes :)</span>
 xhost + <span class="hljs-variable">$ip</span>
@@ -952,7 +951,7 @@ xhost + <span class="hljs-variable">$ip</span>
 <h2 id="firefox">Firefox</h2>
 <pre><code class="lang-bash">docker run -it \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
-    <span class="hljs-_">-e</span> DISPLAY=$(ifconfig en0 | grep inet | awk <span class="hljs-string">&apos;$1==&quot;inet&quot; {print $2}&apos;</span>):0 \
+    -e DISPLAY=$(ifconfig en0 | grep inet | awk <span class="hljs-string">'$1=="inet" {print $2}'</span>):0 \
     --name firefox \
     jess/firefox
 </code></pre>
@@ -960,7 +959,7 @@ xhost + <span class="hljs-variable">$ip</span>
 <pre><code class="lang-bash">docker run -it \
     --memory 512mb \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
-    <span class="hljs-_">-e</span> DISPLAY=$(ifconfig en0 | grep inet | awk <span class="hljs-string">&apos;$1==&quot;inet&quot; {print $2}&apos;</span>):0 \
+    -e DISPLAY=$(ifconfig en0 | grep inet | awk <span class="hljs-string">'$1=="inet" {print $2}'</span>):0 \
     -v <span class="hljs-variable">$HOME</span>/Downloads:/root/Downloads \
     -v <span class="hljs-variable">$HOME</span>/.config/google-chrome/:/data \
     --name chrome \
@@ -1020,12 +1019,56 @@ xhost + <span class="hljs-variable">$ip</span>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"OSX + Docker + GUI","level":"1.2.3.4","depth":3,"next":{"title":"Black Friday","level":"1.2.3.5","depth":3,"path":"articles/bf.md","ref":"articles/bf.md","articles":[]},"previous":{"title":"Jekyll + formspree.io = <3","level":"1.2.3.3","depth":3,"path":"articles/formspree.md","ref":"articles/formspree.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["disqus","etoc"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"joshuamccall"},"etoc":{"mindepth":1,"maxdepth":4,"header":1,"h2lb":3,"notoc":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"articles/docker.md","mtime":"2019-01-24T22:03:25.382Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-25T01:59:44.732Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"OSX + Docker + GUI","level":"1.2.3.4","depth":3,"next":{"title":"Black Friday","level":"1.2.3.5","depth":3,"path":"articles/bf.md","ref":"articles/bf.md","articles":[]},"previous":{"title":"Jekyll + formspree.io = <3","level":"1.2.3.3","depth":3,"path":"articles/formspree.md","ref":"articles/formspree.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["disqus","etoc"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"joshuamccall"},"etoc":{"mindepth":1,"maxdepth":4,"header":1,"h2lb":3,"notoc":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"articles/docker.md","mtime":"2025-11-17T20:04:18.205Z","type":"markdown"},"gitbook":{"version":"5.1.5","time":"2025-11-17T20:40:51.100Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
 
         
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
     <script src="../gitbook/gitbook.js"></script>
     <script src="../gitbook/theme.js"></script>
     
@@ -1055,10 +1098,6 @@ xhost + <span class="hljs-variable">$ip</span>
     
         
         <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
         
     
         

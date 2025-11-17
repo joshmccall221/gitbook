@@ -3,11 +3,10 @@
 <html lang="" >
     <head>
         <meta charset="UTF-8">
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>GitBook · GitBook</title>
+        <title>GitBook · HonKit</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="generator" content="HonKit 5.1.5">
         
         
         
@@ -25,7 +24,7 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
                 
             
                 
@@ -74,7 +73,7 @@
     </head>
     <body>
         
-<div class="book">
+<div class="book honkit-cloak">
     <div class="book-summary">
         
             
@@ -880,8 +879,8 @@
     <li class="divider"></li>
 
     <li>
-        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
-            Published with GitBook
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
         </a>
     </li>
 </ul>
@@ -941,14 +940,14 @@
 
 </div><!-- tocstop -->
 <h2 id="why">Why</h2>
-<p>I wanted a place to blog (reference resources) but didn&apos;t want to reinvent the wheel. It had to be public, easy to host (free / cheap) and would be great to scale with analytics. ;)</p>
+<p>I wanted a place to blog (reference resources) but didn't want to reinvent the wheel. It had to be public, easy to host (free / cheap) and would be great to scale with analytics. ;)</p>
 <h2 id="my-own-blog-problem">My own blog (Problem)!</h2>
-<p>Most of my favorite tech blogs are simple and mostly look like they were edited by hand. With so much content I would bookmark a few articles (or the whole site) and promise myself I would come back. After a short time, my bookmarks became a mess and I found myself trying to google for that one thing that one guy said a while back. The problem, I got sucked down the rabbit hole of Jekyll, gh-pages and pretty much everything listed on <a href="https://www.staticgen.com/" target="_blank">staticgen</a>. I was spending more time configuring then blogging. Once I got a theme published I realized it didn&apos;t have this feature or couldn&apos;t do that thing.</p>
-<p>That&apos;s when I realized:</p>
+<p>Most of my favorite tech blogs are simple and mostly look like they were edited by hand. With so much content I would bookmark a few articles (or the whole site) and promise myself I would come back. After a short time, my bookmarks became a mess and I found myself trying to google for that one thing that one guy said a while back. The problem, I got sucked down the rabbit hole of Jekyll, gh-pages and pretty much everything listed on <a href="https://www.staticgen.com/" target="_blank">staticgen</a>. I was spending more time configuring then blogging. Once I got a theme published I realized it didn't have this feature or couldn't do that thing.</p>
+<p>That's when I realized:</p>
 <blockquote>
 <p>The content is why I kept coming back not the flashy graphics!</p>
 </blockquote>
-<p>As I looked for ways to organize my madness (that didn&apos;t require <a href="https://www.google.com/search?q=yak+shaving&amp;oq=yak+shaving&amp;aqs=chrome..69i57j0l5.2923j0j7&amp;sourceid=chrome&amp;ie=UTF-8" target="_blank"> yak shaving </a>) I started to see a trend:</p>
+<p>As I looked for ways to organize my madness (that didn't require <a href="https://www.google.com/search?q=yak+shaving&amp;oq=yak+shaving&amp;aqs=chrome..69i57j0l5.2923j0j7&amp;sourceid=chrome&amp;ie=UTF-8" target="_blank"> yak shaving </a>) I started to see a trend:</p>
 <ul>
 <li><a href="http://redux.js.org/" target="_blank">Redux</a></li>
 <li><a href="https://gitbookio.gitbooks.io/javascript/content/" target="_blank">Learn Javascript</a></li>
@@ -973,10 +972,10 @@ gitbook build
 </code></pre><h3 id="optional-disqus">Optional: <a href="https://plugins.gitbook.com/plugin/disqus" target="_blank">Disqus</a></h3>
 <pre><code>book.json
 {
-    &quot;plugins&quot;: [&quot;disqus&quot;],
-    &quot;pluginsConfig&quot;: {
-        &quot;disqus&quot;: {
-            &quot;shortName&quot;: &quot;xxxxxxxx&quot;
+    "plugins": ["disqus"],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "xxxxxxxx"
         }
     }
 }
@@ -1004,7 +1003,7 @@ gitbook build
 <p><a href="https://www.npmjs.com/package/gitbook-plugin-image-captions" target="_blank">https://www.npmjs.com/package/gitbook-plugin-image-captions</a></p>
 <p><a href="https://github.com/Mavrin/gitbook-plugin-jsfiddle" target="_blank">https://github.com/Mavrin/gitbook-plugin-jsfiddle</a></p>
 <p><a href="https://www.npmjs.com/package/gitbook-tester" target="_blank">https://www.npmjs.com/package/gitbook-tester</a></p>
-<p><a href="https://www.npmjs.com/package/gitbook-tester" target="_blank">https://www.npmjs.com/package/gitbook-tester</a><br><a href="https://toolchain.gitbook.com/themes/" target="_blank">https://toolchain.gitbook.com/themes/</a></p>
+<p><a href="https://www.npmjs.com/package/gitbook-tester" target="_blank">https://www.npmjs.com/package/gitbook-tester</a><br></br><a href="https://toolchain.gitbook.com/themes/" target="_blank">https://toolchain.gitbook.com/themes/</a></p>
 <h3 id="storybook">Storybook</h3>
 <p><a href="https://github.com/tuchk4/storybook-readme" target="_blank">https://github.com/tuchk4/storybook-readme</a><a href="https://storybook.js.org/addons/addon-gallery/" target="_blank">https://storybook.js.org/addons/addon-gallery/</a></p>
 <p><a href="https://github.com/storybook-eol/addon-backgrounds" target="_blank">https://github.com/storybook-eol/addon-backgrounds</a></p>
@@ -1054,12 +1053,56 @@ gitbook build
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"GitBook","level":"1.2.2.7","depth":3,"next":{"title":"Go!","level":"1.2.2.8","depth":3,"path":"articles/go.md","ref":"articles/go.md","articles":[]},"previous":{"title":"npm-run-all","level":"1.2.2.6","depth":3,"path":"articles/npmrunall.md","ref":"articles/npmrunall.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["disqus","etoc"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"joshuamccall"},"etoc":{"mindepth":1,"maxdepth":4,"header":1,"h2lb":3,"notoc":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"articles/gitbook.md","mtime":"2019-01-24T22:03:25.384Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-25T01:59:44.732Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"GitBook","level":"1.2.2.7","depth":3,"next":{"title":"Go!","level":"1.2.2.8","depth":3,"path":"articles/go.md","ref":"articles/go.md","articles":[]},"previous":{"title":"npm-run-all","level":"1.2.2.6","depth":3,"path":"articles/npmrunall.md","ref":"articles/npmrunall.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["disqus","etoc"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"joshuamccall"},"etoc":{"mindepth":1,"maxdepth":4,"header":1,"h2lb":3,"notoc":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"articles/gitbook.md","mtime":"2025-11-17T20:04:18.205Z","type":"markdown"},"gitbook":{"version":"5.1.5","time":"2025-11-17T20:40:51.100Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
 
         
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
     <script src="../gitbook/gitbook.js"></script>
     <script src="../gitbook/theme.js"></script>
     
@@ -1089,10 +1132,6 @@ gitbook build
     
         
         <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
         
     
         

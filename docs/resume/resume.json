@@ -1,134 +1,154 @@
 {
   "name": "Josh McCall",
   "info": {
-    "label": "",
-    "image": "",
-    "brief": "I love working with passionate people who love what they do. As a software engineer my focus is helping others through the use of technology. Mostly front end technologies with a focus on UI/UX. I enjoy connecting people with technology no matter the platform."
+    "label": "Software Engineer at Microsoft",
+    "brief": "\nI love working with passionate people who love what they do. I am a software engineer whose focus is helping others through the use of technology.  I enjoy connecting people with technology no matter the platform. "
   },
   "contact": {
     "email": "joshmccall221@gmail.com",
-    "phone": "(515)-999-0221",
-    "website": "http://joshuamccall.com/"
+    "phone": "515-999-0221"
   },
   "meta": {
+    "version": "v1.0.0",
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2018-03-02T08:08:46.258Z"
+    "modified": "2023-02-14T19:36:46.334Z",
+    "url": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
   },
   "location": {
-    "city": "Nevada",
-    "region": "IA",
     "country": "US",
-    "code": "50201",
-    "address": "805 10th St"
+    "address": "United States"
   },
   "employment": {
     "history": [
       {
-        "position": "Consultant",
-        "employer": "Trility Consulting",
-        "summary": "Part of the acceleration team, I work with clients to transform they way they leverage technology as a part of their business. ",
+        "position": "Engineer",
+        "summary": "A software company that develops, supports and sells software that serves enterprise and business needs of small to mid-size businesses.",
         "current": true,
-        "start": "2017-12-15",
+        "start": "2018-12-31",
         "end": "",
-        "url": "https://trility.io/",
         "keywords": [],
-        "highlights": [
-          "Node / React / Ember / AWS",
-          "UI/UX Design & Development",
-          "Continuous Compliance",
-          "Continuous Integration / Continuous Delivery",
-          "Infrastructure As Code",
-          "Training & Coaching",
-          "Delivery Consulting"
-        ]
+        "highlights": []
+      },
+      {
+        "position": "Software Engineer",
+        "summary": ".net, Blazor, Xamarin, Azure Service Fabric, Node, React, ReactXP, Redux, Electron\n\nStore Fronts Data Service (SFDS): \nRolled out a data service to support Microsoft's universal stores using Azure Service Fabric. \n\nXbox Game Pass:\nHelped release the latest version of the Game Pass application built with ReactXP and Electron.\n\nCELA: \nFind Your Legal Contact (FYLC) - End-to-End utility to manage legal contact groups. Utilized by Microsoft employees, Azure pipelines and other internal applications. \n\nInsider Trading Compliance Tool (INTRACT) - platform to administer, notify and audit employee trading status. .net core with Blazor",
+        "current": true,
+        "start": "2018-06-30",
+        "end": "",
+        "keywords": [],
+        "highlights": []
+      },
+      {
+        "position": "YFFR - Consulting / Advisor",
+        "summary": "Node, React, Redux, Corber, Cordova, Firebase, Wordpress\n- Hybrid app (iOS, Android) \n- PWA (web, mobile, Windows store) \n- Website",
+        "current": true,
+        "start": "2017-12-31",
+        "end": "",
+        "keywords": [],
+        "highlights": []
+      },
+      {
+        "position": "Trility Consulting - Consultant",
+        "summary": "Node, React, AWS, DevOps, Agile Coach\nCDS Global (2017 -2018): Full stack development, training and coaching.",
+        "start": "2017-12-31",
+        "end": "2018-12-31",
+        "keywords": [],
+        "highlights": []
+      },
+      {
+        "position": "  Dynamo, LLC - Consultant ",
+        "start": "2017-12-31",
+        "end": "2018-12-31",
+        "keywords": [],
+        "highlights": []
       },
       {
         "position": "Engineer",
-        "employer": "Gain Compliance",
-        "summary": "Focusing on the user experience paired with short feedback iterations  working directly with end users  to craft a better path forward for compliance reporting.",
-        "start": "2017-04-01",
-        "end": "2017-12-15",
-        "url": "http://gaincompliance.com/",
+        "summary": "Node, React, Google App Engine\nData quality and compliance reimagined for the insurance industry.",
+        "start": "2017-04-30",
+        "end": "2018-12-31",
         "keywords": [],
-        "highlights": [
-          "Node / React / Redux",
-          "Hapi.js / HATEOAS",
-          "CI / CD",
-          "Google App Engine"
-        ]
+        "highlights": []
       },
       {
-        "position": "Consultant ",
-        "employer": "Pillar Technology",
-        "summary": "Fuses software craftsmanship with strategy, innovation, DX & marketing to solve your biggest business problems.",
-        "start": "2016-01-01",
-        "end": "2017-04-01",
-        "url": "https://pillartechnology.com/",
+        "position": "Software Artisan",
+        "summary": "Node, React, Angular, Python, AWS\nPioneer (2016 - 2017): Full stack development for AGTech product.",
+        "start": "2016-12-31",
+        "end": "2017-12-31",
         "keywords": [],
-        "highlights": [
-          "Angular / Python / AWS"
-        ]
+        "highlights": []
       },
       {
-        "position": "Consultant",
-        "employer": "Source Allies Inc.",
-        "summary": "Working with a number of clients [ John Deere / Meredith Corporation (Better Homes and Gardens, Rachael Ray, Parents) / Seneca Tank / Adventureland ]  delivering software with the technology stack that best fits the business need. ",
-        "start": "2014-01-01",
-        "end": "2016-01-01",
-        "url": "http://www.sourceallies.com/",
+        "position": "PS Technologies - CTO",
+        "summary": "Node, React, Redux, Corber, Cordova, Firebase, Wordpress\n- Hybrid app (iOS, Android) \n- PWA (web, mobile, Windows store)",
+        "current": true,
+        "start": "2015-12-31",
+        "end": "",
         "keywords": [],
-        "highlights": [
-          "AWS / Java / Scala /Node / React / Backbone",
-          "Node / Angular / CSS / SASS / Drupal / Java / JSP",
-          "PHP / Zend / Laravel / Python /  Vagrant / Docker / Jenkins / Perl"
-        ]
+        "highlights": []
       },
       {
-        "position": "UI Developer",
-        "employer": "Amida",
-        "summary": "Rapid Mockup and Prototyping. Iterative Design.  508 Compliance.",
-        "start": "2014-01-01",
-        "end": "2015-01-01",
-        "url": "https://www.amida.com/",
+        "position": "Amida - UI Developer",
+        "summary": "JS, HTML, Sass, CSS\nUI/UX focus working with design and development teams on part of the blue button initiative. Clickable mockups/prototypes, front end development and remote team/project management with a focus on 508 compliance.",
+        "start": "2014-12-31",
+        "end": "2014-12-31",
         "keywords": [],
-        "highlights": [
-          "FrontEnd (HTML, JS, CSS, SASS)",
-          "UI / UX"
-        ]
+        "highlights": []
+      },
+      {
+        "position": "Software Engineer - Consultant",
+        "summary": "Node React, Redux, Hapi, JAVA, Scala, Vagrant, Docker, Chef, AWS\nJohn Deere ISG (2015 - 2016) : Full stack development for AGTech product. \n\nNode, JS, React, Angular\nMeredith Corporation ( 2015 ) : Custom web components powering analytics and sales conversions.\n\nPHP, Zend, vagrant, virtualization, Jenkins\nSeneca Tank (2014) :  Custom CMS.\n  \nVue, PHP, Laravel, Perl, Django, Magento\nAdventureland (2014) :  Multi-factor 3D bar code ticket processing, e- commerce, hand held android scanners, VOIP and ticket printing.",
+        "start": "2014-12-31",
+        "end": "2016-12-31",
+        "keywords": [],
+        "highlights": []
       },
       {
         "position": "Application System Engineer",
-        "employer": "Wells Fargo",
-        "summary": "Intelligent error handling, reporting and zero downtime response.",
-        "start": "2014-01-01",
-        "end": "2015-01-01",
-        "url": "",
+        "summary": ".net, SQL Server\nApplication development for loan processing.",
+        "start": "2013-12-31",
+        "end": "2014-12-31",
         "keywords": [],
-        "highlights": [
-          ".Net / WPF / SQL / Bash Scripting."
-        ]
+        "highlights": []
       },
       {
-        "position": "Development / Technician",
-        "employer": "Ames Laboratory",
-        "summary": "Security, Web Development, Networking, On-boarding and IT Support",
-        "start": "2008-01-01",
-        "end": "2013-01-01",
-        "url": "https://www.ameslab.gov/",
+        "position": "New York Life Insurance Company - Licensed Insurance Agent",
+        "summary": "An Agent through New York Life I worked with families, individuals and business owners to understand and get the most out of insurance, investments, company benefits and even individual health plans.",
+        "start": "2013-12-31",
+        "end": "2014-12-31",
         "keywords": [],
-        "highlights": [
-          "Drupal / JavaScript /  CSS",
-          "Security Audits",
-          "Networking"
-        ]
+        "highlights": []
       },
       {
-        "position": "Technician",
-        "employer": "Home Town Tech",
-        "summary": "Websites / Technical Service /  Hands on training",
-        "start": "2008-01-01",
-        "end": "2013-01-01",
-        "url": "http://hometowntech.com/",
+        "position": "Practical Farmers of Iowa",
+        "summary": "Consulting and volunteer work:\n- Computer Systems Support\n- Network and Systems Improvement Consulting\n- Primary Computer Server Consultation + Build + Configure\n- Internal Web Application (Open Source, Custom)",
+        "start": "2011-12-31",
+        "end": "2013-12-31",
+        "keywords": [],
+        "highlights": []
+      },
+      {
+        "position": "HomeTown Tech ",
+        "summary": "HomeTown Tech is a team of computer service experts. We can fix broken computers (PC & Mac), set up a stronger & more secure network, provide computer training, and help you avoid computer problems.",
+        "start": "2010-12-31",
+        "end": "2013-12-31",
+        "keywords": [],
+        "highlights": []
+      },
+      {
+        "position": "Owner",
+        "summary": "Full-Stack Software Engineer, Agile Coach, Consultant, Advisor, Speaker, Mentor and Conference Organizer.",
+        "current": true,
+        "start": "2010-12-31",
+        "end": "",
+        "keywords": [],
+        "highlights": []
+      },
+      {
+        "position": "Student Technician",
+        "summary": "- Imaged and provisioned new hardware. \n- Security and Audits. \n- Networking infrastructure. \n- Drupal web development.",
+        "start": "2008-12-31",
+        "end": "2013-12-31",
         "keywords": [],
         "highlights": []
       }
@@ -139,23 +159,21 @@
     "history": [
       {
         "institution": "Iowa State University",
-        "start": "2008-01-01",
-        "end": "2013-01-01",
-        "grade": "",
+        "start": "2008-12-31",
+        "end": "2013-12-31",
         "curriculum": [],
         "summary": "",
-        "area": "Management Information Systems",
-        "studyType": "Bachelor of Science"
+        "area": "Management Information Systems, General",
+        "studyType": "Bachelor of Science (BS)"
       },
       {
         "institution": "Indian Hills Community College",
-        "start": "2006-01-01",
-        "end": "2008-01-01",
-        "grade": "",
+        "start": "2006-12-31",
+        "end": "2008-12-31",
         "curriculum": [],
         "summary": "",
         "area": "Computer Forensics",
-        "studyType": "Associate of Arts and Sciences"
+        "studyType": "Associate of Arts and Sciences (A.A.S.)"
       }
     ]
   },
@@ -163,65 +181,292 @@
     "history": [
       {
         "type": "volunteer",
-        "position": "City Organizer",
-        "organization": "DevOps Days Des Moines",
-        "start": "2017-06-01",
+        "position": "Board Of Directors",
+        "organization": "Yoga for First Responders",
+        "start": "2019-01-31",
         "end": "",
-        "url": "https://www.devopsdays.org/events/2018-des-moines/welcome/",
-        "summary": "Devopsdays is a worldwide series of technical conferences covering topics of software development, IT infrastructure operations, and the intersection between them. Each event is run by volunteers from the local area.",
+        "summary": "Yoga for First Responders provides vital emotional ­wellness and mental-resiliency training in academy settings, in­service trainings, and community-based programs.\n\nhttps://www.yogaforfirstresponders.org/",
         "highlights": []
       },
       {
         "type": "volunteer",
-        "position": "",
+        "position": "Organizer",
+        "organization": "DevOpsDays Des Moines",
+        "start": "2018-12-31",
+        "end": "",
+        "summary": null,
+        "highlights": []
+      },
+      {
+        "type": "volunteer",
+        "position": "Volunteer",
+        "organization": "dsmHack",
+        "start": "2017-12-31",
+        "end": "2018-12-31",
+        "summary": "48-hours of code \n\nA hackathon benefiting Iowa nonprofit organizations\n\nhttps://dsmhack.org/the-hack/",
+        "highlights": []
+      },
+      {
+        "type": "volunteer",
+        "position": "Volunteer \"Camp Counselor\"",
         "organization": "Free Code Camp",
-        "start": "2014-01-01",
+        "start": "2015-12-31",
         "end": "",
-        "url": "https://www.freecodecamp.com/",
-        "summary": "An open source community of busy people who learn to code  projects for nonprofits.",
+        "summary": "FreeCodeCamp is a great community for those looking to learn as well as a great place for experienced developers to help the next generation of developers. \n\nAs I Camp Counselor I help people work through the curriculum as well pair program with tools like screenhero, gitter and more. \n\nJust this week I have the privilege to work with a QA analyst from London. In her own words: \n \"I am a QA analyst but hoping to transition to front end devving asap\"​\n\nTo find out more: \nhttp://freecodecamp.com/\n\nAn open source community of busy people who learn to code and build projects for nonprofits.\n\nSuccess Stories:\nhttps://www.quora.com/Career-Advice/Has-anyone-landed-a-job-after-completing-a-project-with-Freecodecamp/answer/Quincy-Larson?srid=3mug&share=1#\n\nhttps://www.reddit.com/r/learnprogramming/comments/35yz6g/why_i_dropped_out_of_free_code_camp/",
         "highlights": []
       },
       {
         "type": "volunteer",
-        "position": "",
+        "position": "Volunteer",
         "organization": "Tech Journey",
-        "start": "2014-01-01",
-        "end": "2016-01-01",
-        "url": "http://www.techjourney.org/",
-        "summary": "To inspire youth to increase their knowledge and interest in technology by providing engaging learning opportunities led by technology professionals.",
+        "start": "2015-12-31",
+        "end": "",
+        "summary": "http://www.techjourney.org/\n\nOur Mission: \"To inspire youth to increase their knowledge and interest in technology by providing engaging learning opportunities led by technology professionals\"",
         "highlights": []
       },
       {
         "type": "volunteer",
-        "position": "",
-        "organization": "Hyperstream",
-        "start": "2014-01-01",
-        "end": "2016-01-01",
-        "url": "http://hyperstream.org/",
-        "summary": "The Tech Hub for Iowa Students",
+        "position": "Volunteer ",
+        "organization": "Amanda the Panda",
+        "start": "2013-12-31",
+        "end": "",
+        "summary": "New York Life took part in \"Keeping good going\" by having teams of agents, staff and other volunteers help Amanda the Panda as they continued their remodel. We moved construction materials, cleaned up debris and organized supplies. Even though we carried out water heaters and other large items, Amanda the Panda is the one doing the real heavy lifting.",
         "highlights": []
       }
     ]
   },
   "skills": {
-    "sets": []
+    "sets": [
+      {
+        "name": "Linux",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "Bash",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "HTML",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "System Administration",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "Source Allies",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "Virtualization",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "User Experience",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "iOS Development",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "Cascading Style Sheets (CSS)",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "Windows",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "Blazor",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "Wireframes",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "Android Development",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "PHP",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "c#",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "Small Business",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "Software Prototyping",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "hybrid app development",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "MySQL",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "JavaScriptMVC",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "Licensed Life & Health Insurance Agent",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": ".net",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "Time Management",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "Node.js",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "SASS",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "Responsive Web Design",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "Java",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": ".NET Core",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "JavaScript",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "TDD",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "Mobile Applications",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "Computer Forensics",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "PWA",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "Network Security",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "OS X",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "User Interface Design",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "cordova",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "iOS",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "CSS",
+        "level": "",
+        "skills": []
+      },
+      {
+        "name": "Data Recovery",
+        "level": "",
+        "skills": []
+      }
+    ]
   },
   "writing": [],
   "social": [
-    {
-      "label": "Twitter",
-      "network": "Twitter",
-      "url": "",
-      "user": "joshmccall"
-    },
     {
       "label": "LinkedIn",
       "network": "LinkedIn",
       "url": "https://www.linkedin.com/in/joshmccalliowastateuniversity/",
       "user": "joshmccalliowastateuniversity"
+    },
+    {
+      "label": "Twitter",
+      "network": "Twitter",
+      "url": "https://twitter.com/joshmccall",
+      "user": "joshmccall"
     }
   ],
   "interests": [],
-  "testimonials": 0,
-  "languages": []
+  "testimonials": [
+    {
+      "name": "Olivia Mead",
+      "flavor": "professional",
+      "quote": "Josh has turned our organization around with his knowledge of software and other technology that has improved the effectiveness of our mission. We are grateful and plan to continue to work with him. ",
+      "private": false
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ]
 }
