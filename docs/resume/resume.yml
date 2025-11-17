@@ -1,165 +1,423 @@
+$schema: 'https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json'
 basics:
   name: 'Josh McCall'
-  label: ""
-  picture: ""
+  label: 'Software Engineer at Microsoft'
+  image: ""
   email: joshmccall221@gmail.com
-  phone: (515)-999-0221
-  website: 'http://joshuamccall.com/'
-  summary: 'I love working with passionate people who love what they do. As a software engineer my focus is helping others through the use of technology. Mostly front end technologies with a focus on UI/UX. I enjoy connecting people with technology no matter the platform.'
+  phone: 515-999-0221
+  url: ""
+  summary: "\nI love working with passionate people who love what they do. I am a software engineer whose focus is helping others through the use of technology.  I enjoy connecting people with technology no matter the platform. "
   location:
-    address: '805 10th St'
-    postalCode: '50201'
-    city: Nevada
     countryCode: US
-    region: IA
+    address: 'United States'
   profiles:
-    -
-      network: Twitter
-      username: joshmccall
-      url: ""
     -
       network: LinkedIn
       username: joshmccalliowastateuniversity
       url: 'https://www.linkedin.com/in/joshmccalliowastateuniversity/'
+    -
+      network: Twitter
+      username: joshmccall
+      url: 'https://twitter.com/joshmccall'
 work:
   -
-    company: 'Trility Consulting'
-    position: Consultant
-    website: 'https://trility.io/'
-    startDate: '2017-12-15'
-    endDate: ""
-    summary: 'Part of the acceleration team, I work with clients to transform they way they leverage technology as a part of their business. '
-    highlights:
-      - 'Node / React / Ember / AWS'
-      - 'UI/UX Design & Development'
-      - 'Continuous Compliance'
-      - 'Continuous Integration / Continuous Delivery'
-      - 'Infrastructure As Code'
-      - 'Training & Coaching'
-      - 'Delivery Consulting'
-  -
-    company: 'Gain Compliance'
+    name: 'PiorSoft LLC'
     position: Engineer
-    website: 'http://gaincompliance.com/'
-    startDate: '2017-04-01'
-    endDate: '2017-12-15'
-    summary: 'Focusing on the user experience paired with short feedback iterations  working directly with end users  to craft a better path forward for compliance reporting.'
-    highlights:
-      - 'Node / React / Redux'
-      - 'Hapi.js / HATEOAS'
-      - 'CI / CD'
-      - 'Google App Engine'
-  -
-    company: 'Pillar Technology'
-    position: 'Consultant '
-    website: 'https://pillartechnology.com/'
-    startDate: '2016-01-01'
-    endDate: '2017-04-01'
-    summary: 'Fuses software craftsmanship with strategy, innovation, DX & marketing to solve your biggest business problems.'
-    highlights:
-      - 'Angular / Python / AWS'
-  -
-    company: 'Source Allies Inc.'
-    position: Consultant
-    website: 'http://www.sourceallies.com/'
-    startDate: '2014-01-01'
-    endDate: '2016-01-01'
-    summary: 'Working with a number of clients [ John Deere / Meredith Corporation (Better Homes and Gardens, Rachael Ray, Parents) / Seneca Tank / Adventureland ]  delivering software with the technology stack that best fits the business need. '
-    highlights:
-      - 'AWS / Java / Scala /Node / React / Backbone'
-      - 'Node / Angular / CSS / SASS / Drupal / Java / JSP'
-      - 'PHP / Zend / Laravel / Python /  Vagrant / Docker / Jenkins / Perl'
-  -
-    company: Amida
-    position: 'UI Developer'
-    website: 'https://www.amida.com/'
-    startDate: '2014-01-01'
-    endDate: '2015-01-01'
-    summary: 'Rapid Mockup and Prototyping. Iterative Design.  508 Compliance.'
-    highlights:
-      - 'FrontEnd (HTML, JS, CSS, SASS)'
-      - 'UI / UX'
-  -
-    company: 'Wells Fargo'
-    position: 'Application System Engineer'
-    website: ""
-    startDate: '2014-01-01'
-    endDate: '2015-01-01'
-    summary: 'Intelligent error handling, reporting and zero downtime response.'
-    highlights:
-      - '.Net / WPF / SQL / Bash Scripting.'
-  -
-    company: 'Ames Laboratory'
-    position: 'Development / Technician'
-    website: 'https://www.ameslab.gov/'
-    startDate: '2008-01-01'
-    endDate: '2013-01-01'
-    summary: 'Security, Web Development, Networking, On-boarding and IT Support'
-    highlights:
-      - 'Drupal / JavaScript /  CSS'
-      - 'Security Audits'
-      - Networking
-  -
-    company: 'Home Town Tech'
-    position: Technician
-    website: 'http://hometowntech.com/'
-    startDate: '2008-01-01'
-    endDate: '2013-01-01'
-    summary: 'Websites / Technical Service /  Hands on training'
+    startDate: '2018-12-31'
+    endDate: ""
     highlights: []
+    summary: 'A software company that develops, supports and sells software that serves enterprise and business needs of small to mid-size businesses.'
+    url: 'https://www.linkedin.com/company/piorsoft-llc/'
+  -
+    name: Microsoft
+    position: 'Software Engineer'
+    startDate: '2018-06-30'
+    endDate: ""
+    highlights: []
+    summary: ".net, Blazor, Xamarin, Azure Service Fabric, Node, React, ReactXP, Redux, Electron\n\nStore Fronts Data Service (SFDS): \nRolled out a data service to support Microsoft's universal stores using Azure Service Fabric. \n\nXbox Game Pass:\nHelped release the latest version of the Game Pass application built with ReactXP and Electron.\n\nCELA: \nFind Your Legal Contact (FYLC) - End-to-End utility to manage legal contact groups. Utilized by Microsoft employees, Azure pipelines and other internal applications. \n\nInsider Trading Compliance Tool (INTRACT) - platform to administer, notify and audit employee trading status. .net core with Blazor"
+    url: 'https://www.linkedin.com/company/microsoft/'
+    location: 'Redmond, Washington'
+  -
+    name: 'McCall Consulting'
+    position: 'YFFR - Consulting / Advisor'
+    startDate: '2017-12-31'
+    endDate: ""
+    highlights: []
+    summary: "Node, React, Redux, Corber, Cordova, Firebase, Wordpress\n- Hybrid app (iOS, Android) \n- PWA (web, mobile, Windows store) \n- Website"
+    url: ""
+  -
+    name: 'McCall Consulting'
+    position: 'Trility Consulting - Consultant'
+    startDate: '2017-12-31'
+    endDate: '2018-12-31'
+    highlights: []
+    summary: "Node, React, AWS, DevOps, Agile Coach\nCDS Global (2017 -2018): Full stack development, training and coaching."
+    url: ""
+  -
+    name: 'McCall Consulting'
+    position: '  Dynamo, LLC - Consultant '
+    startDate: '2017-12-31'
+    endDate: '2018-12-31'
+    highlights: []
+    url: ""
+  -
+    name: 'Gain Compliance'
+    position: Engineer
+    startDate: '2017-04-30'
+    endDate: '2018-12-31'
+    highlights: []
+    summary: "Node, React, Google App Engine\nData quality and compliance reimagined for the insurance industry."
+    url: 'https://www.linkedin.com/company/gain-compliance/'
+    location: 'Des Moines, Iowa Area'
+  -
+    name: 'Pillar Technology'
+    position: 'Software Artisan'
+    startDate: '2016-12-31'
+    endDate: '2017-12-31'
+    highlights: []
+    summary: "Node, React, Angular, Python, AWS\nPioneer (2016 - 2017): Full stack development for AGTech product."
+    url: 'https://www.linkedin.com/company/pillar-technology/'
+    location: 'Des Moines, Iowa Area'
+  -
+    name: 'McCall Consulting'
+    position: 'PS Technologies - CTO'
+    startDate: '2015-12-31'
+    endDate: ""
+    highlights: []
+    summary: "Node, React, Redux, Corber, Cordova, Firebase, Wordpress\n- Hybrid app (iOS, Android) \n- PWA (web, mobile, Windows store)"
+    url: ""
+  -
+    name: 'McCall Consulting'
+    position: 'Amida - UI Developer'
+    startDate: '2014-12-31'
+    endDate: '2014-12-31'
+    highlights: []
+    summary: "JS, HTML, Sass, CSS\nUI/UX focus working with design and development teams on part of the blue button initiative. Clickable mockups/prototypes, front end development and remote team/project management with a focus on 508 compliance."
+    url: ""
+  -
+    name: 'Source Allies Inc.'
+    position: 'Software Engineer - Consultant'
+    startDate: '2014-12-31'
+    endDate: '2016-12-31'
+    highlights: []
+    summary: "Node React, Redux, Hapi, JAVA, Scala, Vagrant, Docker, Chef, AWS\nJohn Deere ISG (2015 - 2016) : Full stack development for AGTech product. \n\nNode, JS, React, Angular\nMeredith Corporation ( 2015 ) : Custom web components powering analytics and sales conversions.\n\nPHP, Zend, vagrant, virtualization, Jenkins\nSeneca Tank (2014) :  Custom CMS.\n  \nVue, PHP, Laravel, Perl, Django, Magento\nAdventureland (2014) :  Multi-factor 3D bar code ticket processing, e- commerce, hand held android scanners, VOIP and ticket printing."
+    url: 'https://www.linkedin.com/company/source-allies/'
+    location: 'Des Moines, Iowa Area'
+  -
+    name: 'Wells Fargo'
+    position: 'Application System Engineer'
+    startDate: '2013-12-31'
+    endDate: '2014-12-31'
+    highlights: []
+    summary: ".net, SQL Server\nApplication development for loan processing."
+    url: 'https://www.linkedin.com/company/wellsfargo/'
+  -
+    name: 'McCall Consulting'
+    position: 'New York Life Insurance Company - Licensed Insurance Agent'
+    startDate: '2013-12-31'
+    endDate: '2014-12-31'
+    highlights: []
+    summary: 'An Agent through New York Life I worked with families, individuals and business owners to understand and get the most out of insurance, investments, company benefits and even individual health plans.'
+    url: ""
+  -
+    name: 'McCall Consulting'
+    position: 'Practical Farmers of Iowa'
+    startDate: '2011-12-31'
+    endDate: '2013-12-31'
+    highlights: []
+    summary: "Consulting and volunteer work:\n- Computer Systems Support\n- Network and Systems Improvement Consulting\n- Primary Computer Server Consultation + Build + Configure\n- Internal Web Application (Open Source, Custom)"
+    url: ""
+  -
+    name: 'McCall Consulting'
+    position: 'HomeTown Tech '
+    startDate: '2010-12-31'
+    endDate: '2013-12-31'
+    highlights: []
+    summary: 'HomeTown Tech is a team of computer service experts. We can fix broken computers (PC & Mac), set up a stronger & more secure network, provide computer training, and help you avoid computer problems.'
+    url: ""
+  -
+    name: 'McCall Consulting'
+    position: Owner
+    startDate: '2010-12-31'
+    endDate: ""
+    highlights: []
+    summary: 'Full-Stack Software Engineer, Agile Coach, Consultant, Advisor, Speaker, Mentor and Conference Organizer.'
+    url: ""
+  -
+    name: 'Ames Laboratory'
+    position: 'Student Technician'
+    startDate: '2008-12-31'
+    endDate: '2013-12-31'
+    highlights: []
+    summary: "- Imaged and provisioned new hardware. \n- Security and Audits. \n- Networking infrastructure. \n- Drupal web development."
+    url: 'https://www.linkedin.com/company/ames-laboratory/'
 volunteer:
   -
-    organization: 'DevOps Days Des Moines'
-    position: 'City Organizer'
-    website: 'https://www.devopsdays.org/events/2018-des-moines/welcome/'
-    startDate: '2017-06-01'
+    organization: 'Yoga for First Responders'
+    position: 'Board Of Directors'
+    startDate: '2019-01-31'
     endDate: ""
-    summary: 'Devopsdays is a worldwide series of technical conferences covering topics of software development, IT infrastructure operations, and the intersection between them. Each event is run by volunteers from the local area.'
+    summary: "Yoga for First Responders provides vital emotional ­wellness and mental-resiliency training in academy settings, in­service trainings, and community-based programs.\n\nhttps://www.yogaforfirstresponders.org/"
     highlights: []
+    url: ""
+  -
+    organization: 'DevOpsDays Des Moines'
+    position: Organizer
+    startDate: '2018-12-31'
+    endDate: ""
+    summary: null
+    highlights: []
+    url: ""
+  -
+    organization: dsmHack
+    position: Volunteer
+    startDate: '2017-12-31'
+    endDate: '2018-12-31'
+    summary: "48-hours of code \n\nA hackathon benefiting Iowa nonprofit organizations\n\nhttps://dsmhack.org/the-hack/"
+    highlights: []
+    url: ""
   -
     organization: 'Free Code Camp'
-    position: ""
-    website: 'https://www.freecodecamp.com/'
-    startDate: '2014-01-01'
+    position: 'Volunteer "Camp Counselor"'
+    startDate: '2015-12-31'
     endDate: ""
-    summary: 'An open source community of busy people who learn to code  projects for nonprofits.'
+    summary: "FreeCodeCamp is a great community for those looking to learn as well as a great place for experienced developers to help the next generation of developers. \n\nAs I Camp Counselor I help people work through the curriculum as well pair program with tools like screenhero, gitter and more. \n\nJust this week I have the privilege to work with a QA analyst from London. In her own words: \n \"I am a QA analyst but hoping to transition to front end devving asap\"​\n\nTo find out more: \nhttp://freecodecamp.com/\n\nAn open source community of busy people who learn to code and build projects for nonprofits.\n\nSuccess Stories:\nhttps://www.quora.com/Career-Advice/Has-anyone-landed-a-job-after-completing-a-project-with-Freecodecamp/answer/Quincy-Larson?srid=3mug&share=1#\n\nhttps://www.reddit.com/r/learnprogramming/comments/35yz6g/why_i_dropped_out_of_free_code_camp/"
     highlights: []
+    url: ""
   -
     organization: 'Tech Journey'
-    position: ""
-    website: 'http://www.techjourney.org/'
-    startDate: '2014-01-01'
-    endDate: '2016-01-01'
-    summary: 'To inspire youth to increase their knowledge and interest in technology by providing engaging learning opportunities led by technology professionals.'
+    position: Volunteer
+    startDate: '2015-12-31'
+    endDate: ""
+    summary: "http://www.techjourney.org/\n\nOur Mission: \"To inspire youth to increase their knowledge and interest in technology by providing engaging learning opportunities led by technology professionals\""
     highlights: []
+    url: ""
   -
-    organization: Hyperstream
-    position: ""
-    website: 'http://hyperstream.org/'
-    startDate: '2014-01-01'
-    endDate: '2016-01-01'
-    summary: 'The Tech Hub for Iowa Students'
+    organization: 'Amanda the Panda'
+    position: 'Volunteer '
+    startDate: '2013-12-31'
+    endDate: ""
+    summary: 'New York Life took part in "Keeping good going" by having teams of agents, staff and other volunteers help Amanda the Panda as they continued their remodel. We moved construction materials, cleaned up debris and organized supplies. Even though we carried out water heaters and other large items, Amanda the Panda is the one doing the real heavy lifting.'
     highlights: []
+    url: ""
 education:
   -
     institution: 'Iowa State University'
-    area: 'Management Information Systems'
-    studyType: 'Bachelor of Science'
-    startDate: '2008-01-01'
-    endDate: '2013-01-01'
-    gpa: ""
+    area: 'Management Information Systems, General'
+    studyType: 'Bachelor of Science (BS)'
+    startDate: '2008-12-31'
+    endDate: '2013-12-31'
+    score: ""
     courses: []
   -
     institution: 'Indian Hills Community College'
     area: 'Computer Forensics'
-    studyType: 'Associate of Arts and Sciences'
-    startDate: '2006-01-01'
-    endDate: '2008-01-01'
-    gpa: ""
+    studyType: 'Associate of Arts and Sciences (A.A.S.)'
+    startDate: '2006-12-31'
+    endDate: '2008-12-31'
+    score: ""
     courses: []
 awards: []
+certificates: []
 publications: []
-skills: []
-languages: []
+skills:
+  -
+    name: Linux
+    level: ""
+    keywords: []
+  -
+    name: Bash
+    level: ""
+    keywords: []
+  -
+    name: HTML
+    level: ""
+    keywords: []
+  -
+    name: 'System Administration'
+    level: ""
+    keywords: []
+  -
+    name: 'Source Allies'
+    level: ""
+    keywords: []
+  -
+    name: Virtualization
+    level: ""
+    keywords: []
+  -
+    name: 'User Experience'
+    level: ""
+    keywords: []
+  -
+    name: 'iOS Development'
+    level: ""
+    keywords: []
+  -
+    name: 'Cascading Style Sheets (CSS)'
+    level: ""
+    keywords: []
+  -
+    name: Windows
+    level: ""
+    keywords: []
+  -
+    name: Blazor
+    level: ""
+    keywords: []
+  -
+    name: Wireframes
+    level: ""
+    keywords: []
+  -
+    name: 'Android Development'
+    level: ""
+    keywords: []
+  -
+    name: PHP
+    level: ""
+    keywords: []
+  -
+    name: 'c#'
+    level: ""
+    keywords: []
+  -
+    name: 'Small Business'
+    level: ""
+    keywords: []
+  -
+    name: 'Software Prototyping'
+    level: ""
+    keywords: []
+  -
+    name: 'hybrid app development'
+    level: ""
+    keywords: []
+  -
+    name: MySQL
+    level: ""
+    keywords: []
+  -
+    name: JavaScriptMVC
+    level: ""
+    keywords: []
+  -
+    name: 'Licensed Life & Health Insurance Agent'
+    level: ""
+    keywords: []
+  -
+    name: .net
+    level: ""
+    keywords: []
+  -
+    name: 'Time Management'
+    level: ""
+    keywords: []
+  -
+    name: Node.js
+    level: ""
+    keywords: []
+  -
+    name: SASS
+    level: ""
+    keywords: []
+  -
+    name: 'Responsive Web Design'
+    level: ""
+    keywords: []
+  -
+    name: Java
+    level: ""
+    keywords: []
+  -
+    name: '.NET Core'
+    level: ""
+    keywords: []
+  -
+    name: JavaScript
+    level: ""
+    keywords: []
+  -
+    name: TDD
+    level: ""
+    keywords: []
+  -
+    name: 'Mobile Applications'
+    level: ""
+    keywords: []
+  -
+    name: 'Computer Forensics'
+    level: ""
+    keywords: []
+  -
+    name: PWA
+    level: ""
+    keywords: []
+  -
+    name: 'Network Security'
+    level: ""
+    keywords: []
+  -
+    name: 'OS X'
+    level: ""
+    keywords: []
+  -
+    name: 'User Interface Design'
+    level: ""
+    keywords: []
+  -
+    name: cordova
+    level: ""
+    keywords: []
+  -
+    name: iOS
+    level: ""
+    keywords: []
+  -
+    name: CSS
+    level: ""
+    keywords: []
+  -
+    name: 'Data Recovery'
+    level: ""
+    keywords: []
+languages:
+  -
+    language: English
+    fluency: 'Native Speaker'
 interests: []
-references: []
+references:
+  -
+    name: 'Olivia Mead'
+    reference: 'Josh has turned our organization around with his knowledge of software and other technology that has improved the effectiveness of our mission. We are grateful and plan to continue to work with him. '
+projects:
+  -
+    name: 'John Deere'
+    startDate: '2015-11-30'
+    summary: 'Working with many teams to develop and maintain solutions for the MyJohnDeere application and other proprietary solutions. Notable: Amazon Web Services infrastructure, Scala, NodeJS, Backbonejs, React, Oracle, PostgreSQL, single-page applications, test-driven development and agile project management.'
+    url: null
+    endDate: '2015-11-30'
+  -
+    name: Hyperstream
+    startDate: '2015-12-31'
+    summary: "Volunteer for the Iowa Hyperstream.\n"
+    url: null
+  -
+    name: 'Meredith Corporation'
+    startDate: '2015-12-31'
+    summary: 'Worked with the marketing, business and tech teams to deliver customized user interactions we called "Quick Apps".  '
+    url: null
+    endDate: '2015-12-31'
+  -
+    name: 'Tech Journey'
+    startDate: '2015-12-31'
+    summary: 'Mission: "To inspire youth to increase their knowledge and interest in technology by providing engaging learning opportunities led by technology professionals"'
+    url: 'http://www.techjourney.org/'
+  -
+    name: 'Free Code Camp ( Coffee and Code)'
+    startDate: ""
+    summary: ' We''re an open source community of busy people who learn to code and help nonprofits. '
+    url: 'http://www.freecodecamp.com/'
+meta:
+  version: v1.0.0
+  canonical: 'https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json'
