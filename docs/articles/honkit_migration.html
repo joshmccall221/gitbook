@@ -3,7 +3,7 @@
 <html lang="" >
     <head>
         <meta charset="UTF-8">
-        <title>Chrome Hacks · HonKit</title>
+        <title>Migrating from GitBook CLI to HonKit · HonKit</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 5.1.5">
@@ -64,10 +64,6 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="github.html" />
-    
-    
-    <link rel="prev" href="editor_wars.html" />
     
 
     </head>
@@ -137,7 +133,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.1.1" data-path="honkit_migration.html">
+        <li class="chapter active" data-level="1.2.1.1" data-path="honkit_migration.html">
             
                 <a href="honkit_migration.html">
             
@@ -549,7 +545,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3.5" data-path="google_chrome.html">
+        <li class="chapter " data-level="1.3.5" data-path="google_chrome.html">
             
                 <a href="google_chrome.html">
             
@@ -935,7 +931,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Chrome Hacks</a>
+        <a href=".." >Migrating from GitBook CLI to HonKit</a>
     </h1>
 </div>
 
@@ -950,18 +946,137 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="chrome-hacks">Chrome Hacks</h1>
+                                <h1 id="migrating-from-gitbook-cli-to-honkit">Migrating from GitBook CLI to HonKit</h1>
 <!-- toc --><div id="toc" class="toc">
 
 <ul>
-<li><a href="#native-notifications">Native notifications</a></li>
+<li><a href="#the-problem">The Problem</a></li>
+<li><a href="#the-solution-honkit">The Solution: HonKit</a></li>
+<li><a href="#what-changed">What Changed</a><ul>
+<li><a href="#1-package-dependencies">1. Package Dependencies</a></li>
+<li><a href="#2-npm-scripts">2. NPM Scripts</a></li>
+<li><a href="#3-removed-nvm-dependencies">3. Removed nvm Dependencies</a></li>
+<li><a href="#4-updated-rimraf">4. Updated rimraf</a></li>
+<li><a href="#5-added-documentation">5. Added Documentation</a></li>
+</ul>
+</li>
+<li><a href="#what-stayed-the-same">What Stayed the Same</a></li>
+<li><a href="#the-migration-process">The Migration Process</a></li>
+<li><a href="#testing">Testing</a></li>
+<li><a href="#lessons-learned">Lessons Learned</a></li>
+<li><a href="#why-this-matters">Why This Matters</a></li>
+<li><a href="#resources">Resources</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
 </ul>
 
 </div><!-- tocstop -->
-<h2 id="native-notifications">Native notifications</h2>
-<p>See: <a href="https://9to5mac.com/2016/04/06/google-chrome-native-notification-center-how-to/" target="_blank">Google Chrome experimenting w/ native Mac OS X push notifications, here’s how to enable it</a></p>
-<pre><code>chrome://flags/#enable-native-notifications
+<h2 id="the-problem">The Problem</h2>
+<p>After years of using GitBook CLI for this documentation site, the inevitable happened: GitBook CLI became deprecated and stopped working with modern Node.js versions. The tool hadn't been maintained for years, and trying to run it with Node.js versions above v12 would fail with various errors.</p>
+<p>This left me with a choice: abandon the setup entirely and migrate to a different documentation platform, or find a way to keep the existing content and configuration working.</p>
+<h2 id="the-solution-honkit">The Solution: HonKit</h2>
+<p>Enter <a href="https://github.com/honkit/honkit" target="_blank">HonKit</a> - an actively maintained fork of GitBook that promises to be a drop-in replacement while supporting modern Node.js versions.</p>
+<p>The key advantages of HonKit:</p>
+<ul>
+<li><strong>Actively maintained</strong> - Regular updates and security patches</li>
+<li><strong>Modern Node.js support</strong> - Works with Node.js v14+ (tested with v22)</li>
+<li><strong>Full compatibility</strong> - Maintains compatibility with existing GitBook plugins and configurations</li>
+<li><strong>Drop-in replacement</strong> - Minimal changes required to migrate</li>
+</ul>
+<h2 id="what-changed">What Changed</h2>
+<p>The migration was surprisingly straightforward. Here's what was updated:</p>
+<h3 id="1-package-dependencies">1. Package Dependencies</h3>
+<p>Replaced the deprecated <code>gitbook-cli</code> with <code>honkit</code>:</p>
+<pre><code class="lang-json">{
+  <span class="hljs-string">"devDependencies"</span>: {
+    <span class="hljs-string">"honkit"</span>: <span class="hljs-string">"^5.0.0"</span>,
+    <span class="hljs-comment">// gitbook-cli removed</span>
+  }
+}
 </code></pre>
+<h3 id="2-npm-scripts">2. NPM Scripts</h3>
+<p>Updated all scripts to use <code>honkit</code> instead of <code>gitbook</code>:</p>
+<pre><code class="lang-json">{
+  <span class="hljs-string">"scripts"</span>: {
+    <span class="hljs-string">"start"</span>: <span class="hljs-string">"honkit serve"</span>,
+    <span class="hljs-string">"build"</span>: <span class="hljs-string">"honkit build . docs"</span>,
+    <span class="hljs-string">"serve"</span>: <span class="hljs-string">"honkit serve"</span>
+  }
+}
+</code></pre>
+<h3 id="3-removed-nvm-dependencies">3. Removed nvm Dependencies</h3>
+<p>The previous setup had preinstall/postinstall scripts to manage Node.js versions via nvm. Since HonKit works with modern Node.js versions, these workarounds were no longer necessary.</p>
+<h3 id="4-updated-rimraf">4. Updated rimraf</h3>
+<p>Updated <code>rimraf</code> to the latest version (v5.0.0) to ensure compatibility with modern Node.js.</p>
+<h3 id="5-added-documentation">5. Added Documentation</h3>
+<p>Created <code>GITBOOK_SETUP.md</code> with clear instructions for:</p>
+<ul>
+<li>Installing dependencies</li>
+<li>Running the development server</li>
+<li>Building the static site</li>
+<li>Troubleshooting common issues</li>
+</ul>
+<h2 id="what-stayed-the-same">What Stayed the Same</h2>
+<p>The beauty of HonKit being a true drop-in replacement means:</p>
+<ul>
+<li><strong>All content stayed the same</strong> - Every markdown file, article, and draft remains unchanged</li>
+<li><strong>book.json configuration</strong> - All plugins (Disqus, ETOC, etc.) continue to work</li>
+<li><strong>SUMMARY.md structure</strong> - The table of contents and menu structure is identical</li>
+<li><strong>Build output</strong> - The generated static site looks and functions the same</li>
+</ul>
+<h2 id="the-migration-process">The Migration Process</h2>
+<p>The actual migration took just a few simple steps:</p>
+<ol>
+<li><p>Remove old dependencies:</p>
+<pre><code class="lang-bash"><span class="hljs-built_in">rm</span> -rf node_modules package-lock.json
+</code></pre>
+</li>
+<li><p>Update package.json with HonKit</p>
+</li>
+<li><p>Install fresh dependencies:</p>
+<pre><code class="lang-bash">npm install --legacy-peer-deps
+</code></pre>
+</li>
+<li><p>Test the build:</p>
+<pre><code class="lang-bash">npm run build
+npm start
+</code></pre>
+</li>
+</ol>
+<p>And that's it! The site was running locally on <code>http://localhost:4000</code> with zero issues.</p>
+<h2 id="testing">Testing</h2>
+<p>The migration was tested with:</p>
+<ul>
+<li><strong>Node.js v22.21.1</strong> - The latest LTS version at the time</li>
+<li><strong>All existing plugins</strong> - Verified that Disqus, ETOC, and other plugins still functioned</li>
+<li><strong>Build process</strong> - Confirmed the static site builds correctly to <code>./docs</code></li>
+<li><strong>Live reload</strong> - Tested the development server's auto-reload functionality</li>
+</ul>
+<h2 id="lessons-learned">Lessons Learned</h2>
+<ol>
+<li><strong>Open source sustainability matters</strong> - Projects that appear dead can suddenly become blockers</li>
+<li><strong>Forks can save the day</strong> - The community stepped up with HonKit when the original project stalled</li>
+<li><strong>Simple is better</strong> - The minimal configuration and straightforward setup of GitBook/HonKit continues to serve well</li>
+<li><strong>Document your tooling</strong> - Having clear setup instructions makes migrations easier</li>
+</ol>
+<h2 id="why-this-matters">Why This Matters</h2>
+<p>This migration ensures:</p>
+<ul>
+<li><strong>Continued maintenance</strong> - Can keep updating and publishing content</li>
+<li><strong>Modern development environment</strong> - Works with current Node.js versions</li>
+<li><strong>Future proofing</strong> - Active development means security patches and bug fixes</li>
+<li><strong>Developer experience</strong> - No more workarounds or version managers required</li>
+</ul>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="https://github.com/honkit/honkit" target="_blank">HonKit GitHub Repository</a></li>
+<li><a href="https://honkit.netlify.app/" target="_blank">HonKit Documentation</a></li>
+<li><a href="https://github.com/GitbookIO/gitbook" target="_blank">Original GitBook Legacy</a></li>
+<li><a href="../GITBOOK_SETUP.md">This repo's GITBOOK_SETUP.md</a></li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>Sometimes the best solution is the one that requires the least change. HonKit proved to be exactly that - a seamless upgrade path that kept everything working while modernizing the tooling underneath.</p>
+<p>If you're still using the old GitBook CLI, I highly recommend making the switch to HonKit. The migration is simple, and your future self will thank you when you're not fighting with deprecated dependencies.</p>
+
                                 
                                 </section>
                             
@@ -988,14 +1103,6 @@
 
             
                 
-                <a href="editor_wars.html" class="navigation navigation-prev " aria-label="Previous page: Editor Wars">
-                    <i class="fa fa-angle-left"></i>
-                </a>
-                
-                
-                <a href="github.html" class="navigation navigation-next " aria-label="Next page: Github">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -1004,7 +1111,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Chrome Hacks","level":"1.3.5","depth":2,"next":{"title":"Github","level":"1.3.6","depth":2,"path":"articles/github.md","ref":"articles/github.md","articles":[]},"previous":{"title":"Editor Wars","level":"1.3.4","depth":2,"path":"articles/editor_wars.md","ref":"articles/editor_wars.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["disqus","etoc"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"joshuamccall"},"etoc":{"mindepth":1,"maxdepth":4,"header":1,"h2lb":3,"notoc":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"articles/google_chrome.md","mtime":"2025-11-17T20:04:18.205Z","type":"markdown"},"gitbook":{"version":"5.1.5","time":"2025-11-17T20:58:52.538Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Migrating from GitBook CLI to HonKit","level":"1.2.1.1","depth":3,"next":{"title":"2018","level":"1.2.2","depth":2,"ref":"","articles":[{"title":"React Sling Shot Corber","level":"1.2.2.1","depth":3,"path":"articles/react_sling_shot_corber.md","ref":"articles/react_sling_shot_corber.md","articles":[]},{"title":"Chomeos Crouton Chrx","level":"1.2.2.2","depth":3,"path":"articles/chomeos_crouton_chrx.md","ref":"articles/chomeos_crouton_chrx.md","articles":[]}]},"previous":{"title":"2025","level":"1.2.1","depth":2,"ref":"","articles":[{"title":"Migrating from GitBook CLI to HonKit","level":"1.2.1.1","depth":3,"path":"articles/honkit_migration.md","ref":"articles/honkit_migration.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["disqus","etoc"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"joshuamccall"},"etoc":{"mindepth":1,"maxdepth":4,"header":1,"h2lb":3,"notoc":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"articles/honkit_migration.md","mtime":"2025-11-17T20:26:49.000Z","type":"markdown"},"gitbook":{"version":"5.1.5","time":"2025-11-17T20:36:08.008Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
