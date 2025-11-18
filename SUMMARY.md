@@ -3,6 +3,7 @@
 
 * [Articles]()
   * [2025]()
+    * [Running Intune Portal on Arch Linux](articles/intune_portal_arch.md)
     * [Migrating from GitBook CLI to HonKit](articles/honkit_migration.md)
     * [How Claude AI Assisted with the GitBook to HonKit Migration ](articles/claude_honkit_migration.md)
   * [2018]()
