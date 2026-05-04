@@ -2,6 +2,8 @@
 * [README](README.md)
 
 * [Articles]()
+  * [2026]()
+    * [PiKVM V4 Plus Setup](articles/pikvm_v4_plus_setup.md)
   * [2025]()
     * [Migrating from GitBook CLI to HonKit](articles/honkit_migration.md)
     * [How Claude AI Assisted with the GitBook to HonKit Migration ](articles/claude_honkit_migration.md)
