@@ -61,3 +61,4 @@
     * [Year Of The Linux Desktop](articles/year_of_the_linux_desktop.md)
     * [M](articles/m.md)
     * [PiKVM V4 Plus Setup](articles/pikvm_v4_plus_setup.md)
+    * [The Wired Operator: How a Friend Computes](articles/wired_operator.md)
