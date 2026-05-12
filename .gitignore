@@ -5,3 +5,4 @@ _book
 *.session
 pikvm.sh
 telegram_export*
+pikvm_session_context.md
