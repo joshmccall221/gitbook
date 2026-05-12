@@ -45,6 +45,51 @@ A fleet of **PiKVM V4 Plus** units with PiKVM Switches handle all target machine
 
 **[PiKVM V4 Plus](https://pikvm.org/buy) — ~$350. The switch is a separate add-on for multi-machine setups.**
 
+### The PiKVM Switch
+
+The PiKVM Switch is a 4-port hardware KVM switch designed specifically for PiKVM. It plugs into the PiKVM V4 Plus and lets one PiKVM control up to 4 target machines.
+
+```
+Target 1 ──┐
+Target 2 ──┤  PiKVM Switch ── PiKVM V4 Plus ── iMac/MacBook
+Target 3 ──┤
+Target 4 ──┘
+```
+
+Each port carries HDMI (video in from target) and USB (HID out to target). You switch between machines via the PiKVM web UI or API — no physical button needed.
+
+**Key gotchas:**
+- Configure PiKVM's stealth USB settings and EDID *before* plugging target machines in for the first time — targets cache USB descriptors on first connect and won't forget them
+- Each switch port can have its own EDID assigned via the web UI — use the same real monitor EDID on all ports so targets see your actual monitor, not "PiKVM"
+- Windows machines often set PiKVM as display #2 — fix via Display Settings → identify the PiKVM display → set as primary → "Show only on this display"
+- Use Anker 10ft USB-A to USB-C cables for the switch connections — length matters for signal reliability
+
+**Switching between machines:**
+
+Via web UI: the switch port buttons appear in the GPIO panel. Via API:
+
+```bash
+# Switch to port 2
+curl -k -u admin:password -X POST https://pikvm.local/api/gpio/switch/port/2
+```
+
+Via SSH (useful for agents):
+
+```bash
+ssh root@pikvm.local "kvmd-gpioswitch 2"
+```
+
+**EDID setup** — extract from your real monitor and apply to all ports:
+
+```bash
+# On PiKVM, extract EDID from pass-through port
+cat /sys/class/drm/card0-HDMI-A-2/edid > /etc/kvmd/tc358743-edid.hex
+
+# Apply via kvmd-edidconf
+kvmd-edidconf --import=/etc/kvmd/tc358743-edid.hex
+systemctl restart kvmd
+```
+
 ### The Video Layer
 
 A hardware **HDMI matrix** sits between the targets and everything else. Each target's video output gets split:
@@ -167,6 +212,122 @@ One of the most practical tricks: use TextSniper aimed at the PiKVM browser wind
 ## The Agent Layer
 
 This is where it gets unusual.
+
+### Kicking Off Claude Code
+
+[Claude Code](https://claude.ai/code) is the CLI tool that runs Claude as an agent in your terminal. Install it:
+
+```bash
+npm install -g @anthropic-ai/claude-code
+```
+
+Run it in any project directory:
+
+```bash
+claude
+```
+
+The simplest agent loop: open a Zellij pane, `cd` to your project, run `claude`, describe what you want. Claude reads files, runs commands, edits code. You review and approve (or set it to auto-approve for trusted operations).
+
+**The key habit:** give Claude a task and walk away. Don't hover. Come back when it's done or stuck. Hovering turns it into an expensive autocomplete.
+
+### Sub-Agents and Parallel Work
+
+Claude Code supports spawning sub-agents — separate Claude instances that handle discrete tasks in parallel. This is how one session turns into a fleet.
+
+**Pattern 1: One agent per machine via Zellij**
+
+Open a Zellij session per target machine or project. Each pane is an independent Claude session with its own context:
+
+```
+Zellij layout:
+┌─────────────────┬─────────────────┐
+│  claude (proj A)│  claude (proj B)│
+├─────────────────┼─────────────────┤
+│  claude (infra) │  claude (monitor│
+└─────────────────┴─────────────────┘
+```
+
+Name your sessions so you can find them:
+
+```bash
+zellij --session agents
+zellij attach agents
+```
+
+**Pattern 2: Agents that hand off to each other**
+
+Give Claude a task that requires multiple steps across different contexts. It will invoke sub-agents for subtasks — one for research, one for implementation, one for testing. You define the top-level goal; Claude figures out the delegation.
+
+```
+You: "Audit all four target machines for outdated packages and create a report"
+  └─ Claude spawns sub-agent per machine (via PiKVM API)
+       └─ Each sub-agent SSHes in, runs package check, returns results
+  └─ Claude aggregates into report
+```
+
+**Pattern 3: Background agents (bench warmers)**
+
+Keep named agents idle in Zellij panes. They cost nothing when idle. When you need something done, switch to that pane, give it a task, switch back:
+
+```bash
+# Create a persistent named session
+zellij --session gitrdun
+
+# Detach and go do other things
+# Later, re-attach and give it work
+zellij attach gitrdun
+```
+
+### Managing Agents
+
+**The main failure mode:** agents get nerd-sniped. You ask for X, they find a related problem Y, spend 45 minutes on Y, and never finish X. Fix this by being specific and time-boxing:
+
+> ❌ "Fix the networking issues on the PiKVM"
+> ✅ "Check why kvmd is logging connection errors — read the last 50 lines of journalctl, identify the error, fix it, restart the service, confirm it's active. Stop there."
+
+**Watching what agents are doing:**
+
+```bash
+# Tail a specific agent's Zellij pane output
+zellij action dump-screen
+
+# Or just check the files Claude touched
+git diff --stat
+```
+
+**When an agent breaks something:**
+
+```bash
+# See what changed
+git diff
+
+# Roll back if needed
+git checkout -- .
+
+# Or just tell Claude what broke and let it fix it
+```
+
+**Overnight / long-running agents:**
+
+Claude Code sessions survive as long as the terminal is open. Zellij keeps sessions alive after you close your laptop. Start a long task before bed:
+
+```bash
+zellij --session overnight
+claude "audit all services on the NAS, check for failed systemd units, 
+        review disk usage, write a summary to ~/audit-report.md"
+# Detach: Ctrl+b d
+```
+
+Check the report in the morning. Claude will have worked through it and left a summary.
+
+**Knowing when to intervene:**
+
+Agents are good at: code changes, file operations, running commands, reading docs, debugging with clear error messages.
+
+Agents need you for: anything requiring a browser UI, biometric auth, decisions about which of two valid approaches to take, anything involving production data you can't roll back.
+
+The rule: if the blast radius of a mistake is recoverable, let the agent run. If it's not, stay in the loop.
 
 ### OpenMemory / mem0
 

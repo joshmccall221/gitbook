@@ -1012,6 +1012,7 @@
 <li><a href="#hardware">Hardware</a><ul>
 <li><a href="#the-machines">The Machines</a></li>
 <li><a href="#the-kvm-layer">The KVM Layer</a></li>
+<li><a href="#the-pikvm-switch">The PiKVM Switch</a></li>
 <li><a href="#the-video-layer">The Video Layer</a></li>
 <li><a href="#the-spatial-layer">The Spatial Layer</a></li>
 </ul>
@@ -1032,6 +1033,9 @@
 </ul>
 </li>
 <li><a href="#the-agent-layer">The Agent Layer</a><ul>
+<li><a href="#kicking-off-claude-code">Kicking Off Claude Code</a></li>
+<li><a href="#sub-agents-and-parallel-work">Sub-Agents and Parallel Work</a></li>
+<li><a href="#managing-agents">Managing Agents</a></li>
 <li><a href="#openmemory--mem0">OpenMemory / mem0</a></li>
 <li><a href="#named-agents-in-cazmuxzellij">Named Agents in Cazmux/Zellij</a></li>
 <li><a href="#local-llm-inference">Local LLM Inference</a></li>
@@ -1073,6 +1077,36 @@
 <li>ATX power control — reboot machines remotely</li>
 </ul>
 <p><strong><a href="https://pikvm.org/buy" target="_blank">PiKVM V4 Plus</a> — ~$350. The switch is a separate add-on for multi-machine setups.</strong></p>
+<h3 id="the-pikvm-switch">The PiKVM Switch</h3>
+<p>The PiKVM Switch is a 4-port hardware KVM switch designed specifically for PiKVM. It plugs into the PiKVM V4 Plus and lets one PiKVM control up to 4 target machines.</p>
+<pre><code>Target 1 ──┐
+Target 2 ──┤  PiKVM Switch ── PiKVM V4 Plus ── iMac/MacBook
+Target 3 ──┤
+Target 4 ──┘
+</code></pre><p>Each port carries HDMI (video in from target) and USB (HID out to target). You switch between machines via the PiKVM web UI or API — no physical button needed.</p>
+<p><strong>Key gotchas:</strong></p>
+<ul>
+<li>Configure PiKVM's stealth USB settings and EDID <em>before</em> plugging target machines in for the first time — targets cache USB descriptors on first connect and won't forget them</li>
+<li>Each switch port can have its own EDID assigned via the web UI — use the same real monitor EDID on all ports so targets see your actual monitor, not "PiKVM"</li>
+<li>Windows machines often set PiKVM as display #2 — fix via Display Settings → identify the PiKVM display → set as primary → "Show only on this display"</li>
+<li>Use Anker 10ft USB-A to USB-C cables for the switch connections — length matters for signal reliability</li>
+</ul>
+<p><strong>Switching between machines:</strong></p>
+<p>Via web UI: the switch port buttons appear in the GPIO panel. Via API:</p>
+<pre><code class="lang-bash"><span class="hljs-comment"># Switch to port 2</span>
+curl -k -u admin:password -X POST https://pikvm.local/api/gpio/switch/port/2
+</code></pre>
+<p>Via SSH (useful for agents):</p>
+<pre><code class="lang-bash">ssh root@pikvm.local <span class="hljs-string">"kvmd-gpioswitch 2"</span>
+</code></pre>
+<p><strong>EDID setup</strong> — extract from your real monitor and apply to all ports:</p>
+<pre><code class="lang-bash"><span class="hljs-comment"># On PiKVM, extract EDID from pass-through port</span>
+<span class="hljs-built_in">cat</span> /sys/class/drm/card0-HDMI-A-2/edid &gt; /etc/kvmd/tc358743-edid.hex
+
+<span class="hljs-comment"># Apply via kvmd-edidconf</span>
+kvmd-edidconf --import=/etc/kvmd/tc358743-edid.hex
+systemctl restart kvmd
+</code></pre>
 <h3 id="the-video-layer">The Video Layer</h3>
 <p>A hardware <strong>HDMI matrix</strong> sits between the targets and everything else. Each target's video output gets split:</p>
 <ol>
@@ -1145,6 +1179,78 @@
 <hr></hr>
 <h2 id="the-agent-layer">The Agent Layer</h2>
 <p>This is where it gets unusual.</p>
+<h3 id="kicking-off-claude-code">Kicking Off Claude Code</h3>
+<p><a href="https://claude.ai/code" target="_blank">Claude Code</a> is the CLI tool that runs Claude as an agent in your terminal. Install it:</p>
+<pre><code class="lang-bash">npm install -g @anthropic-ai/claude-code
+</code></pre>
+<p>Run it in any project directory:</p>
+<pre><code class="lang-bash">claude
+</code></pre>
+<p>The simplest agent loop: open a Zellij pane, <code>cd</code> to your project, run <code>claude</code>, describe what you want. Claude reads files, runs commands, edits code. You review and approve (or set it to auto-approve for trusted operations).</p>
+<p><strong>The key habit:</strong> give Claude a task and walk away. Don't hover. Come back when it's done or stuck. Hovering turns it into an expensive autocomplete.</p>
+<h3 id="sub-agents-and-parallel-work">Sub-Agents and Parallel Work</h3>
+<p>Claude Code supports spawning sub-agents — separate Claude instances that handle discrete tasks in parallel. This is how one session turns into a fleet.</p>
+<p><strong>Pattern 1: One agent per machine via Zellij</strong></p>
+<p>Open a Zellij session per target machine or project. Each pane is an independent Claude session with its own context:</p>
+<pre><code>Zellij layout:
+┌─────────────────┬─────────────────┐
+│  claude (proj A)│  claude (proj B)│
+├─────────────────┼─────────────────┤
+│  claude (infra) │  claude (monitor│
+└─────────────────┴─────────────────┘
+</code></pre><p>Name your sessions so you can find them:</p>
+<pre><code class="lang-bash">zellij --session agents
+zellij attach agents
+</code></pre>
+<p><strong>Pattern 2: Agents that hand off to each other</strong></p>
+<p>Give Claude a task that requires multiple steps across different contexts. It will invoke sub-agents for subtasks — one for research, one for implementation, one for testing. You define the top-level goal; Claude figures out the delegation.</p>
+<pre><code>You: "Audit all four target machines for outdated packages and create a report"
+  └─ Claude spawns sub-agent per machine (via PiKVM API)
+       └─ Each sub-agent SSHes in, runs package check, returns results
+  └─ Claude aggregates into report
+</code></pre><p><strong>Pattern 3: Background agents (bench warmers)</strong></p>
+<p>Keep named agents idle in Zellij panes. They cost nothing when idle. When you need something done, switch to that pane, give it a task, switch back:</p>
+<pre><code class="lang-bash"><span class="hljs-comment"># Create a persistent named session</span>
+zellij --session gitrdun
+
+<span class="hljs-comment"># Detach and go do other things</span>
+<span class="hljs-comment"># Later, re-attach and give it work</span>
+zellij attach gitrdun
+</code></pre>
+<h3 id="managing-agents">Managing Agents</h3>
+<p><strong>The main failure mode:</strong> agents get nerd-sniped. You ask for X, they find a related problem Y, spend 45 minutes on Y, and never finish X. Fix this by being specific and time-boxing:</p>
+<blockquote>
+<p>❌ "Fix the networking issues on the PiKVM"
+✅ "Check why kvmd is logging connection errors — read the last 50 lines of journalctl, identify the error, fix it, restart the service, confirm it's active. Stop there."</p>
+</blockquote>
+<p><strong>Watching what agents are doing:</strong></p>
+<pre><code class="lang-bash"><span class="hljs-comment"># Tail a specific agent's Zellij pane output</span>
+zellij action dump-screen
+
+<span class="hljs-comment"># Or just check the files Claude touched</span>
+git diff --<span class="hljs-built_in">stat</span>
+</code></pre>
+<p><strong>When an agent breaks something:</strong></p>
+<pre><code class="lang-bash"><span class="hljs-comment"># See what changed</span>
+git diff
+
+<span class="hljs-comment"># Roll back if needed</span>
+git checkout -- .
+
+<span class="hljs-comment"># Or just tell Claude what broke and let it fix it</span>
+</code></pre>
+<p><strong>Overnight / long-running agents:</strong></p>
+<p>Claude Code sessions survive as long as the terminal is open. Zellij keeps sessions alive after you close your laptop. Start a long task before bed:</p>
+<pre><code class="lang-bash">zellij --session overnight
+claude <span class="hljs-string">"audit all services on the NAS, check for failed systemd units, 
+        review disk usage, write a summary to ~/audit-report.md"</span>
+<span class="hljs-comment"># Detach: Ctrl+b d</span>
+</code></pre>
+<p>Check the report in the morning. Claude will have worked through it and left a summary.</p>
+<p><strong>Knowing when to intervene:</strong></p>
+<p>Agents are good at: code changes, file operations, running commands, reading docs, debugging with clear error messages.</p>
+<p>Agents need you for: anything requiring a browser UI, biometric auth, decisions about which of two valid approaches to take, anything involving production data you can't roll back.</p>
+<p>The rule: if the blast radius of a mistake is recoverable, let the agent run. If it's not, stay in the loop.</p>
 <h3 id="openmemory--mem0">OpenMemory / mem0</h3>
 <p>A self-hosted <a href="https://github.com/mem0ai/mem0" target="_blank">mem0</a> instance exposed as an MCP server. Every Claude agent on every machine connects to it. When one agent learns something — a mistake, a pattern, a preference — that knowledge is written to mem0 as a "ReadOnlyMemory" (ROM) and all other agents can read it on their next invocation.</p>
 <pre><code>Agent on Machine A learns: "don't use --h264-boost, it crashes ustreamer"
@@ -1299,7 +1405,7 @@ Goal: always-on live call-and-response, no push-to-talk.</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"The Wired Operator: How a Friend Computes","level":"1.2.1.1","depth":3,"next":{"title":"2025","level":"1.2.2","depth":2,"ref":"","articles":[{"title":"Migrating from GitBook CLI to HonKit","level":"1.2.2.1","depth":3,"path":"articles/honkit_migration.md","ref":"articles/honkit_migration.md","articles":[]},{"title":"How Claude AI Assisted with the GitBook to HonKit Migration ","level":"1.2.2.2","depth":3,"path":"articles/claude_honkit_migration.md","ref":"articles/claude_honkit_migration.md","articles":[]}]},"previous":{"title":"2026","level":"1.2.1","depth":2,"ref":"","articles":[{"title":"The Wired Operator: How a Friend Computes","level":"1.2.1.1","depth":3,"path":"articles/wired_operator.md","ref":"articles/wired_operator.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["disqus","etoc"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"joshuamccall"},"etoc":{"mindepth":1,"maxdepth":4,"header":1,"h2lb":3,"notoc":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"articles/wired_operator.md","mtime":"2026-05-12T20:07:49.107Z","type":"markdown"},"gitbook":{"version":"5.1.5","time":"2026-05-12T20:43:43.012Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"The Wired Operator: How a Friend Computes","level":"1.2.1.1","depth":3,"next":{"title":"2025","level":"1.2.2","depth":2,"ref":"","articles":[{"title":"Migrating from GitBook CLI to HonKit","level":"1.2.2.1","depth":3,"path":"articles/honkit_migration.md","ref":"articles/honkit_migration.md","articles":[]},{"title":"How Claude AI Assisted with the GitBook to HonKit Migration ","level":"1.2.2.2","depth":3,"path":"articles/claude_honkit_migration.md","ref":"articles/claude_honkit_migration.md","articles":[]}]},"previous":{"title":"2026","level":"1.2.1","depth":2,"ref":"","articles":[{"title":"The Wired Operator: How a Friend Computes","level":"1.2.1.1","depth":3,"path":"articles/wired_operator.md","ref":"articles/wired_operator.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["disqus","etoc"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"joshuamccall"},"etoc":{"mindepth":1,"maxdepth":4,"header":1,"h2lb":3,"notoc":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"articles/wired_operator.md","mtime":"2026-05-12T20:51:32.381Z","type":"markdown"},"gitbook":{"version":"5.1.5","time":"2026-05-12T20:51:40.791Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
