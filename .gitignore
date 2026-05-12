@@ -1,2 +1,7 @@
 node_modules
 _book
+
+# Sensitive files
+*.session
+pikvm.sh
+telegram_export*
